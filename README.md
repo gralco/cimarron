@@ -2,12 +2,12 @@
 
 ## Chipset
 
- - Mediatek MT7620N
+Mediatek MT7620N
 
 ## Other Chips
 
- - Trinamic TMC260 Stepper Driver
- - Winbond W9751G6KB-25 512MB DDR2 SDRAM
+Trinamic TMC260 Stepper Driver
+Winbond W9751G6KB-25 512MB DDR2 SDRAM
 
 ## Operating System
 
@@ -22,7 +22,7 @@ DAS U-Boot
 Works that Cimarron is based off of includes:
 
  - Tessel Project
- - Trinamic TMC260 Shield
+ - Trinamic TMC-260 Shield
 
 ## License
 
