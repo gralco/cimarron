@@ -1,0 +1,213 @@
+EESchema Schematic File Version 2
+LIBS:KiMBo-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:KiMBo
+LIBS:KiMBo-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 20
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 7025 2400 500  150 
+U 57817BA9
+F0 "Voltage Regulator" 60
+F1 "voltage_regulator.sch" 60
+$EndSheet
+$Sheet
+S 7025 2000 500  150 
+U 57843AEF
+F0 "Input" 60
+F1 "input.sch" 60
+$EndSheet
+$Comp
+L LED D?
+U 1 1 5788543D
+P 3400 1700
+F 0 "D?" H 3400 1915 50  0000 C CNN
+F 1 "LED" H 3400 1824 50  0000 C CNN
+F 2 "" H 3400 1700 50  0000 C CNN
+F 3 "" H 3400 1700 50  0000 C CNN
+	1    3400 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57885444
+P 3650 1750
+F 0 "#PWR?" H 3650 1500 50  0001 C CNN
+F 1 "GND" H 3655 1577 50  0001 C CNN
+F 2 "" H 3650 1750 50  0000 C CNN
+F 3 "" H 3650 1750 50  0000 C CNN
+	1    3650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5788544A
+P 3400 2150
+F 0 "D?" H 3400 2365 50  0000 C CNN
+F 1 "LED" H 3400 2274 50  0000 C CNN
+F 2 "" H 3400 2150 50  0000 C CNN
+F 3 "" H 3400 2150 50  0000 C CNN
+	1    3400 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 57885457
+P 2800 1650
+F 0 "#PWR?" H 2800 1500 50  0001 C CNN
+F 1 "VCC" H 2817 1823 50  0000 C CNN
+F 2 "" H 2800 1650 50  0000 C CNN
+F 3 "" H 2800 1650 50  0000 C CNN
+	1    2800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 5788545D
+P 2800 2100
+F 0 "#PWR?" H 2800 1950 50  0001 C CNN
+F 1 "+24V" H 2815 2273 50  0000 C CNN
+F 2 "" H 2800 2100 50  0000 C CNN
+F 3 "" H 2800 2100 50  0000 C CNN
+	1    2800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57885463
+P 3000 1700
+F 0 "R?" V 2900 1700 50  0000 C CNN
+F 1 "330Ω" V 3100 1700 50  0000 C CNN
+F 2 "" V 2930 1700 50  0000 C CNN
+F 3 "" H 3000 1700 50  0000 C CNN
+	1    3000 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5788546A
+P 3000 2150
+F 0 "R?" V 2900 2150 50  0000 C CNN
+F 1 "1.8kΩ" V 3100 2150 50  0000 C CNN
+F 2 "" V 2930 2150 50  0000 C CNN
+F 3 "" H 3000 2150 50  0000 C CNN
+	1    3000 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 1750 3650 1700
+Wire Wire Line
+	3650 1700 3600 1700
+Wire Wire Line
+	3200 1700 3150 1700
+Wire Wire Line
+	2850 1700 2800 1700
+Wire Wire Line
+	3650 2200 3650 2150
+Wire Wire Line
+	3650 2150 3600 2150
+Wire Wire Line
+	3200 2150 3150 2150
+Wire Wire Line
+	2850 2150 2800 2150
+Wire Wire Line
+	2800 1700 2800 1650
+Wire Wire Line
+	2800 2150 2800 2100
+Text Notes 2825 1400 0    60   ~ 0
+Power Indication
+$Comp
+L LED D?
+U 1 1 578AAF2E
+P 3400 2600
+F 0 "D?" H 3400 2815 50  0000 C CNN
+F 1 "LED" H 3400 2724 50  0000 C CNN
+F 2 "" H 3400 2600 50  0000 C CNN
+F 3 "" H 3400 2600 50  0000 C CNN
+	1    3400 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 578AAF41
+P 3000 2600
+F 0 "R?" V 2900 2600 50  0000 C CNN
+F 1 "1.8kΩ" V 3100 2600 50  0000 C CNN
+F 2 "" V 2930 2600 50  0000 C CNN
+F 3 "" H 3000 2600 50  0000 C CNN
+	1    3000 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 2650 3650 2600
+Wire Wire Line
+	3650 2600 3600 2600
+Wire Wire Line
+	3200 2600 3150 2600
+Wire Wire Line
+	2850 2600 2800 2600
+Text GLabel 2800 2600 0    60   Input ~ 0
+24V_STEPPER
+$Comp
+L GND #PWR?
+U 1 1 5791594D
+P 3650 2200
+F 0 "#PWR?" H 3650 1950 50  0001 C CNN
+F 1 "GND" H 3655 2027 50  0001 C CNN
+F 2 "" H 3650 2200 50  0000 C CNN
+F 3 "" H 3650 2200 50  0000 C CNN
+	1    3650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5791596A
+P 3650 2650
+F 0 "#PWR?" H 3650 2400 50  0001 C CNN
+F 1 "GND" H 3655 2477 50  0001 C CNN
+F 2 "" H 3650 2650 50  0000 C CNN
+F 3 "" H 3650 2650 50  0000 C CNN
+	1    3650 2650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

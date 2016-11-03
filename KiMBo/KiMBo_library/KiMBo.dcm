@@ -1,0 +1,40 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002P,215
+D 60V Max Vds, 1.75V Typ 2.5V Max Vgsth, 360mA Max Id, 1Ω Typ 1.6Ω Max Rdson
+K NMOS, NFET, N-Channel, MOSFET
+$ENDCMP
+#
+$CMP CONN_01X06_SEP
+D Connector, single row, 01x06, seperate
+K connector seperate
+$ENDCMP
+#
+$CMP CONN_01X10_SEP
+D Connector, single row, 01x10, seperate
+K connector seperate
+$ENDCMP
+#
+$CMP CS326
+D 8-SMD, Dual DC Optocoupler, Vds_max 40V,
+K CMOS DC Dual Optocoupler
+F http://cotorelay.com/wp-content/uploads/2014/10/ct326_cs326_mosfet_relay_datasheet.pdf
+$ENDCMP
+#
+$CMP DMP3098L-7
+D -30V Vds, 3.8A Id, P-Channel MOSFET, SOT23
+K P-Channel MOSFET
+F http://www.diodes.com/_files/datasheets/ds31447.pdf
+$ENDCMP
+#
+$CMP EMI_FILTER_4pin
+D Common Mode Choke
+$ENDCMP
+#
+$CMP TMC260
+D Trinamic Programmable Stepper Motor Driver
+K Stepper, Motor, Driver
+F http://www.trinamic.com/_articles/products/integrated-circuits/tmc260/_datasheet/TMC260_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

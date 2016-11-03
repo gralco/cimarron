@@ -1,0 +1,127 @@
+EESchema Schematic File Version 2
+LIBS:KiMBo-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:KiMBo
+LIBS:KiMBo-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 20
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MT7620N U?
+U 4 1 581F0159
+P 4300 3700
+AR Path="/581F0159" Ref="U?"  Part="4" 
+AR Path="/581E2C5F/581F0159" Ref="U?"  Part="4" 
+F 0 "U?" H 3900 4837 60  0000 C CNN
+F 1 "MT7620N" H 3900 4731 60  0000 C CNN
+F 2 "" H 2600 4200 60  0000 C CNN
+F 3 "" H 2600 4200 60  0000 C CNN
+	4    4300 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 2450BL15B100 T?
+U 1 1 581F4FDC
+P 8500 2600
+F 0 "T?" H 8500 3087 60  0000 C CNN
+F 1 "2450BL15B100" H 8500 2981 60  0000 C CNN
+F 2 "" H 8500 2600 60  0000 C CNN
+F 3 "" H 8500 2600 60  0000 C CNN
+	1    8500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2450BL15B100 T?
+U 1 1 581F5012
+P 8500 3850
+F 0 "T?" H 8500 4337 60  0000 C CNN
+F 1 "2450BL15B100" H 8500 4231 60  0000 C CNN
+F 2 "" H 8500 3850 60  0000 C CNN
+F 3 "" H 8500 3850 60  0000 C CNN
+	1    8500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L UFL AE?
+U 1 1 582F1376
+P 10100 2850
+F 0 "AE?" H 10341 2972 60  0000 L CNN
+F 1 "UFL" H 10341 2866 60  0000 L CNN
+F 2 "" H 9950 2850 60  0000 C CNN
+F 3 "" H 9950 2850 60  0000 C CNN
+	1    10100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ANTENNA AE?
+U 1 1 582F1398
+P 9850 3750
+F 0 "AE?" H 9968 4287 60  0000 C CNN
+F 1 "ANTENNA" H 9968 4181 60  0000 C CNN
+F 2 "" H 9950 3750 60  0000 C CNN
+F 3 "" H 9950 3750 60  0000 C CNN
+	1    9850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L UFL AE?
+U 1 1 582F1981
+P 10100 4700
+F 0 "AE?" H 10341 4822 60  0000 L CNN
+F 1 "UFL" H 10341 4716 60  0000 L CNN
+F 2 "" H 9950 4700 60  0000 C CNN
+F 3 "" H 9950 4700 60  0000 C CNN
+	1    10100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ANTENNA AE?
+U 1 1 582F1988
+P 9850 5600
+F 0 "AE?" H 9968 6137 60  0000 C CNN
+F 1 "ANTENNA" H 9968 6031 60  0000 C CNN
+F 2 "" H 9950 5600 60  0000 C CNN
+F 3 "" H 9950 5600 60  0000 C CNN
+	1    9850 5600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
