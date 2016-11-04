@@ -27,4 +27,4 @@ Works that Cimarron is based off of includes:
 
 ## License
 
-Cimarron is published under [[/COPYING.md | CC-BY-SA 4.0]].
+Cimarron is published under [[/diffusion/CIM/browse/master/COPYING.md | CC-BY-SA 4.0]].
