@@ -4,7 +4,7 @@
 
 Mediatek MT7620N
 
-## Other Chips
+## Other ICs Being Used
 
 Trinamic TMC260 Stepper Driver
 
@@ -17,6 +17,14 @@ Embedded MIPS GNU/Linux OpenWRT
 ## Bootloader
 
 DAS U-Boot
+
+## Control Software
+
+Potential software (port) to run on Cimarron:
+
+ - [[https://bitbucket.org/intelligentagent/redeem | Redeem]]
+ - [[https://github.com/machinekit/machinekit | MachineKit]]
+ - [[https://github.com/spark3dp/ember-firmware | Ember-Firmware]]
 
 ## Credits
 
