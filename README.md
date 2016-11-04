@@ -7,6 +7,7 @@ Mediatek MT7620N
 ## Other Chips
 
 Trinamic TMC260 Stepper Driver
+
 Winbond W9751G6KB-25 512MB DDR2 SDRAM
 
 ## Operating System
@@ -26,4 +27,4 @@ Works that Cimarron is based off of includes:
 
 ## License
 
-Cimarron is published under [CC-BY-SA 4.0](/COPYING.md).
+Cimarron is published under [CC-BY-SA 4.0](diffusion/CIM/browse/master/COPYING.md).
