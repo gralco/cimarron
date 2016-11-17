@@ -45,15 +45,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MT7620N U?
-U 6 1 581EEE66
-P 5800 4250
-F 0 "U?" H 5527 5053 60  0000 L CNN
-F 1 "MT7620N" H 5527 4947 60  0000 L CNN
-F 2 "" H 4100 4750 60  0000 C CNN
-F 3 "" H 4100 4750 60  0000 C CNN
-	6    5800 4250
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

@@ -2,17 +2,17 @@
 
 ## Chipset
 
-Mediatek MT7620N
+Octavo Systems/TI OSD335x
 
 ## Other ICs Being Used
 
 Trinamic TMC260 Stepper Driver
 
-Winbond W9751G6KB-25 512MB DDR2 SDRAM
+EMMC04G-S100-B08U Embedded MMC ??
 
 ## Operating System
 
-Embedded MIPS GNU/Linux OpenWRT
+Embedded ARM GNU/Linux Kamikaze
 
 ## Bootloader
 
@@ -20,7 +20,7 @@ DAS U-Boot
 
 ## Control Software
 
-Potential software (port) to run on Cimarron:
+Potential software to run on Cimarron:
 
  - [[https://bitbucket.org/intelligentagent/redeem | Redeem]]
  - [[https://github.com/machinekit/machinekit | MachineKit]]
@@ -30,7 +30,7 @@ Potential software (port) to run on Cimarron:
 
 Works that Cimarron is based off of includes:
 
- - Tessel Project
+ - BeagleBone Black Wireless (minus the WL1835 chip)
  - Trinamic TMC-260 Shield
 
 ## License
