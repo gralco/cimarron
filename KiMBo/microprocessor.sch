@@ -81,12 +81,12 @@ $EndComp
 $Comp
 L OSD3358 U?
 U 5 1 582FE5A0
-P 10250 3700
-F 0 "U?" H 11300 3990 60  0000 C CNN
-F 1 "OSD3358" H 11300 3884 60  0000 C CNN
-F 2 "" H 10250 3700 60  0001 C CNN
-F 3 "" H 10250 3700 60  0001 C CNN
-	5    10250 3700
+P 12600 3000
+F 0 "U?" H 13650 3290 60  0000 C CNN
+F 1 "OSD3358" H 13650 3184 60  0000 C CNN
+F 2 "" H 12600 3000 60  0001 C CNN
+F 3 "" H 12600 3000 60  0001 C CNN
+	5    12600 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -204,9 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	850  2650 950  2650
 Wire Wire Line
-	850  2150 850  2650
-Wire Wire Line
-	850  2650 850  2800
+	850  2150 850  2800
 Wire Wire Line
 	950  2150 850  2150
 Wire Wire Line
@@ -276,9 +274,7 @@ Connection ~ 1650 1950
 Wire Wire Line
 	850  1950 950  1950
 Wire Wire Line
-	850  1300 850  1450
-Wire Wire Line
-	850  1450 850  1950
+	850  1300 850  1950
 Wire Wire Line
 	850  1450 950  1450
 Wire Wire Line
@@ -329,29 +325,13 @@ F 3 "" H 1450 2400 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1900 1950 1650 1950
+	1900 1950 1250 1950
 Wire Wire Line
-	1650 1950 1450 1950
+	1850 1450 1250 1450
 Wire Wire Line
-	1450 1950 1250 1950
+	1250 2650 1850 2650
 Wire Wire Line
-	1850 1450 1650 1450
-Wire Wire Line
-	1650 1450 1450 1450
-Wire Wire Line
-	1450 1450 1250 1450
-Wire Wire Line
-	1250 2650 1450 2650
-Wire Wire Line
-	1450 2650 1650 2650
-Wire Wire Line
-	1650 2650 1850 2650
-Wire Wire Line
-	1250 2150 1450 2150
-Wire Wire Line
-	1450 2150 1650 2150
-Wire Wire Line
-	1650 2150 1900 2150
+	1250 2150 1900 2150
 Wire Wire Line
 	1450 2250 1450 2150
 Connection ~ 1450 2150
@@ -375,4 +355,80 @@ Connection ~ 1450 1450
 Wire Wire Line
 	1450 1850 1450 1950
 Connection ~ 1450 1950
+Text Label 3500 6400 2    60   ~ 0
+USR0
+Text Label 3500 6300 2    60   ~ 0
+USR1
+Wire Wire Line
+	3500 6300 3250 6300
+Wire Wire Line
+	3250 6400 3500 6400
+Text Label 3500 6200 2    60   ~ 0
+USR2
+Text Label 3500 6100 2    60   ~ 0
+USR3
+Wire Wire Line
+	3250 6100 3500 6100
+Wire Wire Line
+	3250 6200 3500 6200
+Text Label 12100 3200 0    60   ~ 0
+UART2_RXD
+Text Label 12100 3500 0    60   ~ 0
+UART2_TXD
+Wire Wire Line
+	12600 3200 12100 3200
+Wire Wire Line
+	12600 3500 12100 3500
+Text Label 12100 3600 0    60   ~ 0
+T2C1_SDA
+Wire Wire Line
+	12100 3600 12600 3600
+Text Label 12100 3300 0    60   ~ 0
+T2C1_SCL
+Wire Wire Line
+	12100 3300 12600 3300
+Text Label 950  6700 0    60   ~ 0
+EHRPWM2B
+Wire Wire Line
+	1450 6700 950  6700
+Text Label 950  6600 0    60   ~ 0
+EHRPWM2A
+Text Label 3750 6600 2    60   ~ 0
+EHRPWM1B
+Text Label 3750 6700 2    60   ~ 0
+EHRPWM1A
+Wire Wire Line
+	3750 6600 3250 6600
+Wire Wire Line
+	3750 6700 3250 6700
+Wire Wire Line
+	1450 6600 950  6600
+Text Label 14450 6750 2    60   ~ 0
+SD_D3
+Text Label 14450 6850 2    60   ~ 0
+SD_D2
+Text Label 14450 6950 2    60   ~ 0
+SD_D1
+Text Label 14450 7050 2    60   ~ 0
+SD_D0
+Text Label 14450 7150 2    60   ~ 0
+SD_CMD
+Text Label 14450 7250 2    60   ~ 0
+SD_CLK
+Text Label 12100 3400 0    60   ~ 0
+SD_CD
+Wire Wire Line
+	12100 3400 12600 3400
+Wire Wire Line
+	14450 6750 14050 6750
+Wire Wire Line
+	14450 6850 14050 6850
+Wire Wire Line
+	14450 6950 14050 6950
+Wire Wire Line
+	14450 7050 14050 7050
+Wire Wire Line
+	14450 7150 14050 7150
+Wire Wire Line
+	14450 7250 14050 7250
 $EndSCHEMATC

@@ -31,6 +31,11 @@ $CMP EMI_FILTER_4pin
 D Common Mode Choke
 $ENDCMP
 #
+$CMP SN74LVC1G07DCK
+D single buffer/driver
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf
+$ENDCMP
+#
 $CMP TMC260
 D Trinamic Programmable Stepper Motor Driver
 K Stepper, Motor, Driver
