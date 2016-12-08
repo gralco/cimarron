@@ -376,7 +376,7 @@ Connection ~ 10750 8250
 Wire Wire Line
 	12200 4350 12250 4350
 Wire Wire Line
-	12250 8500 12250 4350
+	12250 4350 12250 8500
 Wire Wire Line
 	12250 8350 12200 8350
 Wire Wire Line
@@ -508,7 +508,7 @@ F 3 "" H 11500 8550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10750 8500 12250 8500
+	12250 8500 10750 8500
 Connection ~ 12250 8350
 Connection ~ 10750 8350
 Wire Wire Line
@@ -545,9 +545,9 @@ Wire Wire Line
 Wire Wire Line
 	3950 7500 3100 7500
 Wire Wire Line
-	3100 7600 3100 7500
+	3100 7500 3100 7600
 Wire Wire Line
-	2100 7600 3100 7600
+	3100 7600 2100 7600
 Wire Wire Line
 	2400 7350 2400 7650
 Wire Wire Line
