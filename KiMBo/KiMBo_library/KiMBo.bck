@@ -5,6 +5,31 @@ D 60V Max Vds, 1.75V Typ 2.5V Max Vgsth, 360mA Max Id, 1Ω Typ 1.6Ω Max Rdson
 K NMOS, NFET, N-Channel, MOSFET
 $ENDCMP
 #
+$CMP 74LVC1G06
+D Single Inverter Buffer/Driver With Open-Drain Output
+K Buffer Open-Drain
+$ENDCMP
+#
+$CMP 74LVC1G07
+D Single Buffer/Driver With Open-Drain Output
+K Buffer Open-Drain
+$ENDCMP
+#
+$CMP 74LVC1G74
+D Dual D FlipFlop, Set & Reset
+K TTL DFF
+F 74xx/74hc_hct74.pdf
+$ENDCMP
+#
+$CMP 74LVC2G241
+D Dual buffer/line driver; 3-state
+K Buffer
+$ENDCMP
+#
+$CMP ASDMB
+D Clock Oscillator
+$ENDCMP
+#
 $CMP CONN_01X06_SEP
 D Connector, single row, 01x06, seperate
 K connector seperate
@@ -29,11 +54,6 @@ $ENDCMP
 #
 $CMP EMI_FILTER_4pin
 D Common Mode Choke
-$ENDCMP
-#
-$CMP SN74LVC1G07DCK
-D single buffer/driver
-F http://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf
 $ENDCMP
 #
 $CMP TMC260
