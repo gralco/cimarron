@@ -31,11 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:KiMBo
 LIBS:KiMBo-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 20
+Sheet 12 18
 Title ""
 Date ""
 Rev ""

@@ -62,4 +62,27 @@ K Stepper, Motor, Driver
 F http://www.trinamic.com/_articles/products/integrated-circuits/tmc260/_datasheet/TMC260_datasheet.pdf
 $ENDCMP
 #
+$CMP TPD4S012
+D four-channel TVS based ESD protection diode array for USB
+$ENDCMP
+#
+$CMP TPS2051B
+D Single, Current-Limited, Power-Distribution Switch
+$ENDCMP
+#
+$CMP TVH431
+D Low-Voltage Adjustable Precision Shunt Regulators
+K Regulator
+$ENDCMP
+#
+$CMP USB_B_2Shield
+D USB Type B connector
+K connector USB USB_B
+$ENDCMP
+#
+$CMP USB_OTG_5_SHIELD_PINS
+D USB micro/mini connector
+K connector USB USB_OTG USB_mini USB_micro
+$ENDCMP
+#
 #End Doc Library

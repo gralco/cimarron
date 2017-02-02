@@ -31,11 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:KiMBo
 LIBS:KiMBo-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 20
+Sheet 18 18
 Title ""
 Date ""
 Rev ""
@@ -56,7 +56,7 @@ F 3 "" H 2650 3250 50  0000 C CNN
 	1    2650 3250
 	1    0    0    -1  
 $EndComp
-Text HLabel 1900 3150 0    60   Input ~ 0
+Text HLabel 1900 3150 0    60   Output ~ 0
 X_MAX
 $Comp
 L C C?
@@ -165,7 +165,7 @@ F 3 "" H 2650 4450 50  0000 C CNN
 	1    2650 4450
 	1    0    0    -1  
 $EndComp
-Text HLabel 1900 4350 0    60   Input ~ 0
+Text HLabel 1900 4350 0    60   Output ~ 0
 X_MIN
 $Comp
 L R R?
@@ -263,7 +263,7 @@ F 3 "" H 4200 3250 50  0000 C CNN
 	1    4200 3250
 	1    0    0    -1  
 $EndComp
-Text HLabel 3450 3150 0    60   Input ~ 0
+Text HLabel 3450 3150 0    60   Output ~ 0
 Y_MAX
 $Comp
 L R R?
@@ -361,7 +361,7 @@ F 3 "" H 4200 4450 50  0000 C CNN
 	1    4200 4450
 	1    0    0    -1  
 $EndComp
-Text HLabel 3450 4350 0    60   Input ~ 0
+Text HLabel 3450 4350 0    60   Output ~ 0
 Y_MIN
 $Comp
 L R R?
@@ -459,7 +459,7 @@ F 3 "" H 5750 3250 50  0000 C CNN
 	1    5750 3250
 	1    0    0    -1  
 $EndComp
-Text HLabel 5000 3150 0    60   Input ~ 0
+Text HLabel 5000 3150 0    60   Output ~ 0
 Z0_MAX
 $Comp
 L R R?
@@ -557,7 +557,7 @@ F 3 "" H 5750 4450 50  0000 C CNN
 	1    5750 4450
 	1    0    0    -1  
 $EndComp
-Text HLabel 5000 4350 0    60   Input ~ 0
+Text HLabel 5000 4350 0    60   Output ~ 0
 Z0_MIN
 $Comp
 L R R?
@@ -655,7 +655,7 @@ F 3 "" H 7300 3250 50  0000 C CNN
 	1    7300 3250
 	1    0    0    -1  
 $EndComp
-Text HLabel 6550 3150 0    60   Input ~ 0
+Text HLabel 6550 3150 0    60   Output ~ 0
 Z1_MAX
 $Comp
 L R R?
@@ -753,7 +753,7 @@ F 3 "" H 7300 4450 50  0000 C CNN
 	1    7300 4450
 	1    0    0    -1  
 $EndComp
-Text HLabel 6550 4350 0    60   Input ~ 0
+Text HLabel 6550 4350 0    60   Output ~ 0
 Z1_MIN
 $Comp
 L R R?
