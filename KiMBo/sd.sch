@@ -31,11 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:KiMBo
 LIBS:KiMBo-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 20
+Sheet 18 20
 Title ""
 Date ""
 Rev ""
@@ -45,4 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Micro_SD_Card CON?
+U 1 1 58957E83
+P 6050 3800
+F 0 "CON?" H 6000 4517 50  0000 C CNN
+F 1 "Micro_SD_Card" H 6000 4426 50  0000 C CNN
+F 2 "" H 7200 4100 50  0000 C CNN
+F 3 "" H 6050 3800 50  0000 C CNN
+	1    6050 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
