@@ -56,6 +56,11 @@ $CMP EMI_FILTER_4pin
 D Common Mode Choke
 $ENDCMP
 #
+$CMP EMMC**G-S100
+D Kingston Embedded MMC 153-Pin 
+K eMMC
+$ENDCMP
+#
 $CMP TMC260
 D Trinamic Programmable Stepper Motor Driver
 K Stepper, Motor, Driver

@@ -1,9 +1,9 @@
-(kicad_pcb (version 20160815) (host pcbnew "(2016-09-20 revision a0104d6)-master")
+(kicad_pcb (version 20160815) (host pcbnew "(2016-12-15 revision b13c7e4)-master")
 
   (general
     (links 0)
     (no_connects 0)
-    (area 148.874999 93.5925 166.925001 119.3925)
+    (area 138.0425 70.0425 153.275001 84.220712)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_ffffffff)
+      (layerselection 0x000b8_ffffffff)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -84,9 +84,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory /home/aleph/cim_gerb_test))
   )
 
   (net 0 "")
