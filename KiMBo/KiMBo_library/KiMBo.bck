@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10118241-001RLF
+D Micro HDMI Receptacle
+K micro hdmi
+$ENDCMP
+#
 $CMP 2N7002P,215
 D 60V Max Vds, 1.75V Typ 2.5V Max Vgsth, 360mA Max Id, 1Ω Typ 1.6Ω Max Rdson
 K NMOS, NFET, N-Channel, MOSFET
@@ -59,6 +64,11 @@ $ENDCMP
 $CMP EMMC**G-S100
 D Kingston Embedded MMC 153-Pin 
 K eMMC
+$ENDCMP
+#
+$CMP TDA19988BHN/C1,557
+D HDMI 1.4a Transmitter
+K HDMI
 $ENDCMP
 #
 $CMP TMC260
