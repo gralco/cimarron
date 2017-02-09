@@ -6,9 +6,9 @@ Octavo Systems/TI OSD335x
 
 ## Other ICs Being Used
 
-Trinamic TMC260 Stepper Driver
+Trinamic TMC2130 Stepper Driver
 
-EMMC04G-S100-B08U Embedded MMC ??
+EMMC**G-S100 Embedded MMC
 
 ## Operating System
 
@@ -24,13 +24,17 @@ Potential software to run on Cimarron:
 
  - [[https://bitbucket.org/intelligentagent/redeem | Redeem]]
  - [[https://github.com/machinekit/machinekit | MachineKit]]
+ - [[https://github.com/fastbot3d/firmware]]
  - [[https://github.com/spark3dp/ember-firmware | Ember-Firmware]]
 
 ## Credits
 
 Works that Cimarron is based off of includes:
 
+ - Thing Printer Replicape Rev B3
  - BeagleBone Black Wireless (minus the WL1835 chip)
+ - BeagleBone Black
+ - Tinkerforge Silent Stepper Brick
  - Trinamic TMC-260 Shield
 
 ## License

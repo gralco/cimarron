@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 20
+Sheet 5 23
 Title ""
 Date ""
 Rev ""
@@ -45,17 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L OSD3358 U?
-U 2 1 582F0EE3
-P 2550 1300
-F 0 "U?" H 3350 1590 60  0000 C CNN
-F 1 "OSD3358" H 3350 1484 60  0000 C CNN
-F 2 "" H 2550 1300 60  0001 C CNN
-F 3 "" H 2550 1300 60  0001 C CNN
-	2    2550 1300
-	1    0    0    -1  
-$EndComp
 $Comp
 L OSD3358 U?
 U 8 1 582FA676
@@ -111,8 +100,6 @@ F 3 "" H 5150 1550 60  0001 C CNN
 	4    5150 1550
 	1    0    0    -1  
 $EndComp
-Text Notes 2400 1000 0    197  ~ 0
-JTAG
 Text Notes 2400 4600 0    197  ~ 0
 GPMC
 Text Notes 3150 4700 0    60   ~ 0
@@ -121,109 +108,6 @@ Text Notes 3550 8500 0    197  ~ 0
 Analog I/O
 Text Notes 5450 1150 0    197  ~ 0
 LCD
-$Comp
-L R R?
-U 1 1 5831F695
-P 1650 2400
-F 0 "R?" H 1720 2446 50  0000 L CNN
-F 1 "R" H 1720 2355 50  0000 L CNN
-F 2 "" V 1580 2400 50  0000 C CNN
-F 3 "" H 1650 2400 50  0000 C CNN
-	1    1650 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C?
-U 1 1 5831FECD
-P 1100 2150
-F 0 "C?" V 1150 2250 50  0000 C CNN
-F 1 "CP1" V 1150 2000 50  0000 C CNN
-F 2 "" H 1100 2150 50  0000 C CNN
-F 3 "" H 1100 2150 50  0000 C CNN
-	1    1100 2150
-	0    1    -1   0   
-$EndComp
-$Comp
-L CP1 C?
-U 1 1 583202F0
-P 1100 2650
-F 0 "C?" V 1150 2750 50  0000 C CNN
-F 1 "CP1" V 1150 2500 50  0000 C CNN
-F 2 "" H 1100 2650 50  0000 C CNN
-F 3 "" H 1100 2650 50  0000 C CNN
-	1    1100 2650
-	0    1    -1   0   
-$EndComp
-$Comp
-L R R?
-U 1 1 583213D9
-P 1650 1700
-F 0 "R?" H 1720 1746 50  0000 L CNN
-F 1 "R" H 1720 1655 50  0000 L CNN
-F 2 "" V 1580 1700 50  0000 C CNN
-F 3 "" H 1650 1700 50  0000 C CNN
-	1    1650 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C?
-U 1 1 583214E9
-P 1100 1950
-F 0 "C?" V 1150 2050 50  0000 C CNN
-F 1 "CP1" V 1150 1800 50  0000 C CNN
-F 2 "" H 1100 1950 50  0000 C CNN
-F 3 "" H 1100 1950 50  0000 C CNN
-	1    1100 1950
-	0    1    -1   0   
-$EndComp
-$Comp
-L CP1 C?
-U 1 1 58322F6D
-P 1100 1450
-F 0 "C?" V 1150 1550 50  0000 C CNN
-F 1 "CP1" V 1150 1300 50  0000 C CNN
-F 2 "" H 1100 1450 50  0000 C CNN
-F 3 "" H 1100 1450 50  0000 C CNN
-	1    1100 1450
-	0    1    -1   0   
-$EndComp
-Text Label 4650 2200 2    60   ~ 0
-JTAG_FMJ1
-Text Label 4650 2300 2    60   ~ 0
-JTAG_FMJ0
-Text Label 2000 1300 0    60   ~ 0
-JTAG_TDO
-Text Label 2000 1400 0    60   ~ 0
-JTAG_TCK
-Text Label 2000 1500 0    60   ~ 0
-JTAG_TDI
-Text Label 2000 1600 0    60   ~ 0
-JTAG_TMS
-Text Label 2000 1700 0    60   ~ 0
-JTAG_TRSTN
-NoConn ~ 4150 2400
-$Comp
-L CRYSTAL Y?
-U 1 1 5832AD76
-P 1450 2400
-F 0 "Y?" H 1450 2668 50  0000 C CNN
-F 1 "CRYSTAL" H 1450 2577 50  0000 C CNN
-F 2 "" H 1450 2400 50  0000 C CNN
-F 3 "" H 1450 2400 50  0000 C CNN
-	1    1450 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CRYSTAL Y?
-U 1 1 5832B794
-P 1450 1700
-F 0 "Y?" H 1450 1968 50  0000 C CNN
-F 1 "CRYSTAL" H 1450 1877 50  0000 C CNN
-F 2 "" H 1450 1700 50  0000 C CNN
-F 3 "" H 1450 1700 50  0000 C CNN
-	1    1450 1700
-	0    -1   -1   0   
-$EndComp
 Text Label 4350 5600 2    60   ~ 0
 USR0
 Text Label 4350 5500 2    60   ~ 0
@@ -240,10 +124,6 @@ Text Label 11950 3000 0    60   ~ 0
 T2C1_SDA
 Text Label 11950 2700 0    60   ~ 0
 T2C1_SCL
-Text Label 1250 5900 0    60   ~ 0
-EHRPWM2B
-Text Label 1250 5800 0    60   ~ 0
-EHRPWM2A
 Text Label 4350 5800 2    60   ~ 0
 EHRPWM1B
 Text Label 4350 5900 2    60   ~ 0
@@ -284,8 +164,6 @@ F 3 "" H 12400 2200 50  0000 C CNN
 	1    12400 2200
 	-1   0    0    -1  
 $EndComp
-Text Label 13300 2000 0    60   ~ 0
-CLKOUT2
 Text Label 11950 2400 0    60   ~ 0
 FB5
 Text Label 4350 6200 2    60   ~ 0
@@ -300,26 +178,6 @@ Text Label 4350 7100 2    60   ~ 0
 UART4_RXD
 Text Label 4350 6300 2    60   ~ 0
 UART4_TXD
-Text Label 1250 5000 0    60   ~ 0
-MMC1_DAT0
-Text Label 1250 5100 0    60   ~ 0
-MMC1_DAT1
-Text Label 1250 5200 0    60   ~ 0
-MMC1_DAT2
-Text Label 1250 5300 0    60   ~ 0
-MMC1_DAT3
-Text Label 1250 5400 0    60   ~ 0
-MMC1_DAT4
-Text Label 1250 5500 0    60   ~ 0
-MMC1_DAT5
-Text Label 1250 5600 0    60   ~ 0
-MMC1_DAT6
-Text Label 1250 5700 0    60   ~ 0
-MMC1_DAT7
-Text Label 4350 6800 2    60   ~ 0
-MMC1_CMD
-Text Label 4350 6900 2    60   ~ 0
-MMC1_CLK
 Text Label 4350 6600 2    60   ~ 0
 GPIO1_28
 Text Label 4350 7000 2    60   ~ 0
@@ -614,8 +472,6 @@ F 3 "" H 10350 1400 50  0000 C CNN
 	1    10350 1400
 	1    0    0    -1  
 $EndComp
-Text Label 10800 2400 0    60   ~ 0
-XDMA_EVENT_INTRO
 $Comp
 L R R?
 U 1 1 584D82C9
@@ -715,98 +571,58 @@ Text Label 8500 9150 0    60   ~ 0
 BT_HCI_TX.SIP
 Text Label 8500 9250 0    60   ~ 0
 BT_HCI_RX.SIP
-Text Label 7200 3050 2    60   ~ 0
-LCD.D0.B0--B3
-Text Label 7200 2950 2    60   ~ 0
-LCD.D1.B1--B4
-Text Label 7200 2850 2    60   ~ 0
-LCD.D2.B2--B5
-Text Label 7200 2750 2    60   ~ 0
-LCD.D3.B3--B6
-Text Label 7200 2650 2    60   ~ 0
-LCD.D4.B4--B7
-Text Label 7200 2550 2    60   ~ 0
-LCD.D5.G0--G2
-Text Label 7200 2450 2    60   ~ 0
-LCD.D6.G1--G3
-Text Label 7200 2350 2    60   ~ 0
-LCD.D7.G2--G4
-Text Label 7200 2250 2    60   ~ 0
-LCD.D8.G3--G5
-Text Label 7200 2150 2    60   ~ 0
-LCD.D9.G4--G6
-Text Label 7200 2050 2    60   ~ 0
-LCD.D10.G5--G7
-Text Label 7200 1950 2    60   ~ 0
-LCD.D11.R0--R3
-Text Label 7200 1850 2    60   ~ 0
-LCD.D12.R1--R4
-Text Label 7200 1750 2    60   ~ 0
-LCD.D13.R2--R5
-Text Label 7200 1650 2    60   ~ 0
-LCD.D14.R3--R6
-Text Label 7200 1550 2    60   ~ 0
-LCD.D15.R4--R7
-Text Label 7200 3250 2    60   ~ 0
+Text Label 6950 3250 2    60   ~ 0
 MCUJ_CD.CLK
-Text Label 7200 3150 2    60   ~ 0
+Text Label 6950 3150 2    60   ~ 0
 MCUJ_CD.VS
-Text Label 7200 3350 2    60   ~ 0
+Text Label 6950 3350 2    60   ~ 0
 MCUJ_CD.EN
-Text Label 7200 3450 2    60   ~ 0
+Text Label 6950 3450 2    60   ~ 0
 MCUJ_CD.HS
 $Comp
 L R R?
 U 1 1 584F9000
-P 7350 3150
-F 0 "R?" V 7300 3300 50  0000 C CNN
-F 1 "R" V 7350 3150 50  0000 C CNN
-F 2 "" V 7280 3150 50  0000 C CNN
-F 3 "" H 7350 3150 50  0000 C CNN
-	1    7350 3150
+P 7100 3150
+F 0 "R?" V 7050 3300 50  0000 C CNN
+F 1 "R" V 7100 3150 50  0000 C CNN
+F 2 "" V 7030 3150 50  0000 C CNN
+F 3 "" H 7100 3150 50  0000 C CNN
+	1    7100 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L R R?
 U 1 1 584F9DE8
-P 7350 3250
-F 0 "R?" V 7300 3400 50  0000 C CNN
-F 1 "R" V 7350 3250 50  0000 C CNN
-F 2 "" V 7280 3250 50  0000 C CNN
-F 3 "" H 7350 3250 50  0000 C CNN
-	1    7350 3250
+P 7100 3250
+F 0 "R?" V 7050 3400 50  0000 C CNN
+F 1 "R" V 7100 3250 50  0000 C CNN
+F 2 "" V 7030 3250 50  0000 C CNN
+F 3 "" H 7100 3250 50  0000 C CNN
+	1    7100 3250
 	0    1    1    0   
 $EndComp
 $Comp
 L R R?
 U 1 1 584F9E76
-P 7350 3350
-F 0 "R?" V 7300 3500 50  0000 C CNN
-F 1 "R" V 7350 3350 50  0000 C CNN
-F 2 "" V 7280 3350 50  0000 C CNN
-F 3 "" H 7350 3350 50  0000 C CNN
-	1    7350 3350
+P 7100 3350
+F 0 "R?" V 7050 3500 50  0000 C CNN
+F 1 "R" V 7100 3350 50  0000 C CNN
+F 2 "" V 7030 3350 50  0000 C CNN
+F 3 "" H 7100 3350 50  0000 C CNN
+	1    7100 3350
 	0    1    1    0   
 $EndComp
 $Comp
 L R R?
 U 1 1 584F9F07
-P 7350 3450
-F 0 "R?" V 7300 3600 50  0000 C CNN
-F 1 "R" V 7350 3450 50  0000 C CNN
-F 2 "" V 7280 3450 50  0000 C CNN
-F 3 "" H 7350 3450 50  0000 C CNN
-	1    7350 3450
+P 7100 3450
+F 0 "R?" V 7050 3600 50  0000 C CNN
+F 1 "R" V 7100 3450 50  0000 C CNN
+F 2 "" V 7030 3450 50  0000 C CNN
+F 3 "" H 7100 3450 50  0000 C CNN
+	1    7100 3450
 	0    1    1    0   
 $EndComp
-Text Label 8100 3150 2    60   ~ 0
-LCD.VSYNC
-Text Label 8100 3450 2    60   ~ 0
-LCD.HSYNC
-Text Label 8100 3250 2    60   ~ 0
-LCD.CLOCK
-Text Label 8100 3350 2    60   ~ 0
-LCD.ENABLE
 Text Label 15300 3000 2    60   ~ 0
 GPIO3_21
 Text Label 15300 3100 2    60   ~ 0
@@ -815,102 +631,6 @@ Text Label 15300 2900 2    60   ~ 0
 SPI1_D0
 Text Label 15300 2800 2    60   ~ 0
 GPIO3_19
-Connection ~ 850  2650
-Wire Wire Line
-	2550 2200 1900 2200
-Wire Wire Line
-	850  2650 950  2650
-Wire Wire Line
-	850  2150 850  2800
-Wire Wire Line
-	950  2150 850  2150
-Wire Wire Line
-	1850 2650 1850 2300
-Wire Wire Line
-	1850 2300 2550 2300
-Connection ~ 1650 2650
-Wire Wire Line
-	1650 2650 1650 2550
-Connection ~ 1650 2150
-Wire Wire Line
-	1650 2150 1650 2250
-Wire Notes Line
-	750  2900 750  700 
-Wire Notes Line
-	4750 2900 750  2900
-Wire Notes Line
-	4750 700  4750 2900
-Wire Notes Line
-	750  700  4750 700 
-Wire Wire Line
-	850  2800 1900 2800
-Wire Wire Line
-	1900 2800 1900 2200
-Wire Wire Line
-	2550 2000 1900 2000
-Wire Wire Line
-	1900 2000 1900 1950
-Wire Wire Line
-	1900 2150 1900 2100
-Wire Wire Line
-	1900 2100 2550 2100
-Wire Wire Line
-	2550 1800 1850 1800
-Wire Wire Line
-	1850 1800 1850 1450
-Wire Wire Line
-	1650 1450 1650 1550
-Connection ~ 1650 1450
-Wire Wire Line
-	1650 1950 1650 1850
-Connection ~ 1650 1950
-Wire Wire Line
-	850  1950 950  1950
-Wire Wire Line
-	850  1300 850  1950
-Wire Wire Line
-	850  1450 950  1450
-Wire Wire Line
-	2550 1900 1900 1900
-Wire Wire Line
-	1900 1900 1900 1300
-Wire Wire Line
-	1900 1300 850  1300
-Connection ~ 850  1450
-Wire Wire Line
-	2550 1300 2000 1300
-Wire Wire Line
-	2550 1400 2000 1400
-Wire Wire Line
-	2550 1500 2000 1500
-Wire Wire Line
-	2550 1600 2000 1600
-Wire Wire Line
-	2550 1700 2000 1700
-Wire Wire Line
-	4150 2200 4650 2200
-Wire Wire Line
-	4150 2300 4650 2300
-Wire Wire Line
-	1900 1950 1250 1950
-Wire Wire Line
-	1850 1450 1250 1450
-Wire Wire Line
-	1250 2650 1850 2650
-Wire Wire Line
-	1250 2150 1900 2150
-Wire Wire Line
-	1450 2250 1450 2150
-Connection ~ 1450 2150
-Wire Wire Line
-	1450 2550 1450 2650
-Connection ~ 1450 2650
-Wire Wire Line
-	1450 1550 1450 1450
-Connection ~ 1450 1450
-Wire Wire Line
-	1450 1850 1450 1950
-Connection ~ 1450 1950
 Wire Wire Line
 	4350 5500 3700 5500
 Wire Wire Line
@@ -978,25 +698,25 @@ Wire Wire Line
 Wire Wire Line
 	3700 6300 4350 6300
 Wire Wire Line
-	1900 5000 1250 5000
+	1900 5000 1800 5000
 Wire Wire Line
-	1900 5100 1250 5100
+	1900 5100 1800 5100
 Wire Wire Line
-	1900 5200 1250 5200
+	1900 5200 1800 5200
 Wire Wire Line
-	1900 5300 1250 5300
+	1900 5300 1800 5300
 Wire Wire Line
-	1900 5400 1250 5400
+	1900 5400 1800 5400
 Wire Wire Line
-	1900 5500 1250 5500
+	1900 5500 1800 5500
 Wire Wire Line
-	1900 5600 1250 5600
+	1900 5600 1800 5600
 Wire Wire Line
-	1900 5700 1250 5700
+	1900 5700 1800 5700
 Wire Wire Line
-	3700 6800 4350 6800
+	3700 6800 3800 6800
 Wire Wire Line
-	3700 6900 4350 6900
+	3700 6900 3800 6900
 Wire Wire Line
 	3700 6600 4350 6600
 Wire Wire Line
@@ -1114,7 +834,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 8950 3300 8950
 Wire Wire Line
-	11650 2400 10800 2400
+	10800 2400 11650 2400
 Wire Wire Line
 	9600 2600 9550 2600
 Wire Wire Line
@@ -1216,61 +936,61 @@ Wire Notes Line
 Wire Notes Line
 	11600 9600 8400 9600
 Wire Wire Line
-	6350 1550 7200 1550
+	6350 1550 7350 1550
 Wire Wire Line
-	6350 1650 7200 1650
+	6350 1650 7350 1650
 Wire Wire Line
-	6350 1750 7200 1750
+	6350 1750 7350 1750
 Wire Wire Line
-	6350 1850 7200 1850
+	6350 1850 7350 1850
 Wire Wire Line
-	6350 1950 7200 1950
+	6350 1950 7350 1950
 Wire Wire Line
-	6350 2050 7200 2050
+	6350 2050 7350 2050
 Wire Wire Line
-	6350 2150 7200 2150
+	6350 2150 7350 2150
 Wire Wire Line
-	6350 2250 7200 2250
+	6350 2250 7350 2250
 Wire Wire Line
-	6350 2350 7200 2350
+	6350 2350 7350 2350
 Wire Wire Line
-	6350 2450 7200 2450
+	6350 2450 7350 2450
 Wire Wire Line
-	6350 2550 7200 2550
+	6350 2550 7350 2550
 Wire Wire Line
-	6350 2650 7200 2650
+	6350 2650 7350 2650
 Wire Wire Line
-	6350 2750 7200 2750
+	6350 2750 7350 2750
 Wire Wire Line
-	6350 2850 7200 2850
+	6350 2850 7350 2850
 Wire Wire Line
-	6350 2950 7200 2950
+	6350 2950 7350 2950
 Wire Wire Line
-	6350 3050 7200 3050
+	6350 3050 7350 3050
 Wire Wire Line
-	6350 3150 7200 3150
+	6350 3150 6950 3150
 Wire Wire Line
-	6350 3250 7200 3250
+	6350 3250 6950 3250
 Wire Wire Line
-	6350 3350 7200 3350
+	6350 3350 6950 3350
 Wire Wire Line
-	6350 3450 7200 3450
+	6350 3450 6950 3450
 Wire Wire Line
-	7500 3150 8100 3150
+	7250 3150 7350 3150
 Wire Wire Line
-	7500 3250 8100 3250
+	7250 3250 7350 3250
 Wire Wire Line
-	7500 3350 8100 3350
+	7250 3350 7350 3350
 Wire Wire Line
-	7500 3450 8100 3450
+	7250 3450 7350 3450
 Wire Notes Line
 	5250 850  5250 3650
 Wire Notes Line
-	5250 3650 8200 3650
+	5250 3650 8250 3650
 Wire Notes Line
-	8200 3650 8200 850 
+	8250 3650 8250 850 
 Wire Notes Line
-	8200 850  5250 850 
+	8250 850  5250 850 
 Wire Wire Line
 	14550 3000 15300 3000
 Wire Wire Line
@@ -1295,4 +1015,82 @@ Wire Notes Line
 	15400 3300 8700 3300
 Wire Notes Line
 	8700 3300 8700 1000
+Text HLabel 1800 5000 0    60   BiDi ~ 0
+MMC1_DAT0
+Text HLabel 1800 5100 0    60   BiDi ~ 0
+MMC1_DAT1
+Text HLabel 1800 5200 0    60   BiDi ~ 0
+MMC1_DAT2
+Text HLabel 1800 5300 0    60   BiDi ~ 0
+MMC1_DAT3
+Text HLabel 1800 5400 0    60   BiDi ~ 0
+MMC1_DAT4
+Text HLabel 1800 5500 0    60   BiDi ~ 0
+MMC1_DAT5
+Text HLabel 1800 5600 0    60   BiDi ~ 0
+MMC1_DAT6
+Text HLabel 1800 5700 0    60   BiDi ~ 0
+MMC1_DAT7
+Text Label 1250 5800 0    60   ~ 0
+EHRPWM2A
+Text Label 1250 5900 0    60   ~ 0
+EHRPWM2B
+Text HLabel 3800 6800 2    60   Output ~ 0
+MMC1_CMD
+Text HLabel 3800 6900 2    60   Output ~ 0
+MMC1_CLK
+Text HLabel 7350 1550 2    60   Output ~ 0
+LCD.D15.R4--R7
+Text HLabel 7350 1650 2    60   Output ~ 0
+LCD.D14.R3--R6
+Text HLabel 7350 1750 2    60   Output ~ 0
+LCD.D13.R2--R5
+Text HLabel 7350 1850 2    60   Output ~ 0
+LCD.D12.R1--R4
+Text HLabel 7350 1950 2    60   Output ~ 0
+LCD.D11.R0--R3
+Text HLabel 7350 2050 2    60   Output ~ 0
+LCD.D10.G5--G7
+Text HLabel 7350 2150 2    60   Output ~ 0
+LCD.D9.G4--G6
+Text HLabel 7350 2250 2    60   Output ~ 0
+LCD.D8.G3--G5
+Text HLabel 7350 2350 2    60   Output ~ 0
+LCD.D7.G2--G4
+Text HLabel 7350 2450 2    60   Output ~ 0
+LCD.D6.G1--G3
+Text HLabel 7350 2550 2    60   Output ~ 0
+LCD.D5.G0--G2
+Text HLabel 7350 2650 2    60   Output ~ 0
+LCD.D4.B4--B7
+Text HLabel 7350 2750 2    60   Output ~ 0
+LCD.D3.B3--B6
+Text HLabel 7350 2850 2    60   Output ~ 0
+LCD.D2.B2--B5
+Text HLabel 7350 2950 2    60   Output ~ 0
+LCD.D1.B1--B4
+Text HLabel 7350 3050 2    60   Output ~ 0
+LCD.D0.B0--B3
+Text HLabel 7350 3150 2    60   Output ~ 0
+LCD.VSYNC
+Text HLabel 7350 3250 2    60   Output ~ 0
+LCD.CLOCK
+Text HLabel 7350 3350 2    60   Output ~ 0
+LCD.ENABLE
+Text HLabel 7350 3450 2    60   Output ~ 0
+LCD.HSYNC
+Text HLabel 11550 2300 0    60   Output ~ 0
+XDMA_EVENT_INTRO
+Wire Wire Line
+	11600 2400 11600 2300
+Wire Wire Line
+	11600 2300 11550 2300
+Connection ~ 11600 2400
+Text HLabel 13750 1950 0    60   Output ~ 0
+CLKOUT2
+Wire Wire Line
+	13750 1950 13800 1950
+Wire Wire Line
+	13800 1950 13800 2000
+Connection ~ 13800 2000
 $EndSCHEMATC

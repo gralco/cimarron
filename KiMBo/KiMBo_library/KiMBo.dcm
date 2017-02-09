@@ -35,6 +35,10 @@ $CMP ASDMB
 D Clock Oscillator
 $ENDCMP
 #
+$CMP CGND
+K Chassis, GND
+$ENDCMP
+#
 $CMP CONN_01X06_SEP
 D Connector, single row, 01x06, seperate
 K connector seperate
@@ -64,6 +68,22 @@ $ENDCMP
 $CMP EMMC**G-S100
 D Kingston Embedded MMC 153-Pin 
 K eMMC
+$ENDCMP
+#
+$CMP Ethernet_Connector
+D Ethernet Connector
+K T568A, T568B, Ethernet, RJ45
+$ENDCMP
+#
+$CMP LAN8710A
+D Ethernet Transceiver
+K Ethernet
+$ENDCMP
+#
+$CMP Micro_SD_Card_Shield
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
 $ENDCMP
 #
 $CMP TDA19988BHN/C1,557
@@ -98,6 +118,10 @@ $ENDCMP
 $CMP USB_OTG_5_SHIELD_PINS
 D USB micro/mini connector
 K connector USB USB_OTG USB_mini USB_micro
+$ENDCMP
+#
+$CMP VDD_PHYA
+K PHY, POWER, PWR
 $ENDCMP
 #
 #End Doc Library
