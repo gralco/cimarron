@@ -185,8 +185,8 @@ $Comp
 L R R?
 U 1 1 589C1BED
 P 10700 6600
-F 0 "R?" H 10650 6500 50  0000 R CNN
-F 1 "220mΩ 1%" H 10650 6700 50  0000 R CNN
+F 0 "R?" H 10650 6550 50  0000 R CNN
+F 1 "220mΩ" H 10650 6650 50  0000 R CNN
 F 2 "" V 10630 6600 50  0000 C CNN
 F 3 "" H 10700 6600 50  0000 C CNN
 	1    10700 6600
@@ -195,23 +195,23 @@ $EndComp
 $Comp
 L R R?
 U 1 1 589C1CA7
-P 9750 6600
-F 0 "R?" H 9700 6500 50  0000 R CNN
-F 1 "220mΩ 1%" H 9700 6700 50  0000 R CNN
-F 2 "" V 9680 6600 50  0000 C CNN
-F 3 "" H 9750 6600 50  0000 C CNN
-	1    9750 6600
+P 9850 6600
+F 0 "R?" H 9800 6550 50  0000 R CNN
+F 1 "220mΩ" H 9800 6650 50  0000 R CNN
+F 2 "" V 9780 6600 50  0000 C CNN
+F 3 "" H 9850 6600 50  0000 C CNN
+	1    9850 6600
 	1    0    0    1   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 589C2B70
-P 8950 6950
-F 0 "#PWR?" H 8950 6700 50  0001 C CNN
-F 1 "GND" H 8955 6777 50  0000 C CNN
-F 2 "" H 8950 6950 50  0000 C CNN
-F 3 "" H 8950 6950 50  0000 C CNN
-	1    8950 6950
+P 9100 6950
+F 0 "#PWR?" H 9100 6700 50  0001 C CNN
+F 1 "GND" H 9105 6777 50  0000 C CNN
+F 2 "" H 9100 6950 50  0000 C CNN
+F 3 "" H 9100 6950 50  0000 C CNN
+	1    9100 6950
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7500 6450
@@ -274,12 +274,12 @@ $EndComp
 $Comp
 L C C?
 U 1 1 589CC9B9
-P 9900 6600
-F 0 "C?" H 9950 6700 50  0000 L CNN
-F 1 "100nF" H 9950 6500 50  0000 L CNN
-F 2 "" H 9938 6450 50  0000 C CNN
-F 3 "" H 9900 6600 50  0000 C CNN
-	1    9900 6600
+P 10000 6600
+F 0 "C?" H 10050 6700 50  0000 L CNN
+F 1 "100nF" H 10050 6500 50  0000 L CNN
+F 2 "" H 10038 6450 50  0000 C CNN
+F 3 "" H 10000 6600 50  0000 C CNN
+	1    10000 6600
 	1    0    0    -1  
 $EndComp
 Text HLabel 6000 5750 0    60   Output ~ 0
@@ -347,19 +347,19 @@ Wire Wire Line
 Wire Wire Line
 	7450 6350 7500 6350
 Wire Wire Line
-	8900 6900 8950 6900
+	8900 6900 9100 6900
 Wire Wire Line
-	8950 6900 9350 6900
+	9100 6900 9500 6900
 Wire Wire Line
-	9350 6900 9750 6900
+	9500 6900 9850 6900
 Wire Wire Line
-	9750 6900 9900 6900
+	9850 6900 10000 6900
 Wire Wire Line
-	9900 6900 10700 6900
+	10000 6900 10700 6900
 Wire Wire Line
 	10700 6900 10850 6900
 Wire Wire Line
-	8950 6950 8950 6900
+	9100 6950 9100 6900
 Wire Wire Line
 	8900 6150 10700 6150
 Wire Wire Line
@@ -499,25 +499,25 @@ Connection ~ 7450 5150
 Wire Wire Line
 	10850 6150 10850 6450
 Wire Wire Line
-	9750 6450 9750 6300
-Connection ~ 9750 6300
+	9850 6450 9850 6300
+Connection ~ 9850 6300
 Wire Wire Line
-	9900 6300 9900 6450
+	10000 6300 10000 6450
 Wire Wire Line
 	10700 6150 10700 6450
 Wire Wire Line
 	10850 6900 10850 6750
-Connection ~ 8950 6900
+Connection ~ 9100 6900
 Wire Wire Line
-	9900 6750 9900 6900
-Connection ~ 9900 6900
+	10000 6750 10000 6900
+Connection ~ 10000 6900
 Wire Wire Line
 	10700 6750 10700 6900
 Connection ~ 10700 6900
 Wire Wire Line
-	8900 6300 9750 6300
+	8900 6300 9850 6300
 Wire Wire Line
-	9750 6300 9900 6300
+	9850 6300 10000 6300
 Connection ~ 10700 6150
 Wire Wire Line
 	6000 5750 6050 5750
@@ -533,49 +533,49 @@ Wire Wire Line
 Wire Wire Line
 	7300 4650 7300 4600
 Wire Wire Line
-	8900 6800 8950 6800
+	8900 6800 9100 6800
 Wire Wire Line
-	8950 6800 9000 6800
+	9100 6800 9150 6800
 $Comp
 L R R?
 U 1 1 589E13FD
-P 8950 6600
-F 0 "R?" H 9019 6646 50  0000 L CNN
-F 1 "4k 1%" H 9019 6555 50  0000 L CNN
-F 2 "" V 8880 6600 50  0000 C CNN
-F 3 "" H 8950 6600 50  0000 C CNN
-	1    8950 6600
+P 9100 6600
+F 0 "R?" H 9169 6646 50  0000 L CNN
+F 1 "6.03kΩ" H 9169 6555 50  0000 L CNN
+F 2 "" V 9030 6600 50  0000 C CNN
+F 3 "" H 9100 6600 50  0000 C CNN
+	1    9100 6600
 	-1   0    0    -1  
 $EndComp
-Text Label 9200 6400 2    60   ~ 0
+Text Label 9350 6400 2    60   ~ 0
 5VOUT
 Wire Wire Line
-	8950 6450 8950 6400
+	9100 6450 9100 6400
 Wire Wire Line
-	8950 6400 9200 6400
+	9100 6400 9350 6400
 Wire Wire Line
-	8950 6800 8950 6750
+	9100 6800 9100 6750
 $Comp
 L R R?
 U 1 1 589E24D4
-P 9150 6800
-F 0 "R?" V 9050 6800 50  0000 C CNN
-F 1 "6k" V 9150 6800 50  0000 C CNN
-F 2 "" V 9080 6800 50  0000 C CNN
-F 3 "" H 9150 6800 50  0000 C CNN
-	1    9150 6800
+P 9300 6800
+F 0 "R?" V 9100 6800 50  0000 C CNN
+F 1 "4.02kΩ" V 9200 6800 50  0000 C CNN
+F 2 "" V 9230 6800 50  0000 C CNN
+F 3 "" H 9300 6800 50  0000 C CNN
+	1    9300 6800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9750 6750 9750 6900
-Connection ~ 9750 6900
-Connection ~ 8950 6800
+	9850 6750 9850 6900
+Connection ~ 9850 6900
+Connection ~ 9100 6800
 Wire Wire Line
-	9350 6800 9350 6900
-Connection ~ 9350 6900
+	9500 6800 9500 6900
+Connection ~ 9500 6900
 Wire Wire Line
-	9350 6800 9300 6800
-Text Notes 9050 7050 0    60   ~ 0
+	9500 6800 9450 6800
+Text Notes 9200 7050 0    60   ~ 0
 AIN_IREF=1-2.4V
 $Comp
 L R R?
@@ -631,7 +631,7 @@ $EndComp
 Text Notes 11200 6600 0    60   ~ 0
 Bit 0 of GCONF:\nI_scale_analog\n0: Normal operation, use internal reference voltage\n1: Use voltage supplied to AIN as current reference
 $Bitmap
-Pos 10100 8150
+Pos 10100 8200
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 4A 00 00 00 B7 08 02 00 00 00 8A 67 2C 
@@ -1882,7 +1882,7 @@ C0 E2 E2 E2 46 8D 1A 8D 1E 3D FA CD 37 DF 54 BF 40 30 20 20 40 AB D5 26 25 25 39
 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 7950 8950 0    60   ~ 0
+Text Notes 7950 9000 0    60   ~ 0
 The sense resistor voltage range can be selected by the vsense bit in CHOPCONF. The low sensitivity \nsetting (high sense resistor voltage, vsense=0) brings best and most robust current regulation, while \nhigh sensitivity (low sense resistor voltage, vsense=1) reduces power dissipation in the sense resistor. \nThe high sensitivity setting reduces the power dissipation in the sense resistor by nearly half.
 $Bitmap
 Pos 11250 4950
@@ -3101,10 +3101,10 @@ EndData
 $EndBitmap
 Text Notes 4850 3500 0    60   ~ 0
 A 100nF filtering capacitor should be placed as close as possible to the VSA pin to ground plane. The \nmotor  supply  pins  VS should  be  decoupled  with  an  electrolytic  capacitor  (47μF  or  larger  is \nrecommended) and a ceramic capacitor, placed close to the device. 
-Text Notes 8400 7750 0    60   ~ 0
+Text Notes 8400 7800 0    60   ~ 0
 For best precision, choose the sense resistors in a way that the desired\nmaximum current is reached with AIN in the range 2V to 2.4V
 $Bitmap
-Pos 10050 9100
+Pos 10050 9150
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 0D 00 00 00 4B 08 02 00 00 00 94 51 E9 
@@ -3464,10 +3464,10 @@ D3 A7 DA 8E 02 A1 36 43 26 93 7D FE F9 E7 02 D6 F7 86 20 84 10 42 08 21 84 5E 65
 10 42 08 21 C4 F4 FF 55 F8 4C 49 9C EE E8 6F 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 11800 8900 0    60   ~ 0
+Text Notes 11800 9100 0    60   ~ 0
 Vsrtl=325mV
-Text Notes 9900 8450 0    60   ~ 0
+Text Notes 9900 8500 0    60   ~ 0
 Vain=2V
-Text Notes 9900 7500 0    60   ~ 0
+Text Notes 9200 7550 0    60   ~ 0
 Choose  sense  resistors  in  a  way,  that  normal \nIRUN is 16 to 31 for best microstep performance.\nfor 400mA and up Rsense = 224.173mΩ\nwith Rsense = 220mΩ   0.406954684A <= Irms <= 0.766032346A\nthat's a 0.359077662A range
 $EndSCHEMATC
