@@ -86,6 +86,11 @@ K connector SD microsd
 F http://katalog.we-online.de/em/datasheet/693072010801.pdf
 $ENDCMP
 #
+$CMP SMALL_VARISTOR
+D Voltage dependent resistor
+K vdr resistance
+$ENDCMP
+#
 $CMP TDA19988BHN/C1,557
 D HDMI 1.4a Transmitter
 K HDMI

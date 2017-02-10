@@ -814,4 +814,15 @@ Wire Wire Line
 Wire Wire Line
 	9150 6550 9100 6550
 Connection ~ 9150 5900
+$Comp
+L D_Schottky D?
+U 1 1 58B6DBE0
+P 2900 2300
+F 0 "D?" V 2854 2379 50  0000 L CNN
+F 1 "SMBJ30A" V 2945 2379 50  0000 L CNN
+F 2 "" H 2900 2300 50  0000 C CNN
+F 3 "" H 2900 2300 50  0000 C CNN
+	1    2900 2300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
