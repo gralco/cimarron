@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 23
+Sheet 17 23
 Title ""
 Date ""
 Rev ""
@@ -46,130 +46,28 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5200 2900 800  1200
+S 5400 6350 800  1200
 U 581F64FA
 F0 "E Stepper Driver" 60
 F1 "e_stepper.sch" 60
-F2 "SCLK" I L 5200 3350 60 
-F3 "MISO" T L 5200 3550 60 
-F4 "MOSI" I L 5200 3450 60 
-F5 "E_A1" O R 6000 3250 60 
-F6 "E_A2" O R 6000 3350 60 
-F7 "E_B1" O R 6000 3450 60 
-F8 "E_B2" O R 6000 3550 60 
-F9 "E_STEP" I L 5200 3000 60 
-F10 "E_DIR" I L 5200 3100 60 
-F11 "~E_SS" I L 5200 3250 60 
-F12 "~E_EN" I L 5200 3700 60 
-F13 "E_SG" O L 5200 3850 60 
-F14 "E_FAULT" O L 5200 4000 60 
-$EndSheet
-$Sheet
-S 8650 2900 800  1150
-U 5820D543
-F0 "Z0 Stepper Driver" 60
-F1 "z0_stepper.sch" 60
-F2 "SCLK" I L 8650 3350 60 
-F3 "MISO" T L 8650 3550 60 
-F4 "MOSI" I L 8650 3450 60 
-F5 "Z0_A1" O R 9450 3250 60 
-F6 "Z0_A2" O R 9450 3350 60 
-F7 "Z0_B1" O R 9450 3450 60 
-F8 "Z0_B2" O R 9450 3550 60 
-F9 "Z0_STEP" I L 8650 3000 60 
-F10 "Z0_DIR" I L 8650 3100 60 
-F11 "~Z0_SS" I L 8650 3250 60 
-F12 "~Z0_EN" I L 8650 3700 60 
-F13 "Z0_SG" O L 8650 3850 60 
-$EndSheet
-$Sheet
-S 5200 4300 800  1050
-U 5821DF26
-F0 "X Stepper Driver" 60
-F1 "x_stepper.sch" 60
-F2 "X_A1" O R 6000 4650 60 
-F3 "X_A2" O R 6000 4750 60 
-F4 "X_B1" O R 6000 4850 60 
-F5 "X_B2" O R 6000 4950 60 
-F6 "X_STEP" I L 5200 4400 60 
-F7 "X_DIR" I L 5200 4500 60 
-F8 "~X_SS" I L 5200 4650 60 
-F9 "SCLK" I L 5200 4750 60 
-F10 "MOSI" I L 5200 4850 60 
-F11 "MISO" T L 5200 4950 60 
-F12 "~X_EN" I L 5200 5100 60 
-F13 "X_SG" O L 5200 5250 60 
-$EndSheet
-$Sheet
-S 8650 4300 800  1100
-U 58227521
-F0 "Z1 Stepper Driver" 60
-F1 "z1_stepper.sch" 60
-F2 "SCLK" I L 8650 4750 60 
-F3 "MISO" T L 8650 4950 60 
-F4 "MOSI" I L 8650 4850 60 
-F5 "Z1_A1" O R 9450 4650 60 
-F6 "Z1_A2" O R 9450 4750 60 
-F7 "Z1_B1" O R 9450 4850 60 
-F8 "Z1_B2" O R 9450 4950 60 
-F9 "Z1_STEP" I L 8650 4400 60 
-F10 "Z1_DIR" I L 8650 4500 60 
-F11 "~Z1_SS" I L 8650 4650 60 
-F12 "~Z1_EN" I L 8650 5100 60 
-F13 "Z1_SG" O L 8650 5250 60 
-$EndSheet
-$Sheet
-S 8650 5550 800  1050
-U 5822AB02
-F0 "Z2 Stepper Driver" 60
-F1 "z2_stepper.sch" 60
-F2 "SCLK" I L 8650 6000 60 
-F3 "MISO" T L 8650 6200 60 
-F4 "MOSI" I L 8650 6100 60 
-F5 "Z2_A1" O R 9450 5900 60 
-F6 "Z2_A2" O R 9450 6000 60 
-F7 "Z2_B1" O R 9450 6100 60 
-F8 "Z2_B2" O R 9450 6200 60 
-F9 "Z2_STEP" I L 8650 5650 60 
-F10 "Z2_DIR" I L 8650 5750 60 
-F11 "~Z2_SS" I L 8650 5900 60 
-F12 "~Z2_EN" I L 8650 6350 60 
-F13 "Z2_SG" O L 8650 6500 60 
+F2 "SCLK" I L 5400 6800 60 
+F3 "MISO" T L 5400 7000 60 
+F4 "MOSI" I L 5400 6900 60 
+F5 "E_A1" O R 6200 6700 60 
+F6 "E_A2" O R 6200 6800 60 
+F7 "E_B1" O R 6200 6900 60 
+F8 "E_B2" O R 6200 7000 60 
+F9 "E_STEP" I L 5400 6450 60 
+F10 "E_DIR" I L 5400 6550 60 
+F11 "~E_SS" I L 5400 6700 60 
+F12 "~E_EN" I L 5400 7150 60 
+F13 "E_SG" O L 5400 7300 60 
+F14 "E_FAULT" O L 5400 7450 60 
 $EndSheet
 Entry Wire Line
-	4700 3550 4600 3650
+	4900 7000 4800 7100
 Entry Wire Line
-	4700 3450 4600 3550
-Entry Wire Line
-	8200 3350 8100 3450
-Entry Wire Line
-	8200 3450 8100 3550
-Entry Wire Line
-	8200 3550 8100 3650
-Entry Wire Line
-	4700 4750 4600 4850
-Entry Wire Line
-	4700 4850 4600 4950
-Entry Wire Line
-	4700 4950 4600 5050
-Entry Wire Line
-	4700 6000 4600 6100
-Entry Wire Line
-	4700 6100 4600 6200
-Entry Wire Line
-	4700 6200 4600 6300
-Entry Wire Line
-	8200 6000 8100 6100
-Entry Wire Line
-	8200 6100 8100 6200
-Entry Wire Line
-	8200 6200 8100 6300
-Entry Wire Line
-	8200 4750 8100 4850
-Entry Wire Line
-	8200 4850 8100 4950
-Entry Wire Line
-	8200 4950 8100 5050
+	4900 6900 4800 7000
 $Comp
 L CS326 U?
 U 1 1 582E4FDE
@@ -424,285 +322,150 @@ F 3 "" H 11400 4150 50  0000 C CNN
 	1    11400 4150
 	0    1    1    0   
 $EndComp
-Text HLabel 5150 3000 0    60   Input ~ 0
+Text HLabel 5350 6450 0    60   Input ~ 0
 E_STEP
-Text HLabel 5150 3100 0    60   Input ~ 0
+Text HLabel 5350 6550 0    60   Input ~ 0
 E_DIR
-Text HLabel 5150 3850 0    60   Output ~ 0
+Text HLabel 5350 7300 0    60   Output ~ 0
 E_SG
-Text HLabel 8600 3000 0    60   Input ~ 0
-Z0_STEP
-Text HLabel 8600 3100 0    60   Input ~ 0
-Z0_DIR
-Text HLabel 8600 3850 0    60   Output ~ 0
-Z0_SG
-Text HLabel 5150 4400 0    60   Input ~ 0
-X_STEP
-Text HLabel 5150 4500 0    60   Input ~ 0
-X_DIR
-Text HLabel 5150 5250 0    60   Output ~ 0
-X_SG
-Text HLabel 5150 5650 0    60   Input ~ 0
-Y_STEP
-Text HLabel 5150 5750 0    60   Input ~ 0
-Y_DIR
-Text HLabel 5150 6500 0    60   Output ~ 0
-Y_SG
-Text HLabel 8600 4400 0    60   Input ~ 0
-Z1_STEP
-Text Notes 11350 1200 0    60   ~ 0
-Potential Motor MUX Setup
-Text HLabel 8600 4500 0    60   Input ~ 0
-Z1_DIR
-Text HLabel 8600 5250 0    60   Output ~ 0
-Z1_SG
-Text HLabel 8600 5650 0    60   Input ~ 0
-Z2_STEP
-Text HLabel 8600 5750 0    60   Input ~ 0
-Z2_DIR
-Text HLabel 8600 6500 0    60   Output ~ 0
-Z2_SG
+Text Notes 11250 1200 0    60   ~ 0
+Potential Motor DMX Setup
 $Comp
 L 74HC595 U?
 U 1 1 589F55F0
-P 5950 1950
-F 0 "U?" H 5950 2716 50  0000 C CNN
-F 1 "74HC595" H 5950 2625 50  0000 C CNN
-F 2 "" H 5950 1950 50  0000 C CNN
-F 3 "" H 5950 1950 50  0000 C CNN
-	1    5950 1950
+P 6150 3700
+F 0 "U?" H 6150 4466 50  0000 C CNN
+F 1 "74HC595" H 6150 4375 50  0000 C CNN
+F 2 "" H 6150 3700 50  0000 C CNN
+F 3 "" H 6150 3700 50  0000 C CNN
+	1    6150 3700
 	1    0    0    -1  
 $EndComp
-Text HLabel 4000 1100 0    60   Input ~ 0
+Text HLabel 4200 2850 0    60   Input ~ 0
 SPI1_SCLK
-Text HLabel 4000 1200 0    60   Input ~ 0
+Text HLabel 4200 2950 0    60   Input ~ 0
 SPI1_MOSI
-Text HLabel 5150 2000 0    60   Input ~ 0
+Text HLabel 5350 3750 0    60   Input ~ 0
 SPI1_SS
-Text Label 7000 2000 2    60   ~ 0
+Text Label 7200 3750 2    60   ~ 0
 ~E_SS
-Text Label 7000 1500 2    60   ~ 0
+Text Label 7200 3250 2    60   ~ 0
 ~X_SS
-Text Label 7000 1600 2    60   ~ 0
+Text Label 7200 3350 2    60   ~ 0
 ~Y_SS
-Text Label 7000 1700 2    60   ~ 0
+Text Label 7200 3450 2    60   ~ 0
 ~Z0_SS
-Text Label 7000 1800 2    60   ~ 0
+Text Label 7200 3550 2    60   ~ 0
 ~Z1_SS
-Text Label 7000 1900 2    60   ~ 0
+Text Label 7200 3650 2    60   ~ 0
 ~Z2_SS
-Text Label 7000 2200 2    60   ~ 0
+Text Label 7200 5350 2    60   ~ 0
 ~E_EN
-Text Label 7000 2100 2    60   ~ 0
-~XYZ_EN
-NoConn ~ 6650 2400
+Text Label 7200 4950 2    60   ~ 0
+~XY_EN
 $Comp
 L GND #PWR?
 U 1 1 58A1F197
-P 5650 2550
-F 0 "#PWR?" H 5650 2300 50  0001 C CNN
-F 1 "GND" H 5655 2377 50  0000 C CNN
-F 2 "" H 5650 2550 50  0000 C CNN
-F 3 "" H 5650 2550 50  0000 C CNN
-	1    5650 2550
+P 5850 4300
+F 0 "#PWR?" H 5850 4050 50  0001 C CNN
+F 1 "GND" H 5855 4127 50  0000 C CNN
+F 2 "" H 5850 4300 50  0000 C CNN
+F 3 "" H 5850 4300 50  0000 C CNN
+	1    5850 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR?
 U 1 1 58A23229
-P 5650 1350
-F 0 "#PWR?" H 5650 1200 50  0001 C CNN
-F 1 "+3V3" H 5665 1523 50  0000 C CNN
-F 2 "" H 5650 1350 50  0000 C CNN
-F 3 "" H 5650 1350 50  0000 C CNN
-	1    5650 1350
+P 5850 3100
+F 0 "#PWR?" H 5850 2950 50  0001 C CNN
+F 1 "+3V3" H 5865 3273 50  0000 C CNN
+F 2 "" H 5850 3100 50  0000 C CNN
+F 3 "" H 5850 3100 50  0000 C CNN
+	1    5850 3100
 	1    0    0    -1  
 $EndComp
-Text Notes 5550 2500 0    60   ~ 0
+Text Notes 5750 4250 0    60   ~ 0
 GND
-Text Notes 5600 1450 0    30   ~ 0
+Text Notes 5800 3200 0    30   ~ 0
 VCC
-Text Label 4950 3250 0    60   ~ 0
+Text Label 5150 6700 0    60   ~ 0
 ~E_SS
-Text HLabel 5150 2100 0    60   Input ~ 0
+Text HLabel 5350 3850 0    60   Input ~ 0
 ~EN_SR
-Text Label 4700 1500 0    60   ~ 0
+Text Label 4900 3250 0    60   ~ 0
 SPI1_MOSI
-Text Label 4700 1700 0    60   ~ 0
+Text Label 4900 3450 0    60   ~ 0
 SPI1_SCLK
 Entry Wire Line
-	4700 1500 4600 1600
+	4900 3250 4800 3350
 Entry Wire Line
-	4700 1700 4600 1800
-Text Label 8350 3250 0    60   ~ 0
-~Z0_SS
-Text Label 8350 4650 0    60   ~ 0
-~Z1_SS
-Text Label 8350 5900 0    60   ~ 0
-~Z2_SS
-Text Label 4950 3700 0    60   ~ 0
+	4900 3450 4800 3550
+Text Label 5150 7150 0    60   ~ 0
 ~E_EN
-Text Label 4900 4650 0    60   ~ 0
-~X_SS
-Text Label 4850 5100 0    60   ~ 0
-~EN_XYZ
-Text Label 4950 5900 0    60   ~ 0
-~Y_SS
-Text Label 4850 6350 0    60   ~ 0
-~EN_XYZ
-Text Label 8300 6350 0    60   ~ 0
-~EN_XYZ
-Text Label 8300 5100 0    60   ~ 0
-~EN_XYZ
-Text Label 8300 3700 0    60   ~ 0
-~EN_XYZ
-Text HLabel 4000 1300 0    60   Output ~ 0
+Text HLabel 4200 3050 0    60   Output ~ 0
 SPI1_MISO
-Text Label 4500 1200 2    60   ~ 0
+Text Label 4700 2950 2    60   ~ 0
 SPI1_MOSI
-Text Label 4500 1100 2    60   ~ 0
+Text Label 4700 2850 2    60   ~ 0
 SPI1_SCLK
-Text Label 4500 1300 2    60   ~ 0
+Text Label 4700 3050 2    60   ~ 0
 SPI1_MISO
 Entry Wire Line
-	4500 1100 4600 1200
+	4700 2850 4800 2950
 Entry Wire Line
-	4500 1200 4600 1300
+	4700 2950 4800 3050
 Entry Wire Line
-	4500 1300 4600 1400
+	4700 3050 4800 3150
 Entry Wire Line
-	4700 3350 4600 3450
-Text Label 4700 3450 0    60   ~ 0
+	4900 6800 4800 6900
+Text Label 4900 6900 0    60   ~ 0
 SPI1_MOSI
-Text Label 4700 4850 0    60   ~ 0
-SPI1_MOSI
-Text Label 4700 6100 0    60   ~ 0
-SPI1_MOSI
-Text Label 8200 3450 0    60   ~ 0
-SPI1_MOSI
-Text Label 8200 4850 0    60   ~ 0
-SPI1_MOSI
-Text Label 8200 6100 0    60   ~ 0
-SPI1_MOSI
-Text Label 4700 3350 0    60   ~ 0
+Text Label 4900 6800 0    60   ~ 0
 SPI1_SCLK
-Text Label 4700 4750 0    60   ~ 0
-SPI1_SCLK
-Text Label 4700 6000 0    60   ~ 0
-SPI1_SCLK
-Text Label 8200 3350 0    60   ~ 0
-SPI1_SCLK
-Text Label 8200 4750 0    60   ~ 0
-SPI1_SCLK
-Text Label 8200 6000 0    60   ~ 0
-SPI1_SCLK
-Text Label 4700 3550 0    60   ~ 0
-SPI1_MISO
-Text Label 4700 4950 0    60   ~ 0
-SPI1_MISO
-Text Label 4700 6200 0    60   ~ 0
-SPI1_MISO
-Text Label 8200 3550 0    60   ~ 0
-SPI1_MISO
-Text Label 8200 4950 0    60   ~ 0
-SPI1_MISO
-Text Label 8200 6200 0    60   ~ 0
+Text Label 4900 7000 0    60   ~ 0
 SPI1_MISO
 Wire Wire Line
-	5650 1350 5650 1400
-Connection ~ 5200 2100
+	5850 3100 5850 3150
+Connection ~ 5400 3850
 Wire Wire Line
-	5200 1800 5200 2100
+	5400 3550 5400 3850
 Wire Wire Line
-	4000 1300 4500 1300
+	4200 3050 4700 3050
 Wire Wire Line
-	4000 1200 4500 1200
+	4200 2950 4700 2950
 Wire Wire Line
-	4000 1100 4500 1100
+	4200 2850 4700 2850
 Wire Wire Line
-	5650 2500 5650 2550
+	5850 4250 5850 4300
 Wire Wire Line
-	5200 1800 5250 1800
+	5400 3550 5450 3550
 Wire Wire Line
-	7000 2200 6650 2200
+	6850 3750 7200 3750
 Wire Wire Line
-	7000 2100 6650 2100
+	6850 3650 7200 3650
 Wire Wire Line
-	6650 2000 7000 2000
+	6850 3550 7200 3550
 Wire Wire Line
-	6650 1900 7000 1900
+	6850 3450 7200 3450
 Wire Wire Line
-	6650 1800 7000 1800
+	6850 3350 7200 3350
 Wire Wire Line
-	6650 1700 7000 1700
+	6850 3250 7200 3250
 Wire Wire Line
-	6650 1600 7000 1600
+	4900 3450 5450 3450
 Wire Wire Line
-	6650 1500 7000 1500
+	5350 3850 5400 3850
 Wire Wire Line
-	4700 1700 5250 1700
+	5400 3850 5450 3850
 Wire Wire Line
-	5150 2100 5200 2100
+	5450 3750 5350 3750
 Wire Wire Line
-	5200 2100 5250 2100
+	4900 3250 5450 3250
 Wire Wire Line
-	5250 2000 5150 2000
+	5400 7300 5350 7300
 Wire Wire Line
-	4700 1500 5250 1500
-Wire Wire Line
-	8650 6500 8600 6500
-Wire Wire Line
-	8650 6350 8300 6350
-Wire Wire Line
-	8650 5900 8350 5900
-Wire Wire Line
-	8600 5750 8650 5750
-Wire Wire Line
-	8600 5650 8650 5650
-Wire Wire Line
-	8600 5250 8650 5250
-Wire Wire Line
-	8300 5100 8650 5100
-Wire Wire Line
-	8350 4650 8650 4650
-Wire Wire Line
-	8600 4500 8650 4500
-Wire Wire Line
-	8600 4400 8650 4400
-Wire Wire Line
-	5150 6500 5200 6500
-Wire Wire Line
-	4850 6350 5200 6350
-Wire Wire Line
-	4950 5900 5200 5900
-Wire Wire Line
-	5150 5750 5200 5750
-Wire Wire Line
-	5150 5650 5200 5650
-Wire Wire Line
-	5150 5250 5200 5250
-Wire Wire Line
-	4850 5100 5200 5100
-Wire Wire Line
-	4900 4650 5200 4650
-Wire Wire Line
-	5150 4500 5200 4500
-Wire Wire Line
-	5150 4400 5200 4400
-Wire Wire Line
-	8600 3850 8650 3850
-Wire Wire Line
-	8300 3700 8650 3700
-Wire Wire Line
-	8350 3250 8650 3250
-Wire Wire Line
-	8600 3100 8650 3100
-Wire Wire Line
-	8600 3000 8650 3000
-Wire Wire Line
-	5200 3850 5150 3850
-Wire Wire Line
-	5200 3700 4950 3700
+	5400 7150 5150 7150
 Connection ~ 11400 3900
 Wire Wire Line
 	11400 3750 11400 3900
@@ -852,163 +615,555 @@ Wire Wire Line
 Wire Wire Line
 	12450 2200 12600 2200
 Wire Wire Line
-	5200 3250 4950 3250
+	5400 6700 5150 6700
 Wire Wire Line
-	5200 3100 5150 3100
+	5400 6550 5350 6550
 Wire Wire Line
-	5200 3000 5150 3000
-Wire Wire Line
-	9500 6200 9550 6200
-Wire Wire Line
-	9500 6100 9550 6100
-Wire Wire Line
-	9500 6000 9550 6000
-Wire Wire Line
-	9500 5900 9550 5900
-Wire Wire Line
-	9500 4950 9550 4950
-Wire Wire Line
-	9500 4850 9550 4850
-Wire Wire Line
-	9500 4750 9550 4750
-Wire Wire Line
-	9500 4650 9550 4650
-Wire Wire Line
-	9500 3550 9550 3550
-Wire Wire Line
-	9500 3450 9550 3450
-Wire Wire Line
-	9500 3350 9550 3350
-Wire Wire Line
-	9500 3250 9550 3250
+	5400 6450 5350 6450
 Wire Bus Line
-	4600 1200 4600 1300
+	4800 2950 4800 3050
 Wire Bus Line
-	4600 1300 4600 1400
+	4800 3050 4800 3150
 Wire Bus Line
-	4600 1400 4600 1600
+	4800 3150 4800 3350
 Wire Bus Line
-	4600 1600 4600 1800
+	4800 3350 4800 3550
 Wire Bus Line
-	4600 1800 4600 3450
+	4800 3550 4800 5250
 Wire Bus Line
-	4600 3450 4600 3550
+	4800 5250 4800 6900
 Wire Bus Line
-	4600 3550 4600 3650
+	4800 6900 4800 7000
 Wire Bus Line
-	4600 3650 4600 4850
+	4800 7000 4800 7100
 Wire Bus Line
-	4600 4850 4600 4950
+	4800 7100 4800 8300
 Wire Bus Line
-	4600 4950 4600 5050
+	4800 8300 4800 8400
 Wire Bus Line
-	4600 5050 4600 6100
+	4800 8400 4800 8500
 Wire Bus Line
-	4600 6100 4600 6200
+	4800 8500 4800 9700
 Wire Bus Line
-	4600 6200 4600 6300
+	4800 9700 4800 9800
 Wire Bus Line
-	4600 6300 4600 6750
-Wire Wire Line
-	4700 3550 5200 3550
-Wire Wire Line
-	8200 4950 8650 4950
-Wire Wire Line
-	8200 4850 8650 4850
-Wire Wire Line
-	8200 4750 8650 4750
-Wire Wire Line
-	8200 6200 8650 6200
-Wire Wire Line
-	8200 6100 8650 6100
-Wire Wire Line
-	8200 6000 8650 6000
-Wire Wire Line
-	4700 6200 5200 6200
-Wire Wire Line
-	4700 6100 5200 6100
-Wire Wire Line
-	4700 6000 5200 6000
-Wire Wire Line
-	4700 4950 5200 4950
-Wire Wire Line
-	4700 4850 5200 4850
-Wire Wire Line
-	4700 4750 5200 4750
-Wire Wire Line
-	8650 3550 8200 3550
-Wire Wire Line
-	8650 3450 8200 3450
-Wire Wire Line
-	8200 3350 8650 3350
-Wire Wire Line
-	4700 3450 5200 3450
-Wire Wire Line
-	4700 3350 5200 3350
+	4800 9800 4800 9900
 Wire Bus Line
-	8100 3450 8100 3550
+	4800 9900 4800 10500
+Wire Wire Line
+	4900 7000 5400 7000
+Wire Wire Line
+	4900 6900 5400 6900
+Wire Wire Line
+	4900 6800 5400 6800
 Wire Bus Line
-	8100 3550 8100 3650
+	6600 6900 6600 7000
 Wire Bus Line
-	8100 3650 8100 4850
+	6600 7000 6600 7100
 Wire Bus Line
-	8100 4850 8100 4950
+	6600 7100 6600 8300
 Wire Bus Line
-	8100 4950 8100 5050
+	6600 8300 6600 8400
 Wire Bus Line
-	8100 5050 8100 6100
+	6600 8400 6600 8500
 Wire Bus Line
-	8100 6100 8100 6200
+	6600 8500 6600 9700
 Wire Bus Line
-	8100 6200 8100 6300
+	6600 9700 6600 9800
 Wire Bus Line
-	8100 6300 8100 6750
+	6600 9800 6600 9900
 Wire Bus Line
-	8100 6750 4600 6750
-$Sheet
-S 5200 5550 800  1050
-U 58222241
-F0 "Y Stepper Driver" 60
-F1 "y_stepper.sch" 60
-F2 "SCLK" I L 5200 6000 60 
-F3 "MISO" T L 5200 6200 60 
-F4 "MOSI" I L 5200 6100 60 
-F5 "Y_A1" O R 6000 5900 60 
-F6 "Y_A2" O R 6000 6000 60 
-F7 "Y_B1" O R 6000 6100 60 
-F8 "Y_B2" O R 6000 6200 60 
-F9 "Y_STEP" I L 5200 5650 60 
-F10 "Y_DIR" I L 5200 5750 60 
-F11 "~Y_SS" I L 5200 5900 60 
-F12 "~Y_EN" I L 5200 6350 60 
-F13 "Y_SG" O L 5200 6500 60 
-$EndSheet
+	6600 9900 6600 10500
+Wire Bus Line
+	6600 10500 4800 10500
 Wire Wire Line
-	6000 3250 6050 3250
+	6200 6700 6250 6700
 Wire Wire Line
-	6000 3350 6050 3350
+	6200 6800 6250 6800
 Wire Wire Line
-	6000 3450 6050 3450
+	6200 6900 6250 6900
 Wire Wire Line
-	6000 3550 6050 3550
-Wire Wire Line
-	6000 4650 6050 4650
-Wire Wire Line
-	6000 4750 6050 4750
-Wire Wire Line
-	6000 4850 6050 4850
-Wire Wire Line
-	6000 4950 6050 4950
-Wire Wire Line
-	6000 5900 6050 5900
-Wire Wire Line
-	6000 6000 6050 6000
-Wire Wire Line
-	6000 6100 6050 6100
-Wire Wire Line
-	6000 6200 6050 6200
-Text HLabel 5150 4000 0    60   Output ~ 0
+	6200 7000 6250 7000
+Text HLabel 5350 7450 0    60   Output ~ 0
 E_FAULT
 Wire Wire Line
-	5200 4000 5150 4000
+	5400 7450 5350 7450
+$Comp
+L 74HC595 U?
+U 1 1 58B860B6
+P 6150 5400
+F 0 "U?" H 6150 6166 50  0000 C CNN
+F 1 "74HC595" H 6150 6075 50  0000 C CNN
+F 2 "" H 6150 5400 50  0000 C CNN
+F 3 "" H 6150 5400 50  0000 C CNN
+	1    6150 5400
+	1    0    0    -1  
+$EndComp
+Text HLabel 5350 5450 0    60   Input ~ 0
+SPI1_SS
+NoConn ~ 6850 5850
+$Comp
+L GND #PWR?
+U 1 1 58B860C7
+P 5850 6000
+F 0 "#PWR?" H 5850 5750 50  0001 C CNN
+F 1 "GND" H 5855 5827 50  0000 C CNN
+F 2 "" H 5850 6000 50  0000 C CNN
+F 3 "" H 5850 6000 50  0000 C CNN
+	1    5850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 58B860CD
+P 5850 4800
+F 0 "#PWR?" H 5850 4650 50  0001 C CNN
+F 1 "+3V3" H 5865 4973 50  0000 C CNN
+F 2 "" H 5850 4800 50  0000 C CNN
+F 3 "" H 5850 4800 50  0000 C CNN
+	1    5850 4800
+	1    0    0    -1  
+$EndComp
+Text Notes 5750 5950 0    60   ~ 0
+GND
+Text Notes 5800 4900 0    30   ~ 0
+VCC
+Text HLabel 5350 5550 0    60   Input ~ 0
+~EN_SR
+Text Label 4900 5150 0    60   ~ 0
+SPI1_SCLK
+Wire Wire Line
+	5850 4800 5850 4850
+Connection ~ 5400 5550
+Wire Wire Line
+	5400 5250 5400 5550
+Wire Wire Line
+	5850 5950 5850 6000
+Wire Wire Line
+	5400 5250 5450 5250
+Wire Wire Line
+	6850 5350 7200 5350
+Wire Wire Line
+	6850 5250 7200 5250
+Wire Wire Line
+	6850 5150 7200 5150
+Wire Wire Line
+	6850 5050 7200 5050
+Wire Wire Line
+	6850 4950 7200 4950
+Wire Wire Line
+	4900 5150 5450 5150
+Wire Wire Line
+	5350 5550 5400 5550
+Wire Wire Line
+	5400 5550 5450 5550
+Wire Wire Line
+	5450 5450 5350 5450
+Text Label 7200 5050 2    60   ~ 0
+~Z0_EN
+Text Label 7200 5150 2    60   ~ 0
+~Z1_EN
+Text Label 7200 5250 2    60   ~ 0
+~Z2_EN
+NoConn ~ 6850 5450
+NoConn ~ 6850 5550
+NoConn ~ 6850 5650
+NoConn ~ 6850 3850
+Wire Wire Line
+	5450 4950 5400 4950
+Wire Wire Line
+	5400 4950 5400 4550
+Wire Wire Line
+	5400 4550 6900 4550
+Wire Wire Line
+	6900 4550 6900 4150
+Wire Wire Line
+	6900 4150 6850 4150
+Text Notes 3900 2450 0    60   ~ 0
+When ~EN_SR~ transitions from LOW to HIGH each D-FF of the shift-register\ncome out of their reset states and the output is set to high-Z, ready for writing\nWhen ~EN_SR~ transitions from HIGH to LOW each D-FF of the shift-register\ngoes into their reset states and the output is enabled, SS/EN selected
+Text Notes 3900 2700 0    60   ~ 0
+SPI1_SS captures the data in the shift register and is ready to be driven\nby the second stage of D-FFs
+Text Notes 7600 3100 0    60   ~ 0
+Writing and outputting data:\n1. Bring ~EN_SR~ HIGH\n - output high-Z, enables all motors\n2. Write data\n3. Toggle SPI1_SS _|‾|_\n4. Bring ~EN_SR~ LOW\n - output enabled, disable specific motors/ready to configure
+NoConn ~ 6850 3950
+Entry Wire Line
+	4900 5150 4800 5250
+Entry Wire Line
+	4900 8400 4800 8500
+Entry Wire Line
+	4900 8300 4800 8400
+Text HLabel 5350 7850 0    60   Input ~ 0
+X_STEP
+Text HLabel 5350 7950 0    60   Input ~ 0
+X_DIR
+Text HLabel 5350 8700 0    60   Output ~ 0
+X_SG
+Text Label 5150 8100 0    60   ~ 0
+~X_SS
+Text Label 5150 8550 0    60   ~ 0
+~X_EN
+Entry Wire Line
+	4900 8200 4800 8300
+Text Label 4900 8300 0    60   ~ 0
+SPI1_MOSI
+Text Label 4900 8200 0    60   ~ 0
+SPI1_SCLK
+Text Label 4900 8400 0    60   ~ 0
+SPI1_MISO
+Wire Wire Line
+	5400 8700 5350 8700
+Wire Wire Line
+	5400 8550 5150 8550
+Wire Wire Line
+	5400 8100 5150 8100
+Wire Wire Line
+	5400 7950 5350 7950
+Wire Wire Line
+	5400 7850 5350 7850
+Wire Wire Line
+	4900 8400 5400 8400
+Wire Wire Line
+	4900 8300 5400 8300
+Wire Wire Line
+	4900 8200 5400 8200
+Wire Wire Line
+	6200 8100 6250 8100
+Wire Wire Line
+	6200 8200 6250 8200
+Wire Wire Line
+	6200 8300 6250 8300
+Wire Wire Line
+	6200 8400 6250 8400
+Text HLabel 5350 8850 0    60   Output ~ 0
+X_FAULT
+Wire Wire Line
+	5400 8850 5350 8850
+$Sheet
+S 5400 9150 800  1200
+U 58BF2D49
+F0 "Y Stepper Driver" 60
+F1 "y_stepper.sch" 60
+F2 "SCLK" I L 5400 9600 60 
+F3 "MISO" T L 5400 9800 60 
+F4 "MOSI" I L 5400 9700 60 
+F5 "Y_A1" O R 6200 9500 60 
+F6 "Y_A2" O R 6200 9600 60 
+F7 "Y_B1" O R 6200 9700 60 
+F8 "Y_B2" O R 6200 9800 60 
+F9 "Y_STEP" I L 5400 9250 60 
+F10 "Y_DIR" I L 5400 9350 60 
+F11 "~Y_SS" I L 5400 9500 60 
+F12 "Y_SG" O L 5400 10100 60 
+F13 "Y_FAULT" O L 5400 10250 60 
+F14 "~Y_EN" I L 5400 9950 60 
+$EndSheet
+Entry Wire Line
+	4900 9800 4800 9900
+Entry Wire Line
+	4900 9700 4800 9800
+Text HLabel 5350 9250 0    60   Input ~ 0
+Y_STEP
+Text HLabel 5350 9350 0    60   Input ~ 0
+Y_DIR
+Text HLabel 5350 10100 0    60   Output ~ 0
+Y_SG
+Text Label 5150 9500 0    60   ~ 0
+~Y_SS
+Text Label 5150 9950 0    60   ~ 0
+~Y_EN
+Entry Wire Line
+	4900 9600 4800 9700
+Text Label 4900 9700 0    60   ~ 0
+SPI1_MOSI
+Text Label 4900 9600 0    60   ~ 0
+SPI1_SCLK
+Text Label 4900 9800 0    60   ~ 0
+SPI1_MISO
+Wire Wire Line
+	5400 10100 5350 10100
+Wire Wire Line
+	5400 9950 5150 9950
+Wire Wire Line
+	5400 9500 5150 9500
+Wire Wire Line
+	5400 9350 5350 9350
+Wire Wire Line
+	5400 9250 5350 9250
+Wire Wire Line
+	4900 9800 5400 9800
+Wire Wire Line
+	4900 9700 5400 9700
+Wire Wire Line
+	4900 9600 5400 9600
+Wire Wire Line
+	6200 9500 6250 9500
+Wire Wire Line
+	6200 9600 6250 9600
+Wire Wire Line
+	6200 9700 6250 9700
+Wire Wire Line
+	6200 9800 6250 9800
+Text HLabel 5350 10250 0    60   Output ~ 0
+Y_FAULT
+Wire Wire Line
+	5400 10250 5350 10250
+Entry Wire Line
+	6700 7000 6600 7100
+Entry Wire Line
+	6700 6900 6600 7000
+Text HLabel 7150 6450 0    60   Input ~ 0
+Z_STEP
+Text HLabel 7150 6550 0    60   Input ~ 0
+Z_DIR
+Text Label 6900 6700 0    60   ~ 0
+~Z0_SS
+Text Label 6900 7150 0    60   ~ 0
+~Z0_EN
+Entry Wire Line
+	6700 6800 6600 6900
+Text Label 6700 6900 0    60   ~ 0
+SPI1_MOSI
+Text Label 6700 6800 0    60   ~ 0
+SPI1_SCLK
+Text Label 6700 7000 0    60   ~ 0
+SPI1_MISO
+Wire Wire Line
+	7200 7150 6900 7150
+Wire Wire Line
+	7200 6700 6900 6700
+Wire Wire Line
+	7200 6550 7150 6550
+Wire Wire Line
+	7200 6450 7150 6450
+Wire Wire Line
+	6700 7000 7200 7000
+Wire Wire Line
+	6700 6900 7200 6900
+Wire Wire Line
+	6700 6800 7200 6800
+Wire Wire Line
+	8000 6700 8050 6700
+Wire Wire Line
+	8000 6800 8050 6800
+Wire Wire Line
+	8000 6900 8050 6900
+Wire Wire Line
+	8000 7000 8050 7000
+Text HLabel 7150 7300 0    60   Output ~ 0
+Z0_FAULT
+Wire Wire Line
+	7200 7300 7150 7300
+Entry Wire Line
+	6700 8400 6600 8500
+Entry Wire Line
+	6700 8300 6600 8400
+Text HLabel 7150 7850 0    60   Input ~ 0
+Z_STEP
+Text HLabel 7150 7950 0    60   Input ~ 0
+Z_DIR
+Text Label 6900 8100 0    60   ~ 0
+~Z1_SS
+Text Label 6900 8550 0    60   ~ 0
+~Z1_EN
+Entry Wire Line
+	6700 8200 6600 8300
+Text Label 6700 8300 0    60   ~ 0
+SPI1_MOSI
+Text Label 6700 8200 0    60   ~ 0
+SPI1_SCLK
+Text Label 6700 8400 0    60   ~ 0
+SPI1_MISO
+Wire Wire Line
+	7200 8550 6900 8550
+Wire Wire Line
+	7200 8100 6900 8100
+Wire Wire Line
+	7200 7950 7150 7950
+Wire Wire Line
+	7200 7850 7150 7850
+Wire Wire Line
+	6700 8400 7200 8400
+Wire Wire Line
+	6700 8300 7200 8300
+Wire Wire Line
+	6700 8200 7200 8200
+Wire Wire Line
+	8000 8100 8050 8100
+Wire Wire Line
+	8000 8200 8050 8200
+Wire Wire Line
+	8000 8300 8050 8300
+Wire Wire Line
+	8000 8400 8050 8400
+Text HLabel 7150 8700 0    60   Output ~ 0
+Z1_FAULT
+Wire Wire Line
+	7200 8700 7150 8700
+Entry Wire Line
+	6700 9800 6600 9900
+Entry Wire Line
+	6700 9700 6600 9800
+Text HLabel 7150 9250 0    60   Input ~ 0
+Z_STEP
+Text HLabel 7150 9350 0    60   Input ~ 0
+Z_DIR
+Text Label 6900 9500 0    60   ~ 0
+~Z2_SS
+Text Label 6900 9950 0    60   ~ 0
+~Z2_EN
+Entry Wire Line
+	6700 9600 6600 9700
+Text Label 6700 9700 0    60   ~ 0
+SPI1_MOSI
+Text Label 6700 9600 0    60   ~ 0
+SPI1_SCLK
+Text Label 6700 9800 0    60   ~ 0
+SPI1_MISO
+Wire Wire Line
+	7200 9950 6900 9950
+Wire Wire Line
+	7200 9500 6900 9500
+Wire Wire Line
+	7200 9350 7150 9350
+Wire Wire Line
+	7200 9250 7150 9250
+Wire Wire Line
+	6700 9800 7200 9800
+Wire Wire Line
+	6700 9700 7200 9700
+Wire Wire Line
+	6700 9600 7200 9600
+Wire Wire Line
+	8000 9500 8050 9500
+Wire Wire Line
+	8000 9600 8050 9600
+Wire Wire Line
+	8000 9700 8050 9700
+Wire Wire Line
+	8000 9800 8050 9800
+$Sheet
+S 5400 7750 800  1200
+U 58BF239E
+F0 "X Stepper Driver" 60
+F1 "x_stepper.sch" 60
+F2 "SCLK" I L 5400 8200 60 
+F3 "MISO" T L 5400 8400 60 
+F4 "MOSI" I L 5400 8300 60 
+F5 "X_A1" O R 6200 8100 60 
+F6 "X_A2" O R 6200 8200 60 
+F7 "X_B1" O R 6200 8300 60 
+F8 "X_B2" O R 6200 8400 60 
+F9 "X_STEP" I L 5400 7850 60 
+F10 "X_DIR" I L 5400 7950 60 
+F11 "~X_SS" I L 5400 8100 60 
+F12 "X_SG" O L 5400 8700 60 
+F13 "X_FAULT" O L 5400 8850 60 
+F14 "~X_EN" I L 5400 8550 60 
+$EndSheet
+$Sheet
+S 7200 6350 800  1050
+U 58BF5542
+F0 "Z0 Stepper Driver" 60
+F1 "z0_stepper.sch" 60
+F2 "SCLK" I L 7200 6800 60 
+F3 "MISO" T L 7200 7000 60 
+F4 "MOSI" I L 7200 6900 60 
+F5 "Z0_A1" O R 8000 6700 60 
+F6 "Z0_A2" O R 8000 6800 60 
+F7 "Z0_B1" O R 8000 6900 60 
+F8 "Z0_B2" O R 8000 7000 60 
+F9 "Z0_STEP" I L 7200 6450 60 
+F10 "Z0_DIR" I L 7200 6550 60 
+F11 "~Z0_SS" I L 7200 6700 60 
+F12 "Z0_FAULT" O L 7200 7300 60 
+F13 "~Z0_EN" I L 7200 7150 60 
+$EndSheet
+$Sheet
+S 7200 7750 800  1050
+U 58BF604E
+F0 "Z1 Stepper Driver" 60
+F1 "z1_stepper.sch" 60
+F2 "SCLK" I L 7200 8200 60 
+F3 "MISO" T L 7200 8400 60 
+F4 "MOSI" I L 7200 8300 60 
+F5 "Z1_A1" O R 8000 8100 60 
+F6 "Z1_A2" O R 8000 8200 60 
+F7 "Z1_B1" O R 8000 8300 60 
+F8 "Z1_B2" O R 8000 8400 60 
+F9 "Z1_STEP" I L 7200 7850 60 
+F10 "Z1_DIR" I L 7200 7950 60 
+F11 "~Z1_SS" I L 7200 8100 60 
+F12 "Z1_FAULT" O L 7200 8700 60 
+F13 "~Z1_EN" I L 7200 8550 60 
+$EndSheet
+Text HLabel 6250 6700 2    60   Output ~ 0
+E_A1
+Text HLabel 6250 6800 2    60   Output ~ 0
+E_A2
+Text HLabel 6250 6900 2    60   Output ~ 0
+E_B1
+Text HLabel 6250 7000 2    60   Output ~ 0
+E_B2
+Text HLabel 6250 8100 2    60   Output ~ 0
+X_A1
+Text HLabel 6250 8200 2    60   Output ~ 0
+X_A2
+Text HLabel 6250 8300 2    60   Output ~ 0
+X_B1
+Text HLabel 6250 8400 2    60   Output ~ 0
+X_B2
+Text HLabel 6250 9500 2    60   Output ~ 0
+Y_A1
+Text HLabel 6250 9600 2    60   Output ~ 0
+Y_A2
+Text HLabel 6250 9700 2    60   Output ~ 0
+Y_B1
+Text HLabel 6250 9800 2    60   Output ~ 0
+Y_B2
+Text HLabel 8050 6700 2    60   Output ~ 0
+Z0_A1
+Text HLabel 8050 6800 2    60   Output ~ 0
+Z0_A2
+Text HLabel 8050 6900 2    60   Output ~ 0
+Z0_B1
+Text HLabel 8050 7000 2    60   Output ~ 0
+Z0_B2
+Text HLabel 8050 8100 2    60   Output ~ 0
+Z1_A1
+Text HLabel 8050 8200 2    60   Output ~ 0
+Z1_A2
+Text HLabel 8050 8300 2    60   Output ~ 0
+Z1_B1
+Text HLabel 8050 8400 2    60   Output ~ 0
+Z1_B2
+Text HLabel 8050 9500 2    60   Output ~ 0
+Z2_A1
+Text HLabel 8050 9600 2    60   Output ~ 0
+Z2_A2
+Text HLabel 8050 9700 2    60   Output ~ 0
+Z2_B1
+Text HLabel 8050 9800 2    60   Output ~ 0
+Z2_B2
+Wire Wire Line
+	7200 10100 7150 10100
+Text HLabel 7150 10100 0    60   Output ~ 0
+Z2_FAULT
+$Sheet
+S 7200 9150 800  1050
+U 58BF6FC5
+F0 "Z2 Stepper Driver" 60
+F1 "z2_stepper.sch" 60
+F2 "SCLK" I L 7200 9600 60 
+F3 "MISO" T L 7200 9800 60 
+F4 "MOSI" I L 7200 9700 60 
+F5 "Z2_A1" O R 8000 9500 60 
+F6 "Z2_A2" O R 8000 9600 60 
+F7 "Z2_B1" O R 8000 9700 60 
+F8 "Z2_B2" O R 8000 9800 60 
+F9 "Z2_STEP" I L 7200 9250 60 
+F10 "Z2_DIR" I L 7200 9350 60 
+F11 "~Z2_SS" I L 7200 9500 60 
+F12 "Z2_FAULT" O L 7200 10100 60 
+F13 "~Z2_EN" I L 7200 9950 60 
+$EndSheet
 $EndSCHEMATC

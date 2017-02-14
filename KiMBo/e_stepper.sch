@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 23
+Sheet 18 23
 Title ""
 Date ""
 Rev ""
@@ -61,7 +61,7 @@ Text HLabel 7400 6800 0    60   Input ~ 0
 E_STEP
 Text HLabel 7400 6900 0    60   Input ~ 0
 E_DIR
-Text HLabel 6250 5900 0    60   Input ~ 0
+Text HLabel 6150 5900 0    60   Input ~ 0
 ~E_SS
 Text HLabel 7400 6000 0    60   Input ~ 0
 SCLK
@@ -69,12 +69,14 @@ Text HLabel 7400 6200 0    60   3State ~ 0
 MISO
 Text HLabel 7400 6100 0    60   Input ~ 0
 MOSI
-Text HLabel 5550 5650 0    60   Output ~ 0
+Text HLabel 5450 5650 0    60   Output ~ 0
 E_SG
 $Comp
 L C C?
 U 1 1 589B8A74
 P 7300 3950
+AR Path="/57AC927F/581F64FA/589B8A74" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589B8A74" Ref="C?"  Part="1" 
 F 0 "C?" H 7186 3904 50  0000 R CNN
 F 1 "100nF" H 7186 3995 50  0000 R CNN
 F 2 "" H 7338 3800 50  0000 C CNN
@@ -86,6 +88,8 @@ $Comp
 L C C?
 U 1 1 589B8C70
 P 9100 4500
+AR Path="/57AC927F/581F64FA/589B8C70" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589B8C70" Ref="C?"  Part="1" 
 F 0 "C?" V 9050 4400 50  0000 C CNN
 F 1 "100nF" V 9050 4675 50  0000 C CNN
 F 2 "" H 9138 4350 50  0000 C CNN
@@ -97,6 +101,8 @@ $Comp
 L CP1 C?
 U 1 1 589B8CBD
 P 10450 3950
+AR Path="/57AC927F/581F64FA/589B8CBD" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589B8CBD" Ref="C?"  Part="1" 
 F 0 "C?" H 10500 4050 50  0000 C CNN
 F 1 "100μF" H 10600 3850 50  0000 C CNN
 F 2 "" H 10450 3950 50  0000 C CNN
@@ -108,6 +114,8 @@ $Comp
 L C C?
 U 1 1 589BC941
 P 9550 3950
+AR Path="/57AC927F/581F64FA/589BC941" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589BC941" Ref="C?"  Part="1" 
 F 0 "C?" H 9500 4050 50  0000 C CNN
 F 1 "100nF" H 9425 3850 50  0000 C CNN
 F 2 "" H 9588 3800 50  0000 C CNN
@@ -119,6 +127,8 @@ $Comp
 L GND #PWR?
 U 1 1 589BD203
 P 7300 4150
+AR Path="/57AC927F/581F64FA/589BD203" Ref="#PWR?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589BD203" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7300 3900 50  0001 C CNN
 F 1 "GND" H 7300 4000 50  0000 C CNN
 F 2 "" H 7300 4150 50  0000 C CNN
@@ -130,6 +140,8 @@ $Comp
 L C C?
 U 1 1 589BDAA2
 P 9850 3950
+AR Path="/57AC927F/581F64FA/589BDAA2" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589BDAA2" Ref="C?"  Part="1" 
 F 0 "C?" H 9800 4050 50  0000 C CNN
 F 1 "100nF" H 9725 3850 50  0000 C CNN
 F 2 "" H 9888 3800 50  0000 C CNN
@@ -141,6 +153,8 @@ $Comp
 L GND #PWR?
 U 1 1 589BE47E
 P 10150 4200
+AR Path="/57AC927F/581F64FA/589BE47E" Ref="#PWR?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589BE47E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 10150 3950 50  0001 C CNN
 F 1 "GND" H 10155 4027 50  0000 C CNN
 F 2 "" H 10150 4200 50  0000 C CNN
@@ -152,6 +166,8 @@ $Comp
 L +24V #PWR?
 U 1 1 589BEDE1
 P 8350 3700
+AR Path="/57AC927F/581F64FA/589BEDE1" Ref="#PWR?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589BEDE1" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8350 3550 50  0001 C CNN
 F 1 "+24V" H 8365 3873 50  0000 C CNN
 F 2 "" H 8350 3700 50  0000 C CNN
@@ -163,6 +179,8 @@ $Comp
 L C C?
 U 1 1 589C0BAD
 P 8950 5000
+AR Path="/57AC927F/581F64FA/589C0BAD" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C0BAD" Ref="C?"  Part="1" 
 F 0 "C?" H 9065 5046 50  0000 L CNN
 F 1 "22nF" H 9065 4955 50  0000 L CNN
 F 2 "" H 8988 4850 50  0000 C CNN
@@ -174,6 +192,8 @@ $Comp
 L R R?
 U 1 1 589C1BED
 P 10550 7550
+AR Path="/57AC927F/581F64FA/589C1BED" Ref="R?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C1BED" Ref="R?"  Part="1" 
 F 0 "R?" H 10500 7500 50  0000 R CNN
 F 1 "220mΩ" H 10500 7600 50  0000 R CNN
 F 2 "" V 10480 7550 50  0000 C CNN
@@ -185,6 +205,8 @@ $Comp
 L R R?
 U 1 1 589C1CA7
 P 9750 7550
+AR Path="/57AC927F/581F64FA/589C1CA7" Ref="R?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C1CA7" Ref="R?"  Part="1" 
 F 0 "R?" H 9700 7500 50  0000 R CNN
 F 1 "220mΩ" H 9700 7600 50  0000 R CNN
 F 2 "" V 9680 7550 50  0000 C CNN
@@ -196,6 +218,8 @@ $Comp
 L GND #PWR?
 U 1 1 589C2B70
 P 9450 7900
+AR Path="/57AC927F/581F64FA/589C2B70" Ref="#PWR?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C2B70" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 9450 7650 50  0001 C CNN
 F 1 "GND" H 9455 7727 50  0000 C CNN
 F 2 "" H 9450 7900 50  0000 C CNN
@@ -208,6 +232,8 @@ $Comp
 L R R?
 U 1 1 589C4ED8
 P 7100 4600
+AR Path="/57AC927F/581F64FA/589C4ED8" Ref="R?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C4ED8" Ref="R?"  Part="1" 
 F 0 "R?" V 7000 4600 50  0000 C CNN
 F 1 "2.2Ω" V 7100 4600 50  0000 C CNN
 F 2 "" V 7030 4600 50  0000 C CNN
@@ -219,6 +245,8 @@ $Comp
 L C C?
 U 1 1 589C52DF
 P 6900 4800
+AR Path="/57AC927F/581F64FA/589C52DF" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C52DF" Ref="C?"  Part="1" 
 F 0 "C?" H 6950 4900 50  0000 L CNN
 F 1 "470nF" H 6925 4700 50  0000 L CNN
 F 2 "" H 6938 4650 50  0000 C CNN
@@ -230,6 +258,8 @@ $Comp
 L C C?
 U 1 1 589C6AE4
 P 6550 4800
+AR Path="/57AC927F/581F64FA/589C6AE4" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C6AE4" Ref="C?"  Part="1" 
 F 0 "C?" H 6600 4900 50  0000 L CNN
 F 1 "100nF" H 6550 4700 50  0000 L CNN
 F 2 "" H 6588 4650 50  0000 C CNN
@@ -241,6 +271,8 @@ $Comp
 L +3V3 #PWR?
 U 1 1 589C6D66
 P 6550 4300
+AR Path="/57AC927F/581F64FA/589C6D66" Ref="#PWR?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C6D66" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6550 4150 50  0001 C CNN
 F 1 "+3V3" H 6565 4473 50  0000 C CNN
 F 2 "" H 6550 4300 50  0000 C CNN
@@ -253,6 +285,8 @@ $Comp
 L GND #PWR?
 U 1 1 589C97FF
 P 7450 6950
+AR Path="/57AC927F/581F64FA/589C97FF" Ref="#PWR?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C97FF" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7450 6700 50  0001 C CNN
 F 1 "GND" H 7455 6777 50  0000 C CNN
 F 2 "" H 7450 6950 50  0000 C CNN
@@ -264,6 +298,8 @@ $Comp
 L C C?
 U 1 1 589CC9B9
 P 9900 7550
+AR Path="/57AC927F/581F64FA/589CC9B9" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589CC9B9" Ref="C?"  Part="1" 
 F 0 "C?" H 9950 7650 50  0000 L CNN
 F 1 "100nF" H 9950 7450 50  0000 L CNN
 F 2 "" H 9938 7400 50  0000 C CNN
@@ -271,20 +307,22 @@ F 3 "" H 9900 7550 50  0000 C CNN
 	1    9900 7550
 	1    0    0    -1  
 $EndComp
-Text HLabel 5900 5750 0    60   Output ~ 0
+Text HLabel 5800 5750 0    60   Output ~ 0
 E_FAULT
 $Comp
 L R R?
 U 1 1 589D21BC
-P 5950 5250
-F 0 "R?" H 6019 5296 50  0000 L CNN
-F 1 "10kΩ" H 6019 5205 50  0000 L CNN
-F 2 "" V 5880 5250 50  0000 C CNN
-F 3 "" H 5950 5250 50  0000 C CNN
-	1    5950 5250
+P 5850 5100
+AR Path="/57AC927F/581F64FA/589D21BC" Ref="R?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589D21BC" Ref="R?"  Part="1" 
+F 0 "R?" H 5919 5146 50  0000 L CNN
+F 1 "10kΩ" H 5919 5055 50  0000 L CNN
+F 2 "" V 5780 5100 50  0000 C CNN
+F 3 "" H 5850 5100 50  0000 C CNN
+	1    5850 5100
 	-1   0    0    -1  
 $EndComp
-Text HLabel 7400 5300 0    60   Input ~ 0
+Text HLabel 5050 5300 0    60   Input ~ 0
 ~E_EN
 NoConn ~ 7500 5400
 Text Notes 7050 5500 0    60   ~ 0
@@ -293,6 +331,8 @@ $Comp
 L C C?
 U 1 1 589C396E
 P 7300 4800
+AR Path="/57AC927F/581F64FA/589C396E" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589C396E" Ref="C?"  Part="1" 
 F 0 "C?" H 7350 4900 50  0000 L CNN
 F 1 "4.7μF" H 7350 4700 50  0000 L CNN
 F 2 "" H 7338 4650 50  0000 C CNN
@@ -306,8 +346,10 @@ $Comp
 L R R?
 U 1 1 589E13FD
 P 9050 7550
+AR Path="/57AC927F/581F64FA/589E13FD" Ref="R?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589E13FD" Ref="R?"  Part="1" 
 F 0 "R?" H 9119 7596 50  0000 L CNN
-F 1 "6.04kΩ" H 9119 7505 50  0000 L CNN
+F 1 "5.23kΩ" H 9119 7505 50  0000 L CNN
 F 2 "" V 8980 7550 50  0000 C CNN
 F 3 "" H 9050 7550 50  0000 C CNN
 	1    9050 7550
@@ -319,8 +361,10 @@ $Comp
 L R R?
 U 1 1 589E24D4
 P 9250 7750
+AR Path="/57AC927F/581F64FA/589E24D4" Ref="R?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589E24D4" Ref="R?"  Part="1" 
 F 0 "R?" V 9050 7750 50  0000 C CNN
-F 1 "4.02kΩ" V 9150 7750 50  0000 C CNN
+F 1 "4.75kΩ" V 9150 7750 50  0000 C CNN
 F 2 "" V 9180 7750 50  0000 C CNN
 F 3 "" H 9250 7750 50  0000 C CNN
 	1    9250 7750
@@ -331,18 +375,22 @@ AIN_IREF=1-2.4V
 $Comp
 L R R?
 U 1 1 58A47723
-P 6300 5250
-F 0 "R?" H 6369 5296 50  0000 L CNN
-F 1 "10kΩ" H 6369 5205 50  0000 L CNN
-F 2 "" V 6230 5250 50  0000 C CNN
-F 3 "" H 6300 5250 50  0000 C CNN
-	1    6300 5250
+P 6200 5100
+AR Path="/57AC927F/581F64FA/58A47723" Ref="R?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58A47723" Ref="R?"  Part="1" 
+F 0 "R?" H 6269 5146 50  0000 L CNN
+F 1 "10kΩ" H 6269 5055 50  0000 L CNN
+F 2 "" V 6130 5100 50  0000 C CNN
+F 3 "" H 6200 5100 50  0000 C CNN
+	1    6200 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L C C?
 U 1 1 58AF169E
 P 10700 7550
+AR Path="/57AC927F/581F64FA/58AF169E" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58AF169E" Ref="C?"  Part="1" 
 F 0 "C?" H 10750 7650 50  0000 L CNN
 F 1 "100nF" H 10750 7450 50  0000 L CNN
 F 2 "" H 10738 7400 50  0000 C CNN
@@ -1605,7 +1653,7 @@ C0 E2 E2 E2 46 8D 1A 8D 1E 3D FA CD 37 DF 54 BF 40 30 20 20 40 AB D5 26 25 25 39
 EndData
 $EndBitmap
 Text Notes 6900 10100 0    60   ~ 0
-The sense resistor voltage range can be selected by the vsense bit in CHOPCONF. The low sensitivity \nsetting (high sense resistor voltage, vsense=0) brings best and most robust current regulation, while \nhigh sensitivity (low sense resistor voltage, vsense=1) reduces power dissipation in the sense resistor. \nThe high sensitivity setting reduces the power dissipation in the sense resistor by nearly half.
+The sense resistor voltage range can be selected by the vsense bit in CHOPCONF. The low sensitivity \nsetting (high sense resistor voltage, vsense=0) brings *best and most robust current regulation*, while \nhigh sensitivity (low sense resistor voltage, vsense=1) reduces power dissipation in the sense resistor. \nThe high sensitivity setting reduces the power dissipation in the sense resistor by nearly half.
 $Bitmap
 Pos 11700 5100
 Scale 1.000000
@@ -3189,13 +3237,15 @@ $EndBitmap
 Text Notes 10750 10250 0    60   ~ 0
 Vsrtl=325mV
 Text Notes 8850 9650 0    60   ~ 0
-Vain=1.998011928V
+Vain = 2.379759519V
 Text Notes 8150 8750 0    60   ~ 0
-Choose  sense  resistors  in  a  way,  that  normal \nIRUN is 16 to 31 for best microstep performance.\nfor 400mA and up Rsense = 224.173mΩ\nwith Rsense = 220mΩ   0.406550156A <= Irms <= 0.765270883A\nthat's a 0.358720727A range
+Choose  sense  resistors  in  a  way,  that  normal \nIRUN is 16 to 31 for best microstep performance.
 $Comp
 L C C?
 U 1 1 58B19CCF
 P 8950 5800
+AR Path="/57AC927F/581F64FA/58B19CCF" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58B19CCF" Ref="C?"  Part="1" 
 F 0 "C?" H 8975 5900 50  0000 L CNN
 F 1 "470pF" H 8950 5700 50  0000 L CNN
 F 2 "" H 8988 5650 50  0000 C CNN
@@ -3207,6 +3257,8 @@ $Comp
 L GND #PWR?
 U 1 1 58B19D33
 P 9050 6050
+AR Path="/57AC927F/581F64FA/58B19D33" Ref="#PWR?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58B19D33" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 9050 5800 50  0001 C CNN
 F 1 "GND" H 9050 5900 50  0000 C CNN
 F 2 "" H 9050 6050 50  0000 C CNN
@@ -3218,6 +3270,8 @@ $Comp
 L C C?
 U 1 1 58B1B794
 P 9150 5800
+AR Path="/57AC927F/581F64FA/58B1B794" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58B1B794" Ref="C?"  Part="1" 
 F 0 "C?" H 9175 5900 50  0000 L CNN
 F 1 "470pF" H 9175 5700 50  0000 L CNN
 F 2 "" H 9188 5650 50  0000 C CNN
@@ -3229,6 +3283,8 @@ $Comp
 L C C?
 U 1 1 58B1C6FD
 P 8950 6650
+AR Path="/57AC927F/581F64FA/58B1C6FD" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58B1C6FD" Ref="C?"  Part="1" 
 F 0 "C?" H 8975 6750 50  0000 L CNN
 F 1 "470pF" H 8950 6550 50  0000 L CNN
 F 2 "" H 8988 6500 50  0000 C CNN
@@ -3240,6 +3296,8 @@ $Comp
 L GND #PWR?
 U 1 1 58B1C704
 P 9050 6900
+AR Path="/57AC927F/581F64FA/58B1C704" Ref="#PWR?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58B1C704" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 9050 6650 50  0001 C CNN
 F 1 "GND" H 9050 6750 50  0000 C CNN
 F 2 "" H 9050 6900 50  0000 C CNN
@@ -3251,6 +3309,8 @@ $Comp
 L C C?
 U 1 1 58B1C710
 P 9150 6650
+AR Path="/57AC927F/581F64FA/58B1C710" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58B1C710" Ref="C?"  Part="1" 
 F 0 "C?" H 9175 6750 50  0000 L CNN
 F 1 "470pF" H 9175 6550 50  0000 L CNN
 F 2 "" H 9188 6500 50  0000 C CNN
@@ -3262,6 +3322,8 @@ $Comp
 L TMC2130 U?
 U 1 1 589A7425
 P 8200 5550
+AR Path="/57AC927F/581F64FA/589A7425" Ref="U?"  Part="1" 
+AR Path="/57AC927F/58BF239E/589A7425" Ref="U?"  Part="1" 
 F 0 "U?" H 7750 7050 60  0000 C CNN
 F 1 "TMC2130" H 8500 7050 60  0000 C CNN
 F 2 "" H 8200 5850 60  0000 C CNN
@@ -3271,13 +3333,7 @@ F 3 "" H 8200 5850 60  0000 C CNN
 $EndComp
 Connection ~ 7450 5050
 Wire Wire Line
-	6550 5050 6900 5050
-Wire Wire Line
-	6900 5050 7300 5050
-Wire Wire Line
-	7300 5050 7450 5050
-Wire Wire Line
-	7450 5050 7500 5050
+	6550 5050 7500 5050
 Wire Wire Line
 	7450 5150 7500 5150
 Connection ~ 7450 4850
@@ -3285,31 +3341,15 @@ Wire Wire Line
 	7500 4850 7450 4850
 Connection ~ 7450 4950
 Wire Wire Line
-	7450 4750 7450 4850
-Wire Wire Line
-	7450 4850 7450 4950
-Wire Wire Line
-	7450 4950 7450 5050
-Wire Wire Line
-	7450 5050 7450 5150
-Wire Wire Line
-	7450 5150 7450 6350
-Wire Wire Line
-	7450 6350 7450 6650
-Wire Wire Line
-	7450 6650 7450 6950
+	7450 4750 7450 6950
 Wire Wire Line
 	7500 4750 7450 4750
 Wire Wire Line
 	7450 6350 7500 6350
 Wire Wire Line
-	8900 7100 10550 7100
+	8900 7100 10700 7100
 Wire Wire Line
-	10550 7100 10700 7100
-Wire Wire Line
-	8900 6450 8950 6450
-Wire Wire Line
-	8950 6450 9200 6450
+	8900 6450 9200 6450
 Wire Wire Line
 	8950 4800 8900 4800
 Wire Wire Line
@@ -3330,11 +3370,7 @@ Connection ~ 9850 4150
 Wire Wire Line
 	10450 4150 10450 4100
 Wire Wire Line
-	9550 4150 9850 4150
-Wire Wire Line
-	9850 4150 10150 4150
-Wire Wire Line
-	10150 4150 10450 4150
+	9550 4150 10450 4150
 Wire Wire Line
 	9550 4100 9550 4150
 Connection ~ 9550 3750
@@ -3351,11 +3387,7 @@ Connection ~ 9400 4300
 Wire Wire Line
 	7300 4100 7300 4150
 Wire Wire Line
-	9400 3750 9400 4200
-Wire Wire Line
-	9400 4200 9400 4300
-Wire Wire Line
-	9400 4300 9400 4500
+	9400 3750 9400 4500
 Wire Wire Line
 	9400 4500 9250 4500
 Wire Wire Line
@@ -3365,52 +3397,26 @@ Wire Wire Line
 Wire Wire Line
 	8900 4500 8950 4500
 Wire Wire Line
-	7300 3750 7450 3750
-Wire Wire Line
-	7450 3750 8350 3750
-Wire Wire Line
-	8350 3750 9400 3750
-Wire Wire Line
-	9400 3750 9550 3750
-Wire Wire Line
-	9550 3750 9850 3750
-Wire Wire Line
-	9850 3750 10150 3750
-Wire Wire Line
-	10150 3750 10450 3750
+	7300 3750 10450 3750
 Wire Wire Line
 	7450 4200 7450 3750
 Wire Wire Line
-	7250 4600 7300 4600
-Wire Wire Line
-	7300 4600 7500 4600
+	7250 4600 7500 4600
 Wire Wire Line
 	7500 4950 7450 4950
 Connection ~ 7300 5050
 Connection ~ 7300 4600
 Wire Wire Line
-	5600 4350 5950 4350
-Wire Wire Line
-	5950 4350 6300 4350
-Wire Wire Line
-	6300 4350 6550 4350
-Wire Wire Line
-	6550 4350 7500 4350
-Wire Wire Line
 	6900 4950 6900 5050
 Wire Wire Line
-	6900 4450 6900 4600
-Wire Wire Line
-	6900 4600 6900 4650
+	6900 4450 6900 4650
 Wire Wire Line
 	6900 4600 6950 4600
 Wire Wire Line
 	7500 4450 6900 4450
 Connection ~ 6900 4600
 Wire Wire Line
-	6550 4300 6550 4350
-Wire Wire Line
-	6550 4350 6550 4650
+	6550 4300 6550 4650
 Wire Wire Line
 	6550 4950 6550 5050
 Connection ~ 6900 5050
@@ -3450,27 +3456,21 @@ Wire Wire Line
 	10550 7850 10550 7700
 Connection ~ 10550 7850
 Wire Wire Line
-	8900 7250 9750 7250
-Wire Wire Line
-	9750 7250 9900 7250
+	8900 7250 9900 7250
 Connection ~ 10550 7100
 Wire Wire Line
-	5900 5750 5950 5750
+	5800 5750 7500 5750
 Wire Wire Line
-	5950 5750 7500 5750
+	5850 5250 5850 5750
 Wire Wire Line
-	5950 5400 5950 5750
+	5850 4950 5850 4350
+Connection ~ 5850 5750
 Wire Wire Line
-	5950 5100 5950 4350
-Connection ~ 5950 5750
-Wire Wire Line
-	7500 5300 7400 5300
+	5050 5300 7500 5300
 Wire Wire Line
 	7300 4650 7300 4600
 Wire Wire Line
-	8900 7750 9050 7750
-Wire Wire Line
-	9050 7750 9100 7750
+	8900 7750 9100 7750
 Wire Wire Line
 	9050 7400 9050 7350
 Wire Wire Line
@@ -3480,50 +3480,32 @@ Wire Wire Line
 Connection ~ 9750 7850
 Connection ~ 9050 7750
 Wire Wire Line
-	9450 7750 9450 7850
-Wire Wire Line
-	9450 7850 9450 7900
+	9450 7750 9450 7900
 Connection ~ 9450 7850
 Wire Wire Line
 	9450 7750 9400 7750
 Wire Wire Line
-	6250 5900 6300 5900
+	6150 5900 7500 5900
 Wire Wire Line
-	6300 5900 7500 5900
+	6200 5900 6200 5250
+Connection ~ 6200 5900
 Wire Wire Line
-	6300 5900 6300 5400
-Connection ~ 6300 5900
+	6200 4350 6200 4950
+Connection ~ 6200 4350
 Wire Wire Line
-	6300 5100 6300 4350
-Connection ~ 6300 4350
+	5450 5650 7500 5650
 Wire Wire Line
-	5550 5650 5600 5650
-Wire Wire Line
-	5600 5650 7500 5650
-Wire Wire Line
-	8950 6000 9050 6000
-Wire Wire Line
-	9050 6000 9150 6000
+	8950 6000 9150 6000
 Wire Wire Line
 	8950 5600 8950 5650
 Connection ~ 8950 5600
 Wire Wire Line
-	8950 6850 9050 6850
-Wire Wire Line
-	9050 6850 9150 6850
+	8950 6850 9150 6850
 Wire Wire Line
 	8950 6450 8950 6500
 Connection ~ 8950 6450
 Wire Wire Line
-	8900 7850 9450 7850
-Wire Wire Line
-	9450 7850 9750 7850
-Wire Wire Line
-	9750 7850 9900 7850
-Wire Wire Line
-	9900 7850 10550 7850
-Wire Wire Line
-	10550 7850 10700 7850
+	8900 7850 10700 7850
 Wire Wire Line
 	9050 7350 9300 7350
 Connection ~ 9150 6300
@@ -3537,24 +3519,28 @@ Wire Wire Line
 $Comp
 L R R?
 U 1 1 58B391E8
-P 5600 5250
-F 0 "R?" H 5669 5296 50  0000 L CNN
-F 1 "10kΩ" H 5669 5205 50  0000 L CNN
-F 2 "" V 5530 5250 50  0000 C CNN
-F 3 "" H 5600 5250 50  0000 C CNN
-	1    5600 5250
+P 5500 5100
+AR Path="/57AC927F/581F64FA/58B391E8" Ref="R?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58B391E8" Ref="R?"  Part="1" 
+F 0 "R?" H 5569 5146 50  0000 L CNN
+F 1 "10kΩ" H 5569 5055 50  0000 L CNN
+F 2 "" V 5430 5100 50  0000 C CNN
+F 3 "" H 5500 5100 50  0000 C CNN
+	1    5500 5100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 5400 5600 5650
-Connection ~ 5600 5650
+	5500 5250 5500 5650
+Connection ~ 5500 5650
 Wire Wire Line
-	5600 5100 5600 4350
-Connection ~ 5950 4350
+	5500 4950 5500 4350
+Connection ~ 5850 4350
 $Comp
 L C C?
 U 1 1 58B40194
 P 10150 3950
+AR Path="/57AC927F/581F64FA/58B40194" Ref="C?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58B40194" Ref="C?"  Part="1" 
 F 0 "C?" H 10100 4050 50  0000 C CNN
 F 1 "4.7μF" H 10025 3850 50  0000 C CNN
 F 2 "" H 10188 3800 50  0000 C CNN
@@ -3566,22 +3552,16 @@ Wire Wire Line
 	10150 3800 10150 3750
 Connection ~ 10150 3750
 Wire Wire Line
-	10150 4100 10150 4150
-Wire Wire Line
-	10150 4150 10150 4200
+	10150 4100 10150 4200
 Connection ~ 10150 4150
 Wire Wire Line
 	9850 4100 9850 4150
-Text Notes 3100 4400 0    60   ~ 0
-5VOUT output voltage ceramic filtering capacitor (4.7μF recommended)\nshould be placed as close as  possible  to  the  5VOUT  pin,  with  its\nGND  return  going  directly  to  the  GNDA  pin
 Text Notes 6950 3050 0    60   ~ 0
 Place sense  resistors and all filter capacitors as close  as possible to the\nrelated  IC pins. Use a solid common GND for all GND connections, also\nfor sense resistor GND. Connect 5VOUT filtering capacitor directly to\n5VOUT and GNDA pin. See layout hints for more details. Low ESR\nelectrolytic capacitors are recommended for VS filtering.
 Text Notes 7600 2500 0    60   ~ 0
 See Chapter 29 of the datasheet for layout
 Wire Wire Line
-	8900 6300 9150 6300
-Wire Wire Line
-	9150 6300 9200 6300
+	8900 6300 9200 6300
 Wire Wire Line
 	9150 6850 9150 6800
 Wire Wire Line
@@ -3595,11 +3575,46 @@ Connection ~ 9050 6000
 Wire Wire Line
 	9150 6000 9150 5950
 Wire Wire Line
-	8900 5600 8950 5600
+	8900 5600 9200 5600
 Wire Wire Line
-	8950 5600 9200 5600
+	8900 5450 9200 5450
+Text Notes 2550 9450 0    60   ~ 0
+Vain = 2.0V\n\nRsense = 100mOhm:\nVsense = 1 : 26.516504mA res : 397.747564mA range : 0.450780573A to 0.848528137A\nVsense = 0 : 47.877022mA res : 718.155325mA range : 0.813909368A to 1.532064693A\n\nRsense = 120mOhm:\nVsense = 1 : 22.728432mA res : 340.926484mA range : 0.386383348A to 0.727309832A\nVsense = 0 : 41.037447mA res : 615.561707mA range : 0.697636601A to 1.313198308A\n\nRsense = 150mOhm:\nVsense = 1 : 18.717532mA res : 280.762986mA range : 0.318198052A to 0.598961038A\nVsense = 0 : 33.795545mA res : 506.933170mA range : 0.574524260A to 1.081457430A\n\nRsense = 220mOhm:\nVsense = 1 : 13.258252mA res : 198.873782mA range : 0.225390287A to 0.424264069A\nVsense = 0 : 23.938511mA res : 359.077662mA range : 0.406954684A to 0.766032346A\n\n\nVain = 2.4V\n\nRsense = 220mOhm:\nVsense = 1 : 15.909903mA res : 238.648538mA range : 0.270468344A to 0.509116882A\nVsense = 0 : 28.726213mA res : 430.893195mA range : 0.488345621A to 0.919238816A\n\n\nVain = 2.379759519V\n\nRsense = 220mOhm:\nVsense = 1 : 15.775726mA res : 236.635888mA range : 0.26818734A to 0.504823228A\nVsense = 0 : 28.483949mA res : 427.259243mA range : 0.484227141A to 0.911486384A
+$Comp
+L R R?
+U 1 1 58B9E656
+P 5100 5500
+AR Path="/57AC927F/581F64FA/58B9E656" Ref="R?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58B9E656" Ref="R?"  Part="1" 
+F 0 "R?" H 5169 5546 50  0000 L CNN
+F 1 "10kΩ" H 5169 5455 50  0000 L CNN
+F 2 "" V 5030 5500 50  0000 C CNN
+F 3 "" H 5100 5500 50  0000 C CNN
+	1    5100 5500
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5100 5300
+Text Notes 2800 4400 0    60   ~ 0
+5VOUT output voltage ceramic filtering capacitor (4.7μF recommended)\nshould be placed as close as  possible  to  the  5VOUT  pin,  with  its\nGND  return  going  directly  to  the  GNDA  pin
 Wire Wire Line
-	9200 5450 9150 5450
+	5500 4350 7500 4350
+$Comp
+L GND #PWR?
+U 1 1 58BCECFD
+P 5100 5700
+AR Path="/57AC927F/581F64FA/58BCECFD" Ref="#PWR?"  Part="1" 
+AR Path="/57AC927F/58BF239E/58BCECFD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5100 5450 50  0001 C CNN
+F 1 "GND" H 5105 5527 50  0000 C CNN
+F 2 "" H 5100 5700 50  0000 C CNN
+F 3 "" H 5100 5700 50  0000 C CNN
+	1    5100 5700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	9150 5450 8900 5450
+	5100 5700 5100 5650
+Wire Wire Line
+	5100 5300 5100 5350
+Text Notes 3450 5300 0    60   ~ 0
+Keeps all motors enabled when\nwriting to the shift registers
 $EndSCHEMATC

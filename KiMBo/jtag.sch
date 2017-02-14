@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 23
+Sheet 13 23
 Title ""
 Date ""
 Rev ""
@@ -321,7 +321,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 2050 2050 2050
 Wire Wire Line
-	2050 2000 2050 2050
+	2050 2050 2050 2000
 Wire Wire Line
 	2050 2200 2050 2150
 Wire Wire Line
@@ -329,7 +329,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 1850 2000 1850
 Wire Wire Line
-	2000 1500 2000 1850
+	2000 1850 2000 1500
 Wire Wire Line
 	1800 1500 1800 1600
 Connection ~ 1800 1500
@@ -364,9 +364,9 @@ Wire Wire Line
 Wire Wire Line
 	4300 2350 4800 2350
 Wire Wire Line
-	1400 2000 2050 2000
+	2050 2000 1400 2000
 Wire Wire Line
-	1400 1500 2000 1500
+	2000 1500 1400 1500
 Wire Wire Line
 	1400 2700 2000 2700
 Wire Wire Line
