@@ -129,17 +129,6 @@ $EndComp
 Text Label 6150 2450 2    60   ~ 0
 UART0_TXD
 $Comp
-L CONN_01X06 P?
-U 1 1 584F5093
-P 8050 2200
-F 0 "P?" H 8128 2241 50  0000 L CNN
-F 1 "CONN_01X06" H 8128 2150 50  0000 L CNN
-F 2 "" H 8050 2200 50  0000 C CNN
-F 3 "" H 8050 2200 50  0000 C CNN
-	1    8050 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR087
 U 1 1 584F509A
 P 7700 2000
@@ -150,9 +139,6 @@ F 3 "" H 7700 2000 50  0000 C CNN
 	1    7700 2000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7850 2450
-NoConn ~ 7850 2150
-NoConn ~ 7850 2050
 $Comp
 L CP1 C?
 U 1 1 584F50A3
@@ -559,21 +545,14 @@ Wire Wire Line
 Wire Wire Line
 	6550 2050 6550 1600
 Wire Wire Line
-	6550 1600 7600 1600
-Wire Wire Line
-	7600 1600 7700 1600
+	6550 1600 7700 1600
 Wire Wire Line
 	7600 1600 7600 2250
 Wire Wire Line
 	7600 2250 7850 2250
 Wire Wire Line
-	7700 1900 7700 1950
-Wire Wire Line
-	7700 1950 7700 2000
-Wire Wire Line
-	7700 1950 7850 1950
+	7700 1900 7700 2000
 Connection ~ 7600 1600
-Connection ~ 7700 1950
 Wire Wire Line
 	8250 1450 8250 1500
 Wire Wire Line
@@ -617,13 +596,9 @@ Wire Wire Line
 Wire Wire Line
 	3600 1600 3600 1650
 Wire Wire Line
-	2950 1650 3600 1650
+	2950 1650 3650 1650
 Wire Wire Line
-	3600 1650 3650 1650
-Wire Wire Line
-	2950 1750 3500 1750
-Wire Wire Line
-	3500 1750 3650 1750
+	2950 1750 3650 1750
 Wire Wire Line
 	3600 1250 3600 1300
 Connection ~ 3600 1650
@@ -633,9 +608,7 @@ Connection ~ 3500 1750
 Wire Wire Line
 	3500 1300 3500 1250
 Wire Wire Line
-	3500 1250 3550 1250
-Wire Wire Line
-	3550 1250 3600 1250
+	3500 1250 3600 1250
 Wire Wire Line
 	3550 1200 3550 1250
 Connection ~ 3550 1250
@@ -652,24 +625,16 @@ Wire Wire Line
 Wire Wire Line
 	5150 4200 6400 4200
 Wire Wire Line
-	4450 4100 4500 4100
-Wire Wire Line
-	4500 4100 5750 4100
-Wire Wire Line
-	5750 4100 5850 4100
+	4450 4100 5850 4100
 Wire Wire Line
 	6100 4800 6300 4800
 Wire Wire Line
-	6300 4750 6300 4800
-Wire Wire Line
-	6300 4800 6300 4850
+	6300 4750 6300 4850
 Connection ~ 6300 4800
 Wire Wire Line
 	6100 4600 6100 4400
 Wire Wire Line
-	5750 4400 6100 4400
-Wire Wire Line
-	6100 4400 6300 4400
+	5750 4400 6300 4400
 Wire Wire Line
 	6300 4400 6300 4450
 Wire Wire Line
@@ -683,9 +648,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4700 5150 4200
 Wire Wire Line
-	5750 4050 5750 4100
-Wire Wire Line
-	5750 4100 5750 4400
+	5750 4050 5750 4400
 Connection ~ 6100 4400
 Connection ~ 5750 4100
 Wire Wire Line
@@ -695,9 +658,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4300 4450 4300
 Wire Wire Line
-	4500 4100 4500 4200
-Wire Wire Line
-	4500 4200 4500 4300
+	4500 4100 4500 4300
 Wire Wire Line
 	4450 4200 4500 4200
 Connection ~ 4500 4200
@@ -707,9 +668,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4500 4450 4500
 Wire Wire Line
-	4450 4400 4550 4400
-Wire Wire Line
-	4550 4400 4700 4400
+	4450 4400 4700 4400
 Wire Wire Line
 	5050 4350 5050 4400
 Wire Wire Line
@@ -720,17 +679,13 @@ Wire Wire Line
 	4550 4550 5050 4550
 Connection ~ 4550 4400
 Wire Wire Line
-	2500 4200 3500 4200
-Wire Wire Line
-	3500 4200 3550 4200
+	2500 4200 3550 4200
 Wire Wire Line
 	3500 4200 3500 4300
 Wire Wire Line
 	3500 4300 3550 4300
 Wire Wire Line
-	2500 4150 2500 4200
-Wire Wire Line
-	2500 4200 2500 4250
+	2500 4150 2500 4250
 Connection ~ 3500 4200
 Wire Wire Line
 	2500 4600 2500 4550
@@ -740,9 +695,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 4100 2700 4250
 Wire Wire Line
-	2800 4400 3500 4400
-Wire Wire Line
-	3500 4400 3550 4400
+	2800 4400 3550 4400
 Wire Wire Line
 	3500 4450 3500 4400
 Connection ~ 3500 4400
@@ -753,9 +706,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 4300 8000 4250
 Wire Wire Line
-	8150 3850 8150 3900
-Wire Wire Line
-	8150 3900 8150 4100
+	8150 3850 8150 4100
 Wire Wire Line
 	8150 3900 8000 3900
 Wire Wire Line
@@ -767,4 +718,8 @@ Wire Wire Line
 	9650 4200 9000 4200
 Wire Wire Line
 	9650 4100 9000 4100
+Text HLabel 7850 2250 2    60   Input ~ 0
+UART0_RXD
+Text HLabel 7850 2350 2    60   Output ~ 0
+UART0_TXD
 $EndSCHEMATC
