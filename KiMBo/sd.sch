@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 22 23
+Sheet 18 25
 Title ""
 Date ""
 Rev ""
@@ -70,9 +70,7 @@ $EndComp
 Wire Wire Line
 	7100 2550 7100 2600
 Wire Wire Line
-	6900 2550 7000 2550
-Wire Wire Line
-	7000 2550 7100 2550
+	6900 2550 7100 2550
 Wire Wire Line
 	6900 2550 6900 2600
 Wire Wire Line
@@ -81,9 +79,7 @@ Connection ~ 7000 2550
 Wire Wire Line
 	7100 2950 7100 2900
 Wire Wire Line
-	6900 2950 7000 2950
-Wire Wire Line
-	7000 2950 7100 2950
+	6900 2950 7100 2950
 Wire Wire Line
 	6900 2950 6900 2900
 Wire Wire Line
@@ -124,29 +120,17 @@ SD.D0
 Text HLabel 6600 3600 2    60   BiDi ~ 0
 SD.D1
 Wire Wire Line
-	4800 3400 5300 3400
+	4800 3400 6600 3400
 Wire Wire Line
-	5300 3400 6600 3400
+	4800 3500 6600 3500
 Wire Wire Line
-	4800 3500 5550 3500
+	4800 3600 6600 3600
 Wire Wire Line
-	5550 3500 6600 3500
+	4800 3700 6600 3700
 Wire Wire Line
-	4800 3600 5800 3600
+	4800 3800 6600 3800
 Wire Wire Line
-	5800 3600 6600 3600
-Wire Wire Line
-	4800 3700 6050 3700
-Wire Wire Line
-	6050 3700 6600 3700
-Wire Wire Line
-	4800 3800 6300 3800
-Wire Wire Line
-	6300 3800 6600 3800
-Wire Wire Line
-	4800 3900 6550 3900
-Wire Wire Line
-	6550 3900 6600 3900
+	4800 3900 6600 3900
 $Comp
 L R R?
 U 1 1 58F3951D
@@ -245,26 +229,14 @@ F 3 "" H 5050 3100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 3300 5050 3300
-Wire Wire Line
-	5050 3300 6600 3300
+	4800 3300 6600 3300
 Wire Wire Line
 	5050 3250 5050 3300
 Connection ~ 5050 3300
 Wire Wire Line
 	5050 2950 5050 2900
 Wire Wire Line
-	5050 2900 5300 2900
-Wire Wire Line
-	5300 2900 5550 2900
-Wire Wire Line
-	5550 2900 5800 2900
-Wire Wire Line
-	5800 2900 6050 2900
-Wire Wire Line
-	6050 2900 6300 2900
-Wire Wire Line
-	6300 2900 6550 2900
+	5050 2900 6550 2900
 Wire Wire Line
 	6550 2900 6550 2950
 Wire Wire Line
@@ -274,9 +246,7 @@ Wire Wire Line
 	6050 2950 6050 2900
 Connection ~ 6050 2900
 Wire Wire Line
-	5800 2850 5800 2900
-Wire Wire Line
-	5800 2900 5800 2950
+	5800 2850 5800 2950
 Connection ~ 5800 2900
 Wire Wire Line
 	5550 2950 5550 2900

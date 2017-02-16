@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 18 23
+Sheet 11 25
 Title ""
 Date ""
 Rev ""
@@ -3617,4 +3617,6 @@ Wire Wire Line
 	5100 5300 5100 5350
 Text Notes 3450 5300 0    60   ~ 0
 Keeps all motors enabled when\nwriting to the shift registers
+Text Notes 4950 6200 0    60   ~ 0
+Can extract which\nfault is occurring via SPI\nby changing GCONF reg
 $EndSCHEMATC

@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 23
+Sheet 7 25
 Title ""
 Date ""
 Rev ""
@@ -722,4 +722,10 @@ Text HLabel 7850 2250 2    60   Input ~ 0
 UART0_RXD
 Text HLabel 7850 2350 2    60   Output ~ 0
 UART0_TXD
+Text HLabel 6150 2950 2    60   Input ~ 0
+Z_FAULT
+Text HLabel 6150 2750 2    60   BiDi ~ 0
+I2C2_SCL
+Text HLabel 6150 2650 2    60   BiDi ~ 0
+I2C2_SDA
 $EndSCHEMATC

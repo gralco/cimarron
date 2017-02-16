@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 14 23
+Sheet 16 25
 Title ""
 Date ""
 Rev ""
@@ -283,8 +283,6 @@ $EndComp
 Text HLabel 4950 4550 0    60   Input ~ 0
 ~Z2_EN
 NoConn ~ 7400 4650
-Text Notes 6950 4750 0    60   ~ 0
-IntZ2rnal\nPull-Up
 $Comp
 L C C?
 U 1 1 58C0DF9A

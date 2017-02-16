@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 23
+Sheet 4 25
 Title ""
 Date ""
 Rev ""
@@ -440,4 +440,26 @@ F 3 "" H 6050 4850 50  0000 C CNN
 $EndComp
 Connection ~ 4200 2500
 Connection ~ 4200 2700
+$Comp
+L D_Schottky D?
+U 1 1 59EA2069
+P 8150 2900
+F 0 "D?" V 8104 2979 50  0000 L CNN
+F 1 "MBRA340T3" V 8195 2979 50  0000 L CNN
+F 2 "" H 8150 2900 50  0000 C CNN
+F 3 "" H 8150 2900 50  0000 C CNN
+	1    8150 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 59EA352E
+P 7500 2900
+F 0 "D?" V 7454 2979 50  0000 L CNN
+F 1 "SMBJ30A" V 7545 2979 50  0000 L CNN
+F 2 "" H 7500 2900 50  0000 C CNN
+F 3 "" H 7500 2900 50  0000 C CNN
+	1    7500 2900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

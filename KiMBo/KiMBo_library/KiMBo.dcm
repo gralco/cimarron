@@ -80,6 +80,11 @@ D Ethernet Transceiver
 K Ethernet
 $ENDCMP
 #
+$CMP LED_Short
+D LED generic
+K led diode
+$ENDCMP
+#
 $CMP Micro_SD_Card_Shield
 D Micro SD Card Socket
 K connector SD microsd
@@ -89,6 +94,10 @@ $ENDCMP
 $CMP SMALL_VARISTOR
 D Voltage dependent resistor
 K vdr resistance
+$ENDCMP
+#
+$CMP SYS_5V
+K POWER, PWR
 $ENDCMP
 #
 $CMP TDA19988BHN/C1,557
@@ -123,6 +132,14 @@ $ENDCMP
 $CMP USB_OTG_5_SHIELD_PINS
 D USB micro/mini connector
 K connector USB USB_OTG USB_mini USB_micro
+$ENDCMP
+#
+$CMP VDD_3V3B
+K POWER, PWR
+$ENDCMP
+#
+$CMP VDD_5V
+K POWER, PWR
 $ENDCMP
 #
 $CMP VDD_PHYA

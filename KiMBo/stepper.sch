@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 16 23
+Sheet 10 25
 Title ""
 Date ""
 Rev ""
@@ -360,7 +360,7 @@ Text Label 7200 3550 2    60   ~ 0
 Text Label 7200 3650 2    60   ~ 0
 ~Z2_SS
 Text Label 7200 5350 2    60   ~ 0
-~E_EN
+~EH_EN
 Text Label 7200 4950 2    60   ~ 0
 ~XY_EN
 $Comp
@@ -390,7 +390,7 @@ GND
 Text Notes 5800 3200 0    30   ~ 0
 VCC
 Text Label 5150 6700 0    60   ~ 0
-~E_SS
+~EH_SS
 Text HLabel 5350 3850 0    60   Input ~ 0
 ~EN_SR
 Text Label 4900 3250 0    60   ~ 0
@@ -455,7 +455,9 @@ Wire Wire Line
 Wire Wire Line
 	4900 3450 5450 3450
 Wire Wire Line
-	5350 3850 5450 3850
+	5350 3850 5400 3850
+Wire Wire Line
+	5400 3850 5450 3850
 Wire Wire Line
 	5450 3750 5350 3750
 Wire Wire Line
@@ -466,22 +468,30 @@ Wire Wire Line
 	5400 7150 5150 7150
 Connection ~ 11400 3900
 Wire Wire Line
-	11400 3750 11400 3950
+	11400 3750 11400 3900
+Wire Wire Line
+	11400 3900 11400 3950
 Connection ~ 11300 3800
 Wire Wire Line
-	11300 3750 11300 3950
+	11300 3750 11300 3800
+Wire Wire Line
+	11300 3800 11300 3950
 Connection ~ 11350 4400
 Wire Wire Line
 	11350 4450 11350 4400
 Wire Wire Line
-	11300 4400 11400 4400
+	11300 4400 11350 4400
+Wire Wire Line
+	11350 4400 11400 4400
 Wire Wire Line
 	11400 4400 11400 4350
 Connection ~ 11350 3300
 Wire Wire Line
 	11350 3300 11350 3250
 Wire Wire Line
-	11300 3300 11400 3300
+	11300 3300 11350 3300
+Wire Wire Line
+	11350 3300 11400 3300
 Wire Wire Line
 	11400 3300 11400 3350
 Wire Wire Line
@@ -493,9 +503,13 @@ Wire Wire Line
 Wire Wire Line
 	11850 3600 11750 3600
 Wire Wire Line
-	11250 3800 11850 3800
+	11250 3800 11300 3800
 Wire Wire Line
-	11250 3900 11850 3900
+	11300 3800 11850 3800
+Wire Wire Line
+	11250 3900 11400 3900
+Wire Wire Line
+	11400 3900 11850 3900
 Wire Wire Line
 	12550 3100 12050 3100
 Wire Wire Line
@@ -503,7 +517,9 @@ Wire Wire Line
 Connection ~ 12500 4100
 Connection ~ 12550 3200
 Wire Wire Line
-	12500 3200 12600 3200
+	12500 3200 12550 3200
+Wire Wire Line
+	12550 3200 12600 3200
 Wire Wire Line
 	12600 3200 12600 3250
 Wire Wire Line
@@ -513,7 +529,9 @@ Wire Wire Line
 Wire Wire Line
 	12500 3200 12500 3250
 Wire Wire Line
-	12500 3800 12500 4150
+	12500 3800 12500 4100
+Wire Wire Line
+	12500 4100 12500 4150
 Wire Wire Line
 	12450 4100 12500 4100
 Wire Wire Line
@@ -524,22 +542,30 @@ Wire Wire Line
 	12450 3900 12600 3900
 Connection ~ 11400 2200
 Wire Wire Line
-	11400 2050 11400 2250
+	11400 2050 11400 2200
+Wire Wire Line
+	11400 2200 11400 2250
 Connection ~ 11300 2100
 Wire Wire Line
-	11300 2050 11300 2250
+	11300 2050 11300 2100
+Wire Wire Line
+	11300 2100 11300 2250
 Connection ~ 11350 2700
 Wire Wire Line
 	11350 2750 11350 2700
 Wire Wire Line
-	11300 2700 11400 2700
+	11300 2700 11350 2700
+Wire Wire Line
+	11350 2700 11400 2700
 Wire Wire Line
 	11400 2700 11400 2650
 Connection ~ 11350 1600
 Wire Wire Line
 	11350 1600 11350 1550
 Wire Wire Line
-	11300 1600 11400 1600
+	11300 1600 11350 1600
+Wire Wire Line
+	11350 1600 11400 1600
 Wire Wire Line
 	11400 1600 11400 1650
 Wire Wire Line
@@ -551,9 +577,13 @@ Wire Wire Line
 Wire Wire Line
 	11850 1900 11750 1900
 Wire Wire Line
-	11250 2100 11850 2100
+	11250 2100 11300 2100
 Wire Wire Line
-	11250 2200 11850 2200
+	11300 2100 11850 2100
+Wire Wire Line
+	11250 2200 11400 2200
+Wire Wire Line
+	11400 2200 11850 2200
 Wire Wire Line
 	12550 1400 12050 1400
 Wire Wire Line
@@ -561,7 +591,9 @@ Wire Wire Line
 Connection ~ 12500 2400
 Connection ~ 12550 1500
 Wire Wire Line
-	12500 1500 12600 1500
+	12500 1500 12550 1500
+Wire Wire Line
+	12550 1500 12600 1500
 Wire Wire Line
 	12600 1500 12600 1550
 Wire Wire Line
@@ -571,7 +603,9 @@ Wire Wire Line
 Wire Wire Line
 	12500 1500 12500 1550
 Wire Wire Line
-	12500 2100 12500 2450
+	12500 2100 12500 2400
+Wire Wire Line
+	12500 2400 12500 2450
 Wire Wire Line
 	12450 2400 12500 2400
 Wire Wire Line
@@ -587,7 +621,35 @@ Wire Wire Line
 Wire Wire Line
 	5400 6450 5350 6450
 Wire Bus Line
-	4800 2950 4800 10500
+	4800 2950 4800 3050
+Wire Bus Line
+	4800 3050 4800 3150
+Wire Bus Line
+	4800 3150 4800 3350
+Wire Bus Line
+	4800 3350 4800 3550
+Wire Bus Line
+	4800 3550 4800 5250
+Wire Bus Line
+	4800 5250 4800 6900
+Wire Bus Line
+	4800 6900 4800 7000
+Wire Bus Line
+	4800 7000 4800 7100
+Wire Bus Line
+	4800 7100 4800 8300
+Wire Bus Line
+	4800 8300 4800 8400
+Wire Bus Line
+	4800 8400 4800 8500
+Wire Bus Line
+	4800 8500 4800 9700
+Wire Bus Line
+	4800 9700 4800 9800
+Wire Bus Line
+	4800 9800 4800 9900
+Wire Bus Line
+	4800 9900 4800 10500
 Wire Wire Line
 	4900 7000 5400 7000
 Wire Wire Line
@@ -595,7 +657,25 @@ Wire Wire Line
 Wire Wire Line
 	4900 6800 5400 6800
 Wire Bus Line
-	6600 6900 6600 10500
+	6600 6250 6600 6900
+Wire Bus Line
+	6600 6900 6600 7000
+Wire Bus Line
+	6600 7000 6600 7100
+Wire Bus Line
+	6600 7100 6600 8300
+Wire Bus Line
+	6600 8300 6600 8400
+Wire Bus Line
+	6600 8400 6600 8500
+Wire Bus Line
+	6600 8500 6600 9700
+Wire Bus Line
+	6600 9700 6600 9800
+Wire Bus Line
+	6600 9800 6600 9900
+Wire Bus Line
+	6600 9900 6600 10500
 Wire Bus Line
 	6600 10500 4800 10500
 Wire Wire Line
@@ -676,7 +756,9 @@ Wire Wire Line
 Wire Wire Line
 	4900 5150 5450 5150
 Wire Wire Line
-	5350 5550 5450 5550
+	5350 5550 5400 5550
+Wire Wire Line
+	5400 5550 5450 5550
 Wire Wire Line
 	5450 5450 5350 5450
 Text Label 7200 5050 2    60   ~ 0
@@ -685,10 +767,6 @@ Text Label 7200 5150 2    60   ~ 0
 ~Z1_EN
 Text Label 7200 5250 2    60   ~ 0
 ~Z2_EN
-NoConn ~ 6850 5450
-NoConn ~ 6850 5550
-NoConn ~ 6850 5650
-NoConn ~ 6850 3850
 Wire Wire Line
 	5450 4950 5400 4950
 Wire Wire Line
@@ -705,7 +783,6 @@ Text Notes 3900 2700 0    60   ~ 0
 SPI1_SS captures the data in the shift register and is ready to be driven\nby the second stage of D-FFs
 Text Notes 7600 3100 0    60   ~ 0
 Writing and outputting data:\n1. Bring ~EN_SR~ HIGH\n - output high-Z, enables all motors\n2. Write data\n3. Toggle SPI1_SS _|‾|_\n4. Bring ~EN_SR~ LOW\n - output enabled, disable specific motors/ready to configure
-NoConn ~ 6850 3950
 Entry Wire Line
 	4900 5150 4800 5250
 Entry Wire Line
@@ -1086,4 +1163,109 @@ F11 "~Z2_SS" I L 7200 9500 60
 F12 "Z2_FAULT" O L 7200 10100 60 
 F13 "~Z2_EN" I L 7200 9950 60 
 $EndSheet
+$Sheet
+S 9050 6350 800  1200
+U 59A0BA3D
+F0 "H Stepper Driver" 60
+F1 "h_stepper.sch" 60
+F2 "SCLK" I L 9050 6800 60 
+F3 "MISO" T L 9050 7000 60 
+F4 "MOSI" I L 9050 6900 60 
+F5 "H_A1" O R 9850 6700 60 
+F6 "H_A2" O R 9850 6800 60 
+F7 "H_B1" O R 9850 6900 60 
+F8 "H_B2" O R 9850 7000 60 
+F9 "H_STEP" I L 9050 6450 60 
+F10 "H_DIR" I L 9050 6550 60 
+F11 "~H_SS" I L 9050 6700 60 
+F12 "~H_EN" I L 9050 7150 60 
+F13 "H_SG" O L 9050 7300 60 
+F14 "H_FAULT" O L 9050 7450 60 
+$EndSheet
+Entry Wire Line
+	8550 7000 8450 7100
+Entry Wire Line
+	8550 6900 8450 7000
+Text HLabel 9000 6450 0    60   Input ~ 0
+H_STEP
+Text HLabel 9000 6550 0    60   Input ~ 0
+H_DIR
+Text HLabel 9000 7300 0    60   Output ~ 0
+H_SG
+Text Label 8800 6700 0    60   ~ 0
+~EH_SS
+Text Label 8800 7150 0    60   ~ 0
+~H_EN
+Entry Wire Line
+	8550 6800 8450 6900
+Text Label 8550 6900 0    60   ~ 0
+SPI1_MOSI
+Text Label 8550 6800 0    60   ~ 0
+SPI1_SCLK
+Text Label 8550 7000 0    60   ~ 0
+SPI1_MISO
+Wire Wire Line
+	9050 7300 9000 7300
+Wire Wire Line
+	9050 7150 8800 7150
+Wire Wire Line
+	9050 6700 8800 6700
+Wire Wire Line
+	9050 6550 9000 6550
+Wire Wire Line
+	9050 6450 9000 6450
+Wire Wire Line
+	8550 7000 9050 7000
+Wire Wire Line
+	8550 6900 9050 6900
+Wire Wire Line
+	8550 6800 9050 6800
+Wire Wire Line
+	9850 6700 9900 6700
+Wire Wire Line
+	9850 6800 9900 6800
+Wire Wire Line
+	9850 6900 9900 6900
+Wire Wire Line
+	9850 7000 9900 7000
+Text HLabel 9000 7450 0    60   Output ~ 0
+H_FAULT
+Wire Wire Line
+	9050 7450 9000 7450
+Text HLabel 9900 6700 2    60   Output ~ 0
+H_A1
+Text HLabel 9900 6800 2    60   Output ~ 0
+H_A2
+Text HLabel 9900 6900 2    60   Output ~ 0
+H_B1
+Text HLabel 9900 7000 2    60   Output ~ 0
+H_B2
+Wire Bus Line
+	8450 6250 8450 6900
+Wire Bus Line
+	8450 6900 8450 7000
+Wire Bus Line
+	8450 7000 8450 7100
+Wire Bus Line
+	8450 6250 6600 6250
+Wire Wire Line
+	6850 5450 6900 5450
+Wire Wire Line
+	6850 3850 7200 3850
+Text Label 7200 3850 2    60   ~ 0
+~H_SS
+Text HLabel 6900 3950 2    60   Output ~ 0
+~SS_TOOLHEAD0
+Wire Wire Line
+	6850 3950 6900 3950
+Text HLabel 6900 5550 2    60   Output ~ 0
+~SS_DOCK0
+Text HLabel 6900 5650 2    60   Output ~ 0
+~SS_DOCK1
+Wire Wire Line
+	6850 5550 6900 5550
+Wire Wire Line
+	6850 5650 6900 5650
+Text HLabel 6900 5450 2    60   Output ~ 0
+~SS_TOOLHEAD1
 $EndSCHEMATC
