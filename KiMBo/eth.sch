@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 25
+Sheet 11 27
 Title ""
 Date ""
 Rev ""
@@ -494,7 +494,7 @@ L INDUCTOR_Small FB?
 U 1 1 589FB353
 P 6550 2450
 F 0 "FB?" V 6735 2450 50  0000 C CNN
-F 1 "Ferrite" V 6644 2450 50  0000 C CNN
+F 1 "100Ω" V 6644 2450 50  0000 C CNN
 F 2 "" H 6550 2450 50  0000 C CNN
 F 3 "" H 6550 2450 50  0000 C CNN
 	1    6550 2450
@@ -520,17 +520,6 @@ F 1 "GND" H 5905 2677 50  0000 C CNN
 F 2 "" H 5900 2850 50  0000 C CNN
 F 3 "" H 5900 2850 50  0000 C CNN
 	1    5900 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 589FC1CA
-P 5900 2400
-F 0 "#PWR?" H 5900 2250 50  0001 C CNN
-F 1 "+3V3" H 5915 2573 50  0000 C CNN
-F 2 "" H 5900 2400 50  0000 C CNN
-F 3 "" H 5900 2400 50  0000 C CNN
-	1    5900 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -763,12 +752,140 @@ F 3 "" H 10550 1200 50  0000 C CNN
 	1    10550 1200
 	1    0    0    -1  
 $EndComp
+Text Label 9700 1450 0    60   ~ 0
+MODE2
+Text Label 9700 1550 0    60   ~ 0
+RXD1/MODE1
+Text Label 9700 1650 0    60   ~ 0
+RXD0/MODE0
+Text HLabel 9100 3200 2    60   BiDi ~ 0
+TD-
+Text HLabel 9100 3100 2    60   BiDi ~ 0
+TD+
+Text HLabel 9100 3350 2    60   BiDi ~ 0
+RD+
+Text HLabel 9100 3450 2    60   BiDi ~ 0
+RD-
+Text HLabel 9100 4200 2    60   Output ~ 0
+YELA
+Text HLabel 9100 4100 2    60   Output ~ 0
+GRNA
 $Comp
-L +3V3 #PWR?
-U 1 1 58A0DE56
+L OSD3358 U?
+U 3 1 591FDF33
+P 1650 1050
+AR Path="/581AEC7B/591FDF33" Ref="U?"  Part="3" 
+AR Path="/589CBCC9/591FDF33" Ref="U?"  Part="3" 
+F 0 "U?" H 2550 1340 60  0000 C CNN
+F 1 "OSD3358" H 2550 1234 60  0000 C CNN
+F 2 "" H 1650 1050 60  0001 C CNN
+F 3 "" H 1650 1050 60  0001 C CNN
+	3    1650 1050
+	1    0    0    -1  
+$EndComp
+Text Label 1050 1150 0    60   ~ 0
+MII1_REFCLK
+Text Label 1050 2650 0    60   ~ 0
+MDIO_DATA
+Text Label 1050 2750 0    60   ~ 0
+MDIO_CLK
+Text Label 1050 2550 0    60   ~ 0
+MII1_RXD3
+Text Label 1050 2450 0    60   ~ 0
+MII1_RXD2
+Text Label 1050 2350 0    60   ~ 0
+MII1_RXD1
+Text Label 1050 2250 0    60   ~ 0
+MII1_RXD0
+Text Label 1050 2150 0    60   ~ 0
+MII1_RXDV
+Text Label 1050 2050 0    60   ~ 0
+MII1_RXCLK
+Text Label 1050 1950 0    60   ~ 0
+MII1_RXERR
+Text Label 1050 1450 0    60   ~ 0
+MII1_TXCLK
+Text Label 1050 1350 0    60   ~ 0
+MII1_TXEN
+Text Label 1050 1550 0    60   ~ 0
+MII1_TXD0
+Text Label 1050 1650 0    60   ~ 0
+MII1_TXD1
+Text Label 1050 1750 0    60   ~ 0
+MII1_TXD2
+Text Label 1050 1850 0    60   ~ 0
+MII1_TXD3
+Text Label 1050 1250 0    60   ~ 0
+MII1_COL
+Text Label 1050 1050 0    60   ~ 0
+MII1_CRS_DV
+Text HLabel 4900 4900 0    60   BiDi ~ 0
+~SYS_RESET
+Text Label 4350 2950 0    60   ~ 0
+MII1_REFCLK
+Text Label 4350 3100 0    60   ~ 0
+MDIO_DATA
+Text Label 4350 3200 0    60   ~ 0
+MDIO_CLK
+Text Label 4350 3300 0    60   ~ 0
+MII1_RXD3
+Text Label 4350 3400 0    60   ~ 0
+MII1_RXD2
+Text Label 4350 3500 0    60   ~ 0
+MII1_RXD1
+Text Label 4350 3600 0    60   ~ 0
+MII1_RXD0
+Text Label 4350 3700 0    60   ~ 0
+MII1_RXDV
+Text Label 4350 3800 0    60   ~ 0
+MII1_RXCLK
+Text Label 4350 3900 0    60   ~ 0
+MII1_RXERR
+Text Label 4350 4050 0    60   ~ 0
+MII1_TXCLK
+Text Label 4350 4150 0    60   ~ 0
+MII1_TXEN
+Text Label 4350 4250 0    60   ~ 0
+MII1_TXD0
+Text Label 4350 4350 0    60   ~ 0
+MII1_TXD1
+Text Label 4350 4450 0    60   ~ 0
+MII1_TXD2
+Text Label 4350 4550 0    60   ~ 0
+MII1_TXD3
+Text Label 4350 4650 0    60   ~ 0
+MII1_COL
+Text Label 4350 4750 0    60   ~ 0
+MII1_CRS_DV
+Text HLabel 3500 2550 2    60   BiDi ~ 0
+MMC0_DAT0
+Text HLabel 3500 2450 2    60   BiDi ~ 0
+MMC0_DAT1
+Text HLabel 3500 2350 2    60   BiDi ~ 0
+MMC0_DAT2
+Text HLabel 3500 2250 2    60   BiDi ~ 0
+MMC0_DAT3
+Text HLabel 3500 2650 2    60   BiDi ~ 0
+MMC0_CMD
+Text HLabel 3500 2750 2    60   Output ~ 0
+MMC0_CLK
+$Comp
+L VDD_3V3B #PWR?
+U 1 1 5A083952
+P 5900 2400
+F 0 "#PWR?" H 5900 2250 50  0001 C CNN
+F 1 "VDD_3V3B" H 5915 2573 50  0000 C CNN
+F 2 "" H 5900 2400 50  0000 C CNN
+F 3 "" H 5900 2400 50  0000 C CNN
+	1    5900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD_3V3B #PWR?
+U 1 1 5A08528B
 P 10300 950
 F 0 "#PWR?" H 10300 800 50  0001 C CNN
-F 1 "+3V3" H 10315 1123 50  0000 C CNN
+F 1 "VDD_3V3B" H 10315 1123 50  0000 C CNN
 F 2 "" H 10300 950 50  0000 C CNN
 F 3 "" H 10300 950 50  0000 C CNN
 	1    10300 950 
@@ -855,13 +972,13 @@ Wire Wire Line
 Wire Wire Line
 	5100 4750 4350 4750
 Wire Wire Line
-	8200 3100 9850 3100
+	8200 3100 9100 3100
 Wire Wire Line
-	8200 3200 9850 3200
+	8200 3200 9100 3200
 Wire Wire Line
-	8200 3450 9850 3450
+	8200 3450 9100 3450
 Wire Wire Line
-	8200 3350 9850 3350
+	8200 3350 9100 3350
 Wire Wire Line
 	8350 2750 8350 2700
 Wire Wire Line
@@ -919,13 +1036,13 @@ Wire Wire Line
 Wire Wire Line
 	8700 5000 8700 5050
 Wire Wire Line
-	8200 4100 9850 4100
+	8200 4100 9100 4100
 Wire Wire Line
 	6950 2750 6950 2700
 Wire Wire Line
 	6950 2700 6150 2700
 Wire Wire Line
-	6150 2700 6150 2750
+	6150 2450 6150 2750
 Wire Wire Line
 	6150 3050 6150 3100
 Connection ~ 6150 3100
@@ -1031,12 +1148,6 @@ Wire Wire Line
 Wire Wire Line
 	10300 950  10300 1050
 Connection ~ 10300 1000
-Text Label 9700 1450 0    60   ~ 0
-MODE2
-Text Label 9700 1550 0    60   ~ 0
-RXD1/MODE1
-Text Label 9700 1650 0    60   ~ 0
-RXD0/MODE0
 Wire Wire Line
 	10050 1350 10050 1450
 Wire Wire Line
@@ -1049,31 +1160,6 @@ Wire Wire Line
 	10550 1350 10550 1650
 Wire Wire Line
 	10550 1650 9700 1650
-Text HLabel 9850 3200 2    60   BiDi ~ 0
-TD-
-Text HLabel 9850 3100 2    60   BiDi ~ 0
-TD+
-Text HLabel 9850 3350 2    60   BiDi ~ 0
-RD+
-Text HLabel 9850 3450 2    60   BiDi ~ 0
-RD-
-Text HLabel 9850 4200 2    60   Output ~ 0
-YELA
-Text HLabel 9850 4100 2    60   Output ~ 0
-GRNA
-$Comp
-L OSD3358 U?
-U 3 1 591FDF33
-P 1650 1050
-AR Path="/581AEC7B/591FDF33" Ref="U?"  Part="3" 
-AR Path="/589CBCC9/591FDF33" Ref="U?"  Part="3" 
-F 0 "U?" H 2550 1340 60  0000 C CNN
-F 1 "OSD3358" H 2550 1234 60  0000 C CNN
-F 2 "" H 1650 1050 60  0001 C CNN
-F 3 "" H 1650 1050 60  0001 C CNN
-	3    1650 1050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3500 2250 3450 2250
 Wire Wire Line
@@ -1131,91 +1217,21 @@ Wire Notes Line
 Wire Notes Line
 	4150 2900 1000 2900
 Wire Wire Line
-	9850 4200 8200 4200
-Text Label 1050 1150 0    60   ~ 0
-MII1_REFCLK
-Text Label 1050 2650 0    60   ~ 0
-MDIO_DATA
-Text Label 1050 2750 0    60   ~ 0
-MDIO_CLK
-Text Label 1050 2550 0    60   ~ 0
-MII1_RXD3
-Text Label 1050 2450 0    60   ~ 0
-MII1_RXD2
-Text Label 1050 2350 0    60   ~ 0
-MII1_RXD1
-Text Label 1050 2250 0    60   ~ 0
-MII1_RXD0
-Text Label 1050 2150 0    60   ~ 0
-MII1_RXDV
-Text Label 1050 2050 0    60   ~ 0
-MII1_RXCLK
-Text Label 1050 1950 0    60   ~ 0
-MII1_RXERR
-Text Label 1050 1450 0    60   ~ 0
-MII1_TXCLK
-Text Label 1050 1350 0    60   ~ 0
-MII1_TXEN
-Text Label 1050 1550 0    60   ~ 0
-MII1_TXD0
-Text Label 1050 1650 0    60   ~ 0
-MII1_TXD1
-Text Label 1050 1750 0    60   ~ 0
-MII1_TXD2
-Text Label 1050 1850 0    60   ~ 0
-MII1_TXD3
-Text Label 1050 1250 0    60   ~ 0
-MII1_COL
-Text Label 1050 1050 0    60   ~ 0
-MII1_CRS_DV
-Text HLabel 4900 4900 0    60   BiDi ~ 0
-~SYS_RESET
-Text Label 4350 2950 0    60   ~ 0
-MII1_REFCLK
-Text Label 4350 3100 0    60   ~ 0
-MDIO_DATA
-Text Label 4350 3200 0    60   ~ 0
-MDIO_CLK
-Text Label 4350 3300 0    60   ~ 0
-MII1_RXD3
-Text Label 4350 3400 0    60   ~ 0
-MII1_RXD2
-Text Label 4350 3500 0    60   ~ 0
-MII1_RXD1
-Text Label 4350 3600 0    60   ~ 0
-MII1_RXD0
-Text Label 4350 3700 0    60   ~ 0
-MII1_RXDV
-Text Label 4350 3800 0    60   ~ 0
-MII1_RXCLK
-Text Label 4350 3900 0    60   ~ 0
-MII1_RXERR
-Text Label 4350 4050 0    60   ~ 0
-MII1_TXCLK
-Text Label 4350 4150 0    60   ~ 0
-MII1_TXEN
-Text Label 4350 4250 0    60   ~ 0
-MII1_TXD0
-Text Label 4350 4350 0    60   ~ 0
-MII1_TXD1
-Text Label 4350 4450 0    60   ~ 0
-MII1_TXD2
-Text Label 4350 4550 0    60   ~ 0
-MII1_TXD3
-Text Label 4350 4650 0    60   ~ 0
-MII1_COL
-Text Label 4350 4750 0    60   ~ 0
-MII1_CRS_DV
-Text HLabel 3500 2550 2    60   BiDi ~ 0
-MMC0_DAT0
-Text HLabel 3500 2450 2    60   BiDi ~ 0
-MMC0_DAT1
-Text HLabel 3500 2350 2    60   BiDi ~ 0
-MMC0_DAT2
-Text HLabel 3500 2250 2    60   BiDi ~ 0
-MMC0_DAT3
-Text HLabel 3500 2650 2    60   BiDi ~ 0
-MMC0_CMD
-Text HLabel 3500 2750 2    60   Output ~ 0
-MMC0_CLK
+	9100 4200 8200 4200
+Connection ~ 6150 2450
+Connection ~ 6150 2700
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5A0AC399
+P 6850 2400
+F 0 "#FLG?" H 6850 2495 50  0001 C CNN
+F 1 "PWR_FLAG" H 6850 2624 50  0000 C CNN
+F 2 "" H 6850 2400 50  0000 C CNN
+F 3 "" H 6850 2400 50  0000 C CNN
+	1    6850 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2400 6850 2450
+Connection ~ 6850 2450
 $EndSCHEMATC

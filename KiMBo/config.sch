@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 25
+Sheet 9 27
 Title ""
 Date ""
 Rev ""
@@ -264,17 +264,6 @@ F 3 "" H 3450 1550 50  0000 C CNN
 	1    3450 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 58A2820F
-P 5900 1300
-F 0 "#PWR?" H 5900 1150 50  0001 C CNN
-F 1 "+3V3" H 5915 1473 50  0000 C CNN
-F 2 "" H 5900 1300 50  0000 C CNN
-F 3 "" H 5900 1300 50  0000 C CNN
-	1    5900 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 1900 6900 1900
 Wire Wire Line
@@ -435,6 +424,17 @@ F 1 "GND" H 7905 1627 50  0000 C CNN
 F 2 "" H 7900 1800 50  0000 C CNN
 F 3 "" H 7900 1800 50  0000 C CNN
 	1    7900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD_3V3B #PWR?
+U 1 1 5A05FAAA
+P 5900 1300
+F 0 "#PWR?" H 5900 1150 50  0001 C CNN
+F 1 "VDD_3V3B" H 5915 1473 50  0000 C CNN
+F 2 "" H 5900 1300 50  0000 C CNN
+F 3 "" H 5900 1300 50  0000 C CNN
+	1    5900 1300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

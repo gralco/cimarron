@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 25
+Sheet 18 27
 Title ""
 Date ""
 Rev ""
@@ -94,17 +94,6 @@ F 1 "GND" H 7005 2827 50  0000 C CNN
 F 2 "" H 7000 3000 50  0000 C CNN
 F 3 "" H 7000 3000 50  0000 C CNN
 	1    7000 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 589C9012
-P 7000 2500
-F 0 "#PWR?" H 7000 2350 50  0001 C CNN
-F 1 "+3V3" H 7015 2673 50  0000 C CNN
-F 2 "" H 7000 2500 50  0000 C CNN
-F 3 "" H 7000 2500 50  0000 C CNN
-	1    7000 2500
 	1    0    0    -1  
 $EndComp
 Text HLabel 6600 3500 2    60   BiDi ~ 0
@@ -256,17 +245,6 @@ Wire Wire Line
 Connection ~ 5300 2900
 Text HLabel 6600 3300 2    60   Output ~ 0
 SD.CD
-$Comp
-L +3V3 #PWR?
-U 1 1 58F3F3B1
-P 5800 2850
-F 0 "#PWR?" H 5800 2700 50  0001 C CNN
-F 1 "+3V3" H 5815 3023 50  0000 C CNN
-F 2 "" H 5800 2850 50  0000 C CNN
-F 3 "" H 5800 2850 50  0000 C CNN
-	1    5800 2850
-	1    0    0    -1  
-$EndComp
 Text Notes 4800 3300 0    60   ~ 0
 C15
 Text HLabel 4800 3700 0    60   BiDi ~ 0
@@ -293,4 +271,26 @@ Text Notes 4800 3800 0    60   ~ 0
 G18
 Text Notes 4800 3900 0    60   ~ 0
 G17
+$Comp
+L VDD_3V3B #PWR?
+U 1 1 5A066650
+P 5800 2850
+F 0 "#PWR?" H 5800 2700 50  0001 C CNN
+F 1 "VDD_3V3B" H 5815 3023 50  0000 C CNN
+F 2 "" H 5800 2850 50  0000 C CNN
+F 3 "" H 5800 2850 50  0000 C CNN
+	1    5800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD_3V3B #PWR?
+U 1 1 5A066680
+P 7000 2500
+F 0 "#PWR?" H 7000 2350 50  0001 C CNN
+F 1 "VDD_3V3B" H 7015 2673 50  0000 C CNN
+F 2 "" H 7000 2500 50  0000 C CNN
+F 3 "" H 7000 2500 50  0000 C CNN
+	1    7000 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

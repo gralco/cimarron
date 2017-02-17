@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 13 25
+Sheet 27 27
 Title ""
 Date ""
 Rev ""
@@ -46,19 +46,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 9400 4600 2    60   Output ~ 0
-X_A1
+X1_A1
 Text HLabel 9400 4750 2    60   Output ~ 0
-X_A2
+X1_A2
 Text HLabel 9400 5450 2    60   Output ~ 0
-X_B1
+X1_B1
 Text HLabel 9400 5600 2    60   Output ~ 0
-X_B2
+X1_B2
 Text HLabel 7600 5950 0    60   Input ~ 0
-X_STEP
+X1_STEP
 Text HLabel 7600 6050 0    60   Input ~ 0
-X_DIR
+X1_DIR
 Text HLabel 6350 5050 0    60   Input ~ 0
-~X_SS
+~X1_SS
 Text HLabel 7600 5150 0    60   Input ~ 0
 SCLK
 Text HLabel 7600 5350 0    60   3State ~ 0
@@ -66,7 +66,7 @@ MISO
 Text HLabel 7600 5250 0    60   Input ~ 0
 MOSI
 Text HLabel 5650 4800 0    60   Output ~ 0
-X_SG
+X1_SG
 $Comp
 L C C?
 U 1 1 58C092B6
@@ -233,17 +233,6 @@ F 3 "" H 6750 3950 50  0000 C CNN
 	1    6750 3950
 	-1   0    0    -1  
 $EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 58C0931C
-P 6750 3450
-F 0 "#PWR?" H 6750 3300 50  0001 C CNN
-F 1 "+3V3" H 6765 3623 50  0000 C CNN
-F 2 "" H 6750 3450 50  0000 C CNN
-F 3 "" H 6750 3450 50  0000 C CNN
-	1    6750 3450
-	1    0    0    -1  
-$EndComp
 NoConn ~ 7700 5700
 $Comp
 L GND #PWR?
@@ -268,7 +257,7 @@ F 3 "" H 10100 6700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6000 4900 0    60   Output ~ 0
-X_FAULT
+X1_FAULT
 $Comp
 L R R?
 U 1 1 58C09331
@@ -281,7 +270,7 @@ F 3 "" H 6050 4250 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text HLabel 5250 4450 0    60   Input ~ 0
-~X_EN
+~X1_EN
 NoConn ~ 7700 4550
 $Comp
 L C C?
@@ -687,4 +676,15 @@ Wire Wire Line
 	5300 4850 5300 4800
 Wire Wire Line
 	5300 4450 5300 4500
+$Comp
+L VDD_3V3B #PWR?
+U 1 1 5A2FF856
+P 6750 3450
+F 0 "#PWR?" H 6750 3300 50  0001 C CNN
+F 1 "VDD_3V3B" H 6765 3623 50  0000 C CNN
+F 2 "" H 6750 3450 50  0000 C CNN
+F 3 "" H 6750 3450 50  0000 C CNN
+	1    6750 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 25
+Sheet 19 27
 Title ""
 Date ""
 Rev ""
@@ -266,19 +266,6 @@ F 2 "" H 6588 4650 50  0000 C CNN
 F 3 "" H 6550 4800 50  0000 C CNN
 	1    6550 4800
 	-1   0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 589C6D66
-P 6550 4300
-AR Path="/57AC927F/581F64FA/589C6D66" Ref="#PWR?"  Part="1" 
-AR Path="/57AC927F/58BF239E/589C6D66" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6550 4150 50  0001 C CNN
-F 1 "+3V3" H 6565 4473 50  0000 C CNN
-F 2 "" H 6550 4300 50  0000 C CNN
-F 3 "" H 6550 4300 50  0000 C CNN
-	1    6550 4300
-	1    0    0    -1  
 $EndComp
 NoConn ~ 7500 6550
 $Comp
@@ -3619,4 +3606,15 @@ Text Notes 3450 5300 0    60   ~ 0
 Keeps all motors enabled when\nwriting to the shift registers
 Text Notes 4950 6200 0    60   ~ 0
 Can extract which\nfault is occurring via SPI\nby changing GCONF reg
+$Comp
+L VDD_3V3B #PWR?
+U 1 1 5A2FD350
+P 6550 4300
+F 0 "#PWR?" H 6550 4150 50  0001 C CNN
+F 1 "VDD_3V3B" H 6565 4473 50  0000 C CNN
+F 2 "" H 6550 4300 50  0000 C CNN
+F 3 "" H 6550 4300 50  0000 C CNN
+	1    6550 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
