@@ -31,6 +31,11 @@ D Dual buffer/line driver; 3-state
 K Buffer
 $ENDCMP
 #
+$CMP 74x2G00
+D dUAL nand2
+K TTL nand2
+$ENDCMP
+#
 $CMP ASDMB
 D Clock Oscillator
 $ENDCMP
@@ -73,6 +78,10 @@ $ENDCMP
 $CMP Ethernet_Connector
 D Ethernet Connector
 K T568A, T568B, Ethernet, RJ45
+$ENDCMP
+#
+$CMP HDMI_1V8
+K POWER, PWR
 $ENDCMP
 #
 $CMP LAN8710A

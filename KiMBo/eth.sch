@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 27
+Sheet 11 26
 Title ""
 Date ""
 Rev ""

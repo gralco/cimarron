@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 19 27
+Sheet 19 26
 Title ""
 Date ""
 Rev ""
@@ -254,19 +254,6 @@ F 3 "" H 6900 4800 50  0000 C CNN
 	1    6900 4800
 	-1   0    0    -1  
 $EndComp
-$Comp
-L C C?
-U 1 1 589C6AE4
-P 6550 4800
-AR Path="/57AC927F/581F64FA/589C6AE4" Ref="C?"  Part="1" 
-AR Path="/57AC927F/58BF239E/589C6AE4" Ref="C?"  Part="1" 
-F 0 "C?" H 6600 4900 50  0000 L CNN
-F 1 "100nF" H 6550 4700 50  0000 L CNN
-F 2 "" H 6588 4650 50  0000 C CNN
-F 3 "" H 6550 4800 50  0000 C CNN
-	1    6550 4800
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 7500 6550
 $Comp
 L GND #PWR?
@@ -309,7 +296,7 @@ F 3 "" H 5850 5100 50  0000 C CNN
 	1    5850 5100
 	-1   0    0    -1  
 $EndComp
-Text HLabel 5050 5300 0    60   Input ~ 0
+Text HLabel 5450 5300 0    60   Input ~ 0
 ~E_EN
 NoConn ~ 7500 5400
 Text Notes 7050 5500 0    60   ~ 0
@@ -3320,7 +3307,13 @@ F 3 "" H 8200 5850 60  0000 C CNN
 $EndComp
 Connection ~ 7450 5050
 Wire Wire Line
-	6550 5050 7500 5050
+	6550 5050 6900 5050
+Wire Wire Line
+	6900 5050 7300 5050
+Wire Wire Line
+	7300 5050 7450 5050
+Wire Wire Line
+	7450 5050 7500 5050
 Wire Wire Line
 	7450 5150 7500 5150
 Connection ~ 7450 4850
@@ -3328,15 +3321,31 @@ Wire Wire Line
 	7500 4850 7450 4850
 Connection ~ 7450 4950
 Wire Wire Line
-	7450 4750 7450 6950
+	7450 4750 7450 4850
+Wire Wire Line
+	7450 4850 7450 4950
+Wire Wire Line
+	7450 4950 7450 5050
+Wire Wire Line
+	7450 5050 7450 5150
+Wire Wire Line
+	7450 5150 7450 6350
+Wire Wire Line
+	7450 6350 7450 6650
+Wire Wire Line
+	7450 6650 7450 6950
 Wire Wire Line
 	7500 4750 7450 4750
 Wire Wire Line
 	7450 6350 7500 6350
 Wire Wire Line
-	8900 7100 10700 7100
+	8900 7100 10550 7100
 Wire Wire Line
-	8900 6450 9200 6450
+	10550 7100 10700 7100
+Wire Wire Line
+	8900 6450 8950 6450
+Wire Wire Line
+	8950 6450 9200 6450
 Wire Wire Line
 	8950 4800 8900 4800
 Wire Wire Line
@@ -3357,7 +3366,11 @@ Connection ~ 9850 4150
 Wire Wire Line
 	10450 4150 10450 4100
 Wire Wire Line
-	9550 4150 10450 4150
+	9550 4150 9850 4150
+Wire Wire Line
+	9850 4150 10150 4150
+Wire Wire Line
+	10150 4150 10450 4150
 Wire Wire Line
 	9550 4100 9550 4150
 Connection ~ 9550 3750
@@ -3374,7 +3387,11 @@ Connection ~ 9400 4300
 Wire Wire Line
 	7300 4100 7300 4150
 Wire Wire Line
-	9400 3750 9400 4500
+	9400 3750 9400 4200
+Wire Wire Line
+	9400 4200 9400 4300
+Wire Wire Line
+	9400 4300 9400 4500
 Wire Wire Line
 	9400 4500 9250 4500
 Wire Wire Line
@@ -3384,11 +3401,25 @@ Wire Wire Line
 Wire Wire Line
 	8900 4500 8950 4500
 Wire Wire Line
-	7300 3750 10450 3750
+	7300 3750 7450 3750
+Wire Wire Line
+	7450 3750 8350 3750
+Wire Wire Line
+	8350 3750 9400 3750
+Wire Wire Line
+	9400 3750 9550 3750
+Wire Wire Line
+	9550 3750 9850 3750
+Wire Wire Line
+	9850 3750 10150 3750
+Wire Wire Line
+	10150 3750 10450 3750
 Wire Wire Line
 	7450 4200 7450 3750
 Wire Wire Line
-	7250 4600 7500 4600
+	7250 4600 7300 4600
+Wire Wire Line
+	7300 4600 7500 4600
 Wire Wire Line
 	7500 4950 7450 4950
 Connection ~ 7300 5050
@@ -3396,14 +3427,18 @@ Connection ~ 7300 4600
 Wire Wire Line
 	6900 4950 6900 5050
 Wire Wire Line
-	6900 4450 6900 4650
+	6900 4450 6900 4600
+Wire Wire Line
+	6900 4600 6900 4650
 Wire Wire Line
 	6900 4600 6950 4600
 Wire Wire Line
 	7500 4450 6900 4450
 Connection ~ 6900 4600
 Wire Wire Line
-	6550 4300 6550 4650
+	6550 4300 6550 4350
+Wire Wire Line
+	6550 4350 6550 4650
 Wire Wire Line
 	6550 4950 6550 5050
 Connection ~ 6900 5050
@@ -3443,21 +3478,27 @@ Wire Wire Line
 	10550 7850 10550 7700
 Connection ~ 10550 7850
 Wire Wire Line
-	8900 7250 9900 7250
+	8900 7250 9750 7250
+Wire Wire Line
+	9750 7250 9900 7250
 Connection ~ 10550 7100
 Wire Wire Line
-	5800 5750 7500 5750
+	5800 5750 5850 5750
+Wire Wire Line
+	5850 5750 7500 5750
 Wire Wire Line
 	5850 5250 5850 5750
 Wire Wire Line
 	5850 4950 5850 4350
 Connection ~ 5850 5750
 Wire Wire Line
-	5050 5300 7500 5300
+	5450 5300 7500 5300
 Wire Wire Line
 	7300 4650 7300 4600
 Wire Wire Line
-	8900 7750 9100 7750
+	8900 7750 9050 7750
+Wire Wire Line
+	9050 7750 9100 7750
 Wire Wire Line
 	9050 7400 9050 7350
 Wire Wire Line
@@ -3467,12 +3508,16 @@ Wire Wire Line
 Connection ~ 9750 7850
 Connection ~ 9050 7750
 Wire Wire Line
-	9450 7750 9450 7900
+	9450 7750 9450 7850
+Wire Wire Line
+	9450 7850 9450 7900
 Connection ~ 9450 7850
 Wire Wire Line
 	9450 7750 9400 7750
 Wire Wire Line
-	6150 5900 7500 5900
+	6150 5900 6200 5900
+Wire Wire Line
+	6200 5900 7500 5900
 Wire Wire Line
 	6200 5900 6200 5250
 Connection ~ 6200 5900
@@ -3480,19 +3525,33 @@ Wire Wire Line
 	6200 4350 6200 4950
 Connection ~ 6200 4350
 Wire Wire Line
-	5450 5650 7500 5650
+	5450 5650 5500 5650
 Wire Wire Line
-	8950 6000 9150 6000
+	5500 5650 7500 5650
+Wire Wire Line
+	8950 6000 9050 6000
+Wire Wire Line
+	9050 6000 9150 6000
 Wire Wire Line
 	8950 5600 8950 5650
 Connection ~ 8950 5600
 Wire Wire Line
-	8950 6850 9150 6850
+	8950 6850 9050 6850
+Wire Wire Line
+	9050 6850 9150 6850
 Wire Wire Line
 	8950 6450 8950 6500
 Connection ~ 8950 6450
 Wire Wire Line
-	8900 7850 10700 7850
+	8900 7850 9450 7850
+Wire Wire Line
+	9450 7850 9750 7850
+Wire Wire Line
+	9750 7850 9900 7850
+Wire Wire Line
+	9900 7850 10550 7850
+Wire Wire Line
+	10550 7850 10700 7850
 Wire Wire Line
 	9050 7350 9300 7350
 Connection ~ 9150 6300
@@ -3539,7 +3598,9 @@ Wire Wire Line
 	10150 3800 10150 3750
 Connection ~ 10150 3750
 Wire Wire Line
-	10150 4100 10150 4200
+	10150 4100 10150 4150
+Wire Wire Line
+	10150 4150 10150 4200
 Connection ~ 10150 4150
 Wire Wire Line
 	9850 4100 9850 4150
@@ -3548,7 +3609,9 @@ Place sense  resistors and all filter capacitors as close  as possible to the\nr
 Text Notes 7600 2500 0    60   ~ 0
 See Chapter 29 of the datasheet for layout
 Wire Wire Line
-	8900 6300 9200 6300
+	8900 6300 9150 6300
+Wire Wire Line
+	9150 6300 9200 6300
 Wire Wire Line
 	9150 6850 9150 6800
 Wire Wire Line
@@ -3562,50 +3625,27 @@ Connection ~ 9050 6000
 Wire Wire Line
 	9150 6000 9150 5950
 Wire Wire Line
-	8900 5600 9200 5600
+	8900 5600 8950 5600
 Wire Wire Line
-	8900 5450 9200 5450
+	8950 5600 9200 5600
+Wire Wire Line
+	8900 5450 9150 5450
+Wire Wire Line
+	9150 5450 9200 5450
 Text Notes 2550 9450 0    60   ~ 0
 Vain = 2.0V\n\nRsense = 100mOhm:\nVsense = 1 : 26.516504mA res : 397.747564mA range : 0.450780573A to 0.848528137A\nVsense = 0 : 47.877022mA res : 718.155325mA range : 0.813909368A to 1.532064693A\n\nRsense = 120mOhm:\nVsense = 1 : 22.728432mA res : 340.926484mA range : 0.386383348A to 0.727309832A\nVsense = 0 : 41.037447mA res : 615.561707mA range : 0.697636601A to 1.313198308A\n\nRsense = 150mOhm:\nVsense = 1 : 18.717532mA res : 280.762986mA range : 0.318198052A to 0.598961038A\nVsense = 0 : 33.795545mA res : 506.933170mA range : 0.574524260A to 1.081457430A\n\nRsense = 220mOhm:\nVsense = 1 : 13.258252mA res : 198.873782mA range : 0.225390287A to 0.424264069A\nVsense = 0 : 23.938511mA res : 359.077662mA range : 0.406954684A to 0.766032346A\n\n\nVain = 2.4V\n\nRsense = 220mOhm:\nVsense = 1 : 15.909903mA res : 238.648538mA range : 0.270468344A to 0.509116882A\nVsense = 0 : 28.726213mA res : 430.893195mA range : 0.488345621A to 0.919238816A\n\n\nVain = 2.379759519V\n\nRsense = 220mOhm:\nVsense = 1 : 15.775726mA res : 236.635888mA range : 0.26818734A to 0.504823228A\nVsense = 0 : 28.483949mA res : 427.259243mA range : 0.484227141A to 0.911486384A
-$Comp
-L R R?
-U 1 1 58B9E656
-P 5100 5500
-AR Path="/57AC927F/581F64FA/58B9E656" Ref="R?"  Part="1" 
-AR Path="/57AC927F/58BF239E/58B9E656" Ref="R?"  Part="1" 
-F 0 "R?" H 5169 5546 50  0000 L CNN
-F 1 "10kΩ" H 5169 5455 50  0000 L CNN
-F 2 "" V 5030 5500 50  0000 C CNN
-F 3 "" H 5100 5500 50  0000 C CNN
-	1    5100 5500
-	-1   0    0    -1  
-$EndComp
-Connection ~ 5100 5300
 Text Notes 2800 4400 0    60   ~ 0
 5VOUT output voltage ceramic filtering capacitor (4.7μF recommended)\nshould be placed as close as  possible  to  the  5VOUT  pin,  with  its\nGND  return  going  directly  to  the  GNDA  pin
 Wire Wire Line
-	5500 4350 7500 4350
-$Comp
-L GND #PWR?
-U 1 1 58BCECFD
-P 5100 5700
-AR Path="/57AC927F/581F64FA/58BCECFD" Ref="#PWR?"  Part="1" 
-AR Path="/57AC927F/58BF239E/58BCECFD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5100 5450 50  0001 C CNN
-F 1 "GND" H 5105 5527 50  0000 C CNN
-F 2 "" H 5100 5700 50  0000 C CNN
-F 3 "" H 5100 5700 50  0000 C CNN
-	1    5100 5700
-	1    0    0    -1  
-$EndComp
+	5500 4350 5850 4350
 Wire Wire Line
-	5100 5700 5100 5650
+	5850 4350 6200 4350
 Wire Wire Line
-	5100 5300 5100 5350
-Text Notes 3450 5300 0    60   ~ 0
-Keeps all motors enabled when\nwriting to the shift registers
-Text Notes 4950 6200 0    60   ~ 0
-Can extract which\nfault is occurring via SPI\nby changing GCONF reg
+	6200 4350 6550 4350
+Wire Wire Line
+	6550 4350 7500 4350
+Text Notes 4500 6000 0    60   ~ 0
+Can extract which\nfault is occurring via SPI\nby reading DRV_STATUS reg
 $Comp
 L VDD_3V3B #PWR?
 U 1 1 5A2FD350
@@ -3616,5 +3656,16 @@ F 2 "" H 6550 4300 50  0000 C CNN
 F 3 "" H 6550 4300 50  0000 C CNN
 	1    6550 4300
 	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A896678
+P 6550 4800
+F 0 "C?" H 6600 4900 50  0000 L CNN
+F 1 "100nF" H 6575 4700 50  0000 L CNN
+F 2 "" H 6588 4650 50  0000 C CNN
+F 3 "" H 6550 4800 50  0000 C CNN
+	1    6550 4800
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

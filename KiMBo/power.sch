@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 27
+Sheet 2 26
 Title ""
 Date ""
 Rev ""
@@ -343,7 +343,7 @@ L R R?
 U 1 1 585071BB
 P 7500 5200
 F 0 "R?" V 7400 5200 50  0000 C CNN
-F 1 "100mΩ" V 7600 5200 50  0000 C CNN
+F 1 "100mΩ" V 7575 5200 50  0000 C CNN
 F 2 "" V 7430 5200 50  0000 C CNN
 F 3 "" H 7500 5200 50  0000 C CNN
 	1    7500 5200
@@ -647,7 +647,7 @@ Connection ~ 1150 10250
 Wire Wire Line
 	2600 6350 2650 6350
 Wire Wire Line
-	2650 6350 2650 10500
+	2650 10500 2650 6350
 Wire Wire Line
 	2650 10350 2600 10350
 Wire Wire Line
@@ -768,7 +768,7 @@ Connection ~ 2650 10050
 Connection ~ 2650 10150
 Connection ~ 2650 10250
 Wire Wire Line
-	2650 10500 1150 10500
+	1150 10500 2650 10500
 Connection ~ 2650 10350
 Connection ~ 1150 10350
 Wire Wire Line
@@ -836,7 +836,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 5300 8350 5200
 Wire Wire Line
-	8250 5200 8400 5200
+	7850 5200 8400 5200
 Wire Wire Line
 	8250 5200 8250 5150
 Connection ~ 8350 5200
@@ -1959,4 +1959,16 @@ Text Notes 11500 6500 0    60   ~ 0
 Output Power Supply\nSecondary, 3.3VDC
 Text Notes 10900 7400 0    60   ~ 0
 TPS65217C\nOutput
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5A9BB809
+P 7850 5200
+F 0 "#FLG?" H 7850 5295 50  0001 C CNN
+F 1 "PWR_FLAG" H 7630 5360 50  0000 C CNN
+F 2 "" H 7850 5200 50  0000 C CNN
+F 3 "" H 7850 5200 50  0000 C CNN
+	1    7850 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 5200
 $EndSCHEMATC
