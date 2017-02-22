@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 14 26
+Sheet 11 26
 Title ""
 Date ""
 Rev ""
@@ -70,16 +70,12 @@ F 3 "" H 6050 5100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6100 5300 6050 5300
-Wire Wire Line
-	6050 5300 6000 5300
+	6000 5300 6100 5300
 Wire Wire Line
 	6050 5650 6050 5700
 Connection ~ 6050 5300
 Wire Wire Line
-	6050 5250 6050 5300
-Wire Wire Line
-	6050 5300 6050 5350
+	6050 5250 6050 5350
 Wire Wire Line
 	6050 4950 6050 4900
 $Comp
@@ -122,16 +118,12 @@ F 3 "" H 7250 5100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7300 5300 7250 5300
-Wire Wire Line
-	7250 5300 7200 5300
+	7200 5300 7300 5300
 Wire Wire Line
 	7250 5650 7250 5700
 Connection ~ 7250 5300
 Wire Wire Line
-	7250 5250 7250 5300
-Wire Wire Line
-	7250 5300 7250 5350
+	7250 5250 7250 5350
 Wire Wire Line
 	7250 4950 7250 4900
 $Comp
@@ -172,16 +164,12 @@ F 3 "" H 8400 5100 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8450 5300 8400 5300
-Wire Wire Line
-	8400 5300 8350 5300
+	8350 5300 8450 5300
 Wire Wire Line
 	8400 5650 8400 5700
 Connection ~ 8400 5300
 Wire Wire Line
-	8400 5250 8400 5300
-Wire Wire Line
-	8400 5300 8400 5350
+	8400 5250 8400 5350
 Wire Wire Line
 	8400 4950 8400 4900
 $Comp
@@ -211,9 +199,7 @@ F 3 "" H 10350 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10400 4800 10350 4800
-Wire Wire Line
-	10350 4800 10300 4800
+	10300 4800 10400 4800
 Wire Wire Line
 	10350 5150 10350 5200
 Connection ~ 10350 4800
@@ -281,9 +267,7 @@ F 3 "" H 8400 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10400 6000 10350 6000
-Wire Wire Line
-	10350 6000 10300 6000
+	10300 6000 10400 6000
 $Comp
 L GND #PWR?
 U 1 1 59E68F88

@@ -181,17 +181,6 @@ F 3 "" H 10350 2700 50  0000 C CNN
 	1    10350 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R?
-U 1 1 584D82C9
-P 9350 2200
-F 0 "R?" V 9143 2200 50  0000 C CNN
-F 1 "R" V 9234 2200 50  0000 C CNN
-F 2 "" V 9280 2200 50  0000 C CNN
-F 3 "" H 9350 2200 50  0000 C CNN
-	1    9350 2200
-	0    1    1    0   
-$EndComp
 Text Label 8900 2200 0    60   ~ 0
 12MHz
 $Comp
@@ -273,7 +262,9 @@ Wire Wire Line
 Wire Wire Line
 	12400 2050 12400 2000
 Wire Wire Line
-	12400 2000 14600 2000
+	12400 2000 13800 2000
+Wire Wire Line
+	13800 2000 14600 2000
 Wire Wire Line
 	14600 2000 14600 2050
 Wire Wire Line
@@ -293,7 +284,9 @@ Wire Wire Line
 Wire Wire Line
 	3300 9850 2850 9850
 Wire Wire Line
-	2200 9900 2200 10000
+	2200 9900 2200 9950
+Wire Wire Line
+	2200 9950 2200 10000
 Wire Wire Line
 	2200 9950 3300 9950
 Connection ~ 2200 9950
@@ -312,14 +305,22 @@ Wire Wire Line
 Wire Wire Line
 	3300 9050 3250 9050
 Wire Wire Line
-	3250 8900 3250 9150
+	3250 8900 3250 8950
+Wire Wire Line
+	3250 8950 3250 9050
+Wire Wire Line
+	3250 9050 3250 9150
 Connection ~ 3250 8950
 Wire Wire Line
 	3150 8950 3150 9000
 Wire Wire Line
-	3150 8950 3300 8950
+	3150 8950 3250 8950
 Wire Wire Line
-	10800 2400 11650 2400
+	3250 8950 3300 8950
+Wire Wire Line
+	10800 2400 11600 2400
+Wire Wire Line
+	11600 2400 11650 2400
 Wire Wire Line
 	9600 2600 9550 2600
 Wire Wire Line
@@ -333,11 +334,17 @@ Wire Wire Line
 Wire Wire Line
 	10350 2700 10350 2650
 Wire Wire Line
-	10350 1400 10350 2150
+	10350 1400 10350 1450
 Wire Wire Line
-	9600 2200 9500 2200
+	10350 1450 10350 1800
 Wire Wire Line
-	9200 2200 8900 2200
+	10350 1800 10350 2100
+Wire Wire Line
+	10350 2100 10350 2150
+Wire Wire Line
+	9600 2200 9450 2200
+Wire Wire Line
+	9250 2200 8900 2200
 Wire Wire Line
 	10200 1850 10200 1800
 Wire Wire Line
@@ -507,5 +514,20 @@ F 2 "" H 3250 8900 50  0000 C CNN
 F 3 "" H 3250 8900 50  0000 C CNN
 	1    3250 8900
 	1    0    0    -1  
+$EndComp
+Text Notes 11950 2925 2    60   ~ 0
+potential GPIO
+Text Notes 15300 2800 0    60   ~ 0
+potential GPIO
+$Comp
+L INDUCTOR_Small FB?
+U 1 1 5B034EFC
+P 9350 2200
+F 0 "FB?" V 9535 2200 50  0000 C CNN
+F 1 "Ferrite" V 9444 2200 50  0000 C CNN
+F 2 "" H 9350 2200 50  0000 C CNN
+F 3 "" H 9350 2200 50  0000 C CNN
+	1    9350 2200
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

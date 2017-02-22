@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 26
+Sheet 12 26
 Title ""
 Date ""
 Rev ""
@@ -84,15 +84,7 @@ NoConn ~ 4750 4200
 Wire Wire Line
 	4700 3900 4750 3900
 Wire Wire Line
-	4700 3400 4700 3500
-Wire Wire Line
-	4700 3500 4700 3600
-Wire Wire Line
-	4700 3600 4700 3700
-Wire Wire Line
-	4700 3700 4700 3800
-Wire Wire Line
-	4700 3800 4700 3900
+	4700 3400 4700 3900
 Wire Wire Line
 	4700 3400 4750 3400
 Wire Wire Line
@@ -108,9 +100,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 3800 4700 3800
 Wire Wire Line
-	4450 4100 4500 4100
-Wire Wire Line
-	4500 4100 4750 4100
+	4450 4100 4750 4100
 $Comp
 L GND #PWR?
 U 1 1 595593D7
@@ -127,9 +117,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4400 4750 4400
 Wire Wire Line
-	4100 2850 4100 2900
-Wire Wire Line
-	4100 2900 4100 2950
+	4100 2850 4100 2950
 Wire Wire Line
 	4100 2900 4750 2900
 Wire Wire Line

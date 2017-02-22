@@ -301,17 +301,6 @@ F 3 "" H 4850 4400 50  0000 C CNN
 	1    4850 4400
 	0    1    1    0   
 $EndComp
-$Comp
-L VCC #PWR098
-U 1 1 58528D37
-P 5050 4350
-F 0 "#PWR098" H 5050 4200 50  0001 C CNN
-F 1 "VCC" H 5067 4523 50  0000 C CNN
-F 2 "" H 5050 4350 50  0000 C CNN
-F 3 "" H 5050 4350 50  0000 C CNN
-	1    5050 4350
-	1    0    0    -1  
-$EndComp
 Text Label 5050 4550 2    60   ~ 0
 ~USB1_OC
 $Comp
@@ -737,6 +726,21 @@ F 1 "VDD_3V3B" H 3565 1373 50  0000 C CNN
 F 2 "" H 3550 1200 50  0000 C CNN
 F 3 "" H 3550 1200 50  0000 C CNN
 	1    3550 1200
+	1    0    0    -1  
+$EndComp
+Text Notes 1050 4300 0    60   ~ 0
+Used a tantalum cap instead\nof the large aluminium cap ?
+Text Notes 6150 2875 0    60   ~ 0
+potential GPIO
+$Comp
+L VDD_3V3B #PWR?
+U 1 1 5AF563FC
+P 5050 4350
+F 0 "#PWR?" H 5050 4200 50  0001 C CNN
+F 1 "VDD_3V3B" H 5065 4523 50  0000 C CNN
+F 2 "" H 5050 4350 50  0000 C CNN
+F 3 "" H 5050 4350 50  0000 C CNN
+	1    5050 4350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
