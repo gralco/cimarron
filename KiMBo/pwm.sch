@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 26
+Sheet 11 26
 Title ""
 Date ""
 Rev ""
@@ -144,26 +144,22 @@ Wire Wire Line
 	6150 3700 6200 3700
 Wire Wire Line
 	6150 3800 6200 3800
-Wire Wire Line
-	6150 3900 6200 3900
 Text HLabel 6200 3200 2    60   Output ~ 0
-HEAT_TH0
+E_HEAT
 Text HLabel 6200 3300 2    60   Output ~ 0
-HEAT_BED
+BED_HEAT
 Text HLabel 6200 3400 2    60   Output ~ 0
-HEAT_TH1
+H_HEAT
 Text HLabel 6200 3600 2    60   Output ~ 0
-FAN0
+E_FAN
 Text HLabel 6200 3700 2    60   Output ~ 0
-FAN1
+H_FAN
 Text HLabel 6200 3800 2    60   Output ~ 0
-FAN2
+CASE_FAN
 Text HLabel 4700 3100 0    60   BiDi ~ 0
 I2C2_SCL
 Text HLabel 4700 3200 0    60   BiDi ~ 0
 I2C2_SDA
-Text HLabel 6200 3900 2    60   Output ~ 0
-FAN3
 Text HLabel 4450 4100 0    60   Input ~ 0
 ~PWM_EN
 $Comp
@@ -187,9 +183,9 @@ Wire Wire Line
 Wire Wire Line
 	6150 3100 6200 3100
 Text HLabel 6200 3000 2    60   Output ~ 0
-HEAT_DOCK0
+DOCK0_HEAT
 Text HLabel 6200 3100 2    60   Output ~ 0
-HEAT_DOCK1
+DOCK1_HEAT
 $Comp
 L VDD_3V3B #PWR?
 U 1 1 5A115F67
@@ -212,4 +208,5 @@ F 3 "" H 4100 2850 50  0000 C CNN
 	1    4100 2850
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6150 3900
 $EndSCHEMATC

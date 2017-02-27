@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 19 26
+Sheet 16 26
 Title ""
 Date ""
 Rev ""
@@ -3668,4 +3668,6 @@ F 3 "" H 6550 4800 50  0000 C CNN
 	1    6550 4800
 	-1   0    0    -1  
 $EndComp
+Text Notes 9100 5375 0    60   ~ 0
+can use LC filters to\nde-couple the driver outputs\nfrom the motor connector
 $EndSCHEMATC
