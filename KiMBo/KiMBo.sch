@@ -710,7 +710,7 @@ F 3 "" H 2000 9800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 2100 4900 1400 350 
+S 2100 4900 1400 300 
 U 57930FAD
 F0 "Thermistors / Thermocouples" 60
 F1 "therm.sch" 60
