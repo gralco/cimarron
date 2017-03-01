@@ -61,8 +61,7 @@ F9 "E_STEP" I L 4900 7600 60
 F10 "E_DIR" I L 4900 7700 60 
 F11 "~E_SS" I L 4900 7850 60 
 F12 "~E_EN" I L 4900 8300 60 
-F13 "E_SG" O L 4900 8450 60 
-F14 "E_FAULT" O L 4900 8600 60 
+F13 "E_FAULT" O L 4900 8600 60 
 $EndSheet
 Entry Wire Line
 	4400 8150 4300 8250
@@ -198,7 +197,7 @@ Text Notes 600  950  0    60   ~ 0
 When ~EN_SR~ transitions from LOW to HIGH each D-FF of the shift-register\ncome out of their reset states and the output is set to high-Z, ready for writing\nWhen ~EN_SR~ transitions from HIGH to LOW each D-FF of the shift-register\ngoes into their reset states and the output is enabled, SS/EN selected
 Text Notes 600  1200 0    60   ~ 0
 SPI1_SS captures the data in the shift register and is ready to be driven\nby the second stage of D-FFs
-Text Notes 7100 1500 0    60   ~ 0
+Text Notes 6250 1350 0    60   ~ 0
 Writing and outputting data:\n1. Bring ~EN_SR~ HIGH\n - output high-Z, enables all motors\n2. Write data\n3. Toggle SPI1_SS _|‾|_\n4. Bring ~EN_SR~ LOW\n - output enabled, disable specific motors/ready to configure
 Entry Wire Line
 	4400 4050 4300 4150
@@ -406,8 +405,7 @@ F9 "H_STEP" I L 4900 9000 60
 F10 "H_DIR" I L 4900 9100 60 
 F11 "~H_SS" I L 4900 9250 60 
 F12 "~H_EN" I L 4900 9700 60 
-F13 "H_SG" O L 4900 9850 60 
-F14 "H_FAULT" O L 4900 10000 60 
+F13 "H_FAULT" O L 4900 10000 60 
 $EndSheet
 Entry Wire Line
 	4400 9550 4300 9650
@@ -417,8 +415,6 @@ Text HLabel 4850 9000 0    60   Input ~ 0
 H_STEP
 Text HLabel 4850 9100 0    60   Input ~ 0
 H_DIR
-Text HLabel 4850 9850 0    60   Output ~ 0
-H_SG
 Text Label 4600 9250 0    60   ~ 0
 ~H_SS
 Text Label 4600 9700 0    60   ~ 0
@@ -857,8 +853,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 1650 4950 1650
 Wire Wire Line
-	4900 8450 4850 8450
-Wire Wire Line
 	4900 8300 4600 8300
 Wire Wire Line
 	4900 7850 4600 7850
@@ -1017,8 +1011,6 @@ Wire Wire Line
 	13500 8100 13650 8100
 Wire Wire Line
 	12700 8550 12250 8550
-Wire Wire Line
-	4900 9850 4850 9850
 Wire Wire Line
 	4900 9700 4600 9700
 Wire Wire Line
@@ -1340,8 +1332,6 @@ Text HLabel 8800 8550 0    60   Output ~ 0
 Y_FAULT
 Text HLabel 6400 4150 2    60   Output ~ 0
 ~SS_TOOLHEAD1_NVM
-Text HLabel 4850 8450 0    60   Output ~ 0
-E_SG
 Wire Wire Line
 	6350 6750 6650 6750
 Text Label 6650 6750 2    60   ~ 0

@@ -32,7 +32,7 @@ K Buffer
 $ENDCMP
 #
 $CMP 74x2G00
-D dUAL nand2
+D Dual nand2
 K TTL nand2
 $ENDCMP
 #

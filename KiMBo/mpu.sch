@@ -424,17 +424,17 @@ Connection ~ 10400 3450
 $Comp
 L OSD3358 U?
 U 12 1 58F3251C
-P 2150 1850
+P 2250 3800
 AR Path="/58F3251C" Ref="U?"  Part="12" 
 AR Path="/581AEC7B/58F3251C" Ref="U?"  Part="12" 
-F 0 "U?" H 2800 2140 60  0000 C CNN
-F 1 "OSD3358" H 2800 2034 60  0000 C CNN
-F 2 "" H 2150 1850 60  0001 C CNN
-F 3 "" H 2150 1850 60  0001 C CNN
-	12   2150 1850
+F 0 "U?" H 2900 4090 60  0000 C CNN
+F 1 "OSD3358" H 2900 3984 60  0000 C CNN
+F 2 "" H 2250 3800 60  0001 C CNN
+F 3 "" H 2250 3800 60  0001 C CNN
+	12   2250 3800
 	1    0    0    -1  
 $EndComp
-Text Notes 2250 1400 0    197  ~ 0
+Text Notes 2350 3350 0    197  ~ 0
 Unused
 Text HLabel 8550 4250 0    60   Output ~ 0
 SPI0_CS1
@@ -446,7 +446,7 @@ Text HLabel 11900 4050 2    60   BiDi ~ 0
 SPI1_CS0
 Text HLabel 8550 4450 0    60   Input ~ 0
 Z2_ENDSTOP
-Text HLabel 6800 7650 0    60   Input ~ 0
+Text HLabel 6800 7850 0    60   Input ~ 0
 BED_THERM
 Text HLabel 11900 4350 2    60   Input ~ 0
 SPI1_MISO
@@ -532,4 +532,6 @@ F 3 "" H 5950 3650 50  0000 C CNN
 $EndComp
 Text Notes 6500 8500 0    60   ~ 0
 Can be Configured to Operate as a 4-Wire,\n5-Wire, or 8-Wire Resistive Touch Screen\nController (TSC) Interface
+Text HLabel 6800 7650 0    60   Input ~ 0
+ADC4
 $EndSCHEMATC

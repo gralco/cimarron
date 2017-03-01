@@ -69,8 +69,6 @@ Text HLabel 7400 6200 0    60   3State ~ 0
 MISO
 Text HLabel 7400 6100 0    60   Input ~ 0
 MOSI
-Text HLabel 5450 5650 0    60   Output ~ 0
-E_SG
 $Comp
 L C C?
 U 1 1 589B8A74
@@ -296,7 +294,7 @@ F 3 "" H 5850 5100 50  0000 C CNN
 	1    5850 5100
 	-1   0    0    -1  
 $EndComp
-Text HLabel 5450 5300 0    60   Input ~ 0
+Text HLabel 5800 5300 0    60   Input ~ 0
 ~E_EN
 NoConn ~ 7500 5400
 Text Notes 7050 5500 0    60   ~ 0
@@ -3305,282 +3303,6 @@ F 3 "" H 8200 5850 60  0000 C CNN
 	1    8200 5550
 	1    0    0    -1  
 $EndComp
-Connection ~ 7450 5050
-Wire Wire Line
-	6550 5050 6900 5050
-Wire Wire Line
-	6900 5050 7300 5050
-Wire Wire Line
-	7300 5050 7450 5050
-Wire Wire Line
-	7450 5050 7500 5050
-Wire Wire Line
-	7450 5150 7500 5150
-Connection ~ 7450 4850
-Wire Wire Line
-	7500 4850 7450 4850
-Connection ~ 7450 4950
-Wire Wire Line
-	7450 4750 7450 4850
-Wire Wire Line
-	7450 4850 7450 4950
-Wire Wire Line
-	7450 4950 7450 5050
-Wire Wire Line
-	7450 5050 7450 5150
-Wire Wire Line
-	7450 5150 7450 6350
-Wire Wire Line
-	7450 6350 7450 6650
-Wire Wire Line
-	7450 6650 7450 6950
-Wire Wire Line
-	7500 4750 7450 4750
-Wire Wire Line
-	7450 6350 7500 6350
-Wire Wire Line
-	8900 7100 10550 7100
-Wire Wire Line
-	10550 7100 10700 7100
-Wire Wire Line
-	8900 6450 8950 6450
-Wire Wire Line
-	8950 6450 9200 6450
-Wire Wire Line
-	8950 4800 8900 4800
-Wire Wire Line
-	8950 4850 8950 4800
-Wire Wire Line
-	8950 5200 8900 5200
-Wire Wire Line
-	8950 5150 8950 5200
-Connection ~ 8350 3750
-Wire Wire Line
-	8350 3750 8350 3700
-Connection ~ 7450 3750
-Wire Wire Line
-	7300 3750 7300 3800
-Wire Wire Line
-	7500 4200 7450 4200
-Connection ~ 9850 4150
-Wire Wire Line
-	10450 4150 10450 4100
-Wire Wire Line
-	9550 4150 9850 4150
-Wire Wire Line
-	9850 4150 10150 4150
-Wire Wire Line
-	10150 4150 10450 4150
-Wire Wire Line
-	9550 4100 9550 4150
-Connection ~ 9550 3750
-Wire Wire Line
-	9550 3750 9550 3800
-Connection ~ 9850 3750
-Wire Wire Line
-	9850 3750 9850 3800
-Connection ~ 9400 3750
-Wire Wire Line
-	10450 3750 10450 3800
-Connection ~ 9400 4200
-Connection ~ 9400 4300
-Wire Wire Line
-	7300 4100 7300 4150
-Wire Wire Line
-	9400 3750 9400 4200
-Wire Wire Line
-	9400 4200 9400 4300
-Wire Wire Line
-	9400 4300 9400 4500
-Wire Wire Line
-	9400 4500 9250 4500
-Wire Wire Line
-	9400 4300 8900 4300
-Wire Wire Line
-	8900 4200 9400 4200
-Wire Wire Line
-	8900 4500 8950 4500
-Wire Wire Line
-	7300 3750 7450 3750
-Wire Wire Line
-	7450 3750 8350 3750
-Wire Wire Line
-	8350 3750 9400 3750
-Wire Wire Line
-	9400 3750 9550 3750
-Wire Wire Line
-	9550 3750 9850 3750
-Wire Wire Line
-	9850 3750 10150 3750
-Wire Wire Line
-	10150 3750 10450 3750
-Wire Wire Line
-	7450 4200 7450 3750
-Wire Wire Line
-	7250 4600 7300 4600
-Wire Wire Line
-	7300 4600 7500 4600
-Wire Wire Line
-	7500 4950 7450 4950
-Connection ~ 7300 5050
-Connection ~ 7300 4600
-Wire Wire Line
-	6900 4950 6900 5050
-Wire Wire Line
-	6900 4450 6900 4600
-Wire Wire Line
-	6900 4600 6900 4650
-Wire Wire Line
-	6900 4600 6950 4600
-Wire Wire Line
-	7500 4450 6900 4450
-Connection ~ 6900 4600
-Wire Wire Line
-	6550 4300 6550 4350
-Wire Wire Line
-	6550 4350 6550 4650
-Wire Wire Line
-	6550 4950 6550 5050
-Connection ~ 6900 5050
-Connection ~ 6550 4350
-Wire Wire Line
-	7300 5050 7300 4950
-Wire Wire Line
-	7400 6000 7500 6000
-Wire Wire Line
-	7400 6100 7500 6100
-Wire Wire Line
-	7500 6200 7400 6200
-Wire Wire Line
-	7400 6800 7500 6800
-Wire Wire Line
-	7400 6900 7500 6900
-Wire Wire Line
-	7500 6650 7450 6650
-Connection ~ 7450 6650
-Connection ~ 7450 6350
-Connection ~ 7450 5150
-Wire Wire Line
-	10700 7100 10700 7400
-Wire Wire Line
-	9750 7400 9750 7250
-Connection ~ 9750 7250
-Wire Wire Line
-	9900 7250 9900 7400
-Wire Wire Line
-	10550 7100 10550 7400
-Wire Wire Line
-	10700 7850 10700 7700
-Wire Wire Line
-	9900 7850 9900 7700
-Connection ~ 9900 7850
-Wire Wire Line
-	10550 7850 10550 7700
-Connection ~ 10550 7850
-Wire Wire Line
-	8900 7250 9750 7250
-Wire Wire Line
-	9750 7250 9900 7250
-Connection ~ 10550 7100
-Wire Wire Line
-	5800 5750 5850 5750
-Wire Wire Line
-	5850 5750 7500 5750
-Wire Wire Line
-	5850 5250 5850 5750
-Wire Wire Line
-	5850 4950 5850 4350
-Connection ~ 5850 5750
-Wire Wire Line
-	5450 5300 7500 5300
-Wire Wire Line
-	7300 4650 7300 4600
-Wire Wire Line
-	8900 7750 9050 7750
-Wire Wire Line
-	9050 7750 9100 7750
-Wire Wire Line
-	9050 7400 9050 7350
-Wire Wire Line
-	9050 7750 9050 7700
-Wire Wire Line
-	9750 7850 9750 7700
-Connection ~ 9750 7850
-Connection ~ 9050 7750
-Wire Wire Line
-	9450 7750 9450 7850
-Wire Wire Line
-	9450 7850 9450 7900
-Connection ~ 9450 7850
-Wire Wire Line
-	9450 7750 9400 7750
-Wire Wire Line
-	6150 5900 6200 5900
-Wire Wire Line
-	6200 5900 7500 5900
-Wire Wire Line
-	6200 5900 6200 5250
-Connection ~ 6200 5900
-Wire Wire Line
-	6200 4350 6200 4950
-Connection ~ 6200 4350
-Wire Wire Line
-	5450 5650 5500 5650
-Wire Wire Line
-	5500 5650 7500 5650
-Wire Wire Line
-	8950 6000 9050 6000
-Wire Wire Line
-	9050 6000 9150 6000
-Wire Wire Line
-	8950 5600 8950 5650
-Connection ~ 8950 5600
-Wire Wire Line
-	8950 6850 9050 6850
-Wire Wire Line
-	9050 6850 9150 6850
-Wire Wire Line
-	8950 6450 8950 6500
-Connection ~ 8950 6450
-Wire Wire Line
-	8900 7850 9450 7850
-Wire Wire Line
-	9450 7850 9750 7850
-Wire Wire Line
-	9750 7850 9900 7850
-Wire Wire Line
-	9900 7850 10550 7850
-Wire Wire Line
-	10550 7850 10700 7850
-Wire Wire Line
-	9050 7350 9300 7350
-Connection ~ 9150 6300
-Wire Wire Line
-	9150 5650 9150 5450
-Connection ~ 9150 5450
-Wire Wire Line
-	8950 6000 8950 5950
-Wire Wire Line
-	8950 6850 8950 6800
-$Comp
-L R R?
-U 1 1 58B391E8
-P 5500 5100
-AR Path="/57AC927F/581F64FA/58B391E8" Ref="R?"  Part="1" 
-AR Path="/57AC927F/58BF239E/58B391E8" Ref="R?"  Part="1" 
-F 0 "R?" H 5569 5146 50  0000 L CNN
-F 1 "10kΩ" H 5569 5055 50  0000 L CNN
-F 2 "" V 5430 5100 50  0000 C CNN
-F 3 "" H 5500 5100 50  0000 C CNN
-	1    5500 5100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 5250 5500 5650
-Connection ~ 5500 5650
-Wire Wire Line
-	5500 4950 5500 4350
-Connection ~ 5850 4350
 $Comp
 L C C?
 U 1 1 58B40194
@@ -3594,56 +3316,14 @@ F 3 "" H 10150 3950 50  0000 C CNN
 	1    10150 3950
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	10150 3800 10150 3750
-Connection ~ 10150 3750
-Wire Wire Line
-	10150 4100 10150 4150
-Wire Wire Line
-	10150 4150 10150 4200
-Connection ~ 10150 4150
-Wire Wire Line
-	9850 4100 9850 4150
 Text Notes 6950 3050 0    60   ~ 0
 Place sense  resistors and all filter capacitors as close  as possible to the\nrelated  IC pins. Use a solid common GND for all GND connections, also\nfor sense resistor GND. Connect 5VOUT filtering capacitor directly to\n5VOUT and GNDA pin. See layout hints for more details. Low ESR\nelectrolytic capacitors are recommended for VS filtering.
 Text Notes 7600 2500 0    60   ~ 0
 See Chapter 29 of the datasheet for layout
-Wire Wire Line
-	8900 6300 9150 6300
-Wire Wire Line
-	9150 6300 9200 6300
-Wire Wire Line
-	9150 6850 9150 6800
-Wire Wire Line
-	9050 6900 9050 6850
-Connection ~ 9050 6850
-Wire Wire Line
-	9150 6300 9150 6500
-Wire Wire Line
-	9050 6050 9050 6000
-Connection ~ 9050 6000
-Wire Wire Line
-	9150 6000 9150 5950
-Wire Wire Line
-	8900 5600 8950 5600
-Wire Wire Line
-	8950 5600 9200 5600
-Wire Wire Line
-	8900 5450 9150 5450
-Wire Wire Line
-	9150 5450 9200 5450
 Text Notes 2550 9450 0    60   ~ 0
 Vain = 2.0V\n\nRsense = 100mOhm:\nVsense = 1 : 26.516504mA res : 397.747564mA range : 0.450780573A to 0.848528137A\nVsense = 0 : 47.877022mA res : 718.155325mA range : 0.813909368A to 1.532064693A\n\nRsense = 120mOhm:\nVsense = 1 : 22.728432mA res : 340.926484mA range : 0.386383348A to 0.727309832A\nVsense = 0 : 41.037447mA res : 615.561707mA range : 0.697636601A to 1.313198308A\n\nRsense = 150mOhm:\nVsense = 1 : 18.717532mA res : 280.762986mA range : 0.318198052A to 0.598961038A\nVsense = 0 : 33.795545mA res : 506.933170mA range : 0.574524260A to 1.081457430A\n\nRsense = 220mOhm:\nVsense = 1 : 13.258252mA res : 198.873782mA range : 0.225390287A to 0.424264069A\nVsense = 0 : 23.938511mA res : 359.077662mA range : 0.406954684A to 0.766032346A\n\n\nVain = 2.4V\n\nRsense = 220mOhm:\nVsense = 1 : 15.909903mA res : 238.648538mA range : 0.270468344A to 0.509116882A\nVsense = 0 : 28.726213mA res : 430.893195mA range : 0.488345621A to 0.919238816A\n\n\nVain = 2.379759519V\n\nRsense = 220mOhm:\nVsense = 1 : 15.775726mA res : 236.635888mA range : 0.26818734A to 0.504823228A\nVsense = 0 : 28.483949mA res : 427.259243mA range : 0.484227141A to 0.911486384A
 Text Notes 2800 4400 0    60   ~ 0
 5VOUT output voltage ceramic filtering capacitor (4.7μF recommended)\nshould be placed as close as  possible  to  the  5VOUT  pin,  with  its\nGND  return  going  directly  to  the  GNDA  pin
-Wire Wire Line
-	5500 4350 5850 4350
-Wire Wire Line
-	5850 4350 6200 4350
-Wire Wire Line
-	6200 4350 6550 4350
-Wire Wire Line
-	6550 4350 7500 4350
 Text Notes 4500 6000 0    60   ~ 0
 Can extract which\nfault is occurring via SPI\nby reading DRV_STATUS reg
 $Comp
@@ -3670,4 +3350,218 @@ F 3 "" H 6550 4800 50  0000 C CNN
 $EndComp
 Text Notes 9100 5375 0    60   ~ 0
 can use LC filters to\nde-couple the driver outputs\nfrom the motor connector
+Connection ~ 7450 5650
+Wire Wire Line
+	7500 5650 7450 5650
+Wire Wire Line
+	5850 4350 7500 4350
+Wire Wire Line
+	8900 5450 9200 5450
+Wire Wire Line
+	8900 5600 9200 5600
+Wire Wire Line
+	9150 6000 9150 5950
+Connection ~ 9050 6000
+Wire Wire Line
+	9050 6050 9050 6000
+Wire Wire Line
+	9150 6300 9150 6500
+Connection ~ 9050 6850
+Wire Wire Line
+	9050 6900 9050 6850
+Wire Wire Line
+	9150 6850 9150 6800
+Wire Wire Line
+	8900 6300 9200 6300
+Wire Wire Line
+	9850 4100 9850 4150
+Connection ~ 10150 4150
+Wire Wire Line
+	10150 4100 10150 4200
+Connection ~ 10150 3750
+Wire Wire Line
+	10150 3800 10150 3750
+Wire Wire Line
+	8950 6850 8950 6800
+Wire Wire Line
+	8950 6000 8950 5950
+Connection ~ 9150 5450
+Wire Wire Line
+	9150 5650 9150 5450
+Connection ~ 9150 6300
+Wire Wire Line
+	9050 7350 9300 7350
+Wire Wire Line
+	8900 7850 10700 7850
+Connection ~ 8950 6450
+Wire Wire Line
+	8950 6450 8950 6500
+Wire Wire Line
+	8950 6850 9150 6850
+Connection ~ 8950 5600
+Wire Wire Line
+	8950 5600 8950 5650
+Wire Wire Line
+	8950 6000 9150 6000
+Connection ~ 6200 4350
+Wire Wire Line
+	6200 4350 6200 4950
+Connection ~ 6200 5900
+Wire Wire Line
+	6200 5900 6200 5250
+Wire Wire Line
+	6150 5900 7500 5900
+Wire Wire Line
+	9450 7750 9400 7750
+Connection ~ 9450 7850
+Wire Wire Line
+	9450 7750 9450 7900
+Connection ~ 9050 7750
+Connection ~ 9750 7850
+Wire Wire Line
+	9750 7850 9750 7700
+Wire Wire Line
+	9050 7750 9050 7700
+Wire Wire Line
+	9050 7400 9050 7350
+Wire Wire Line
+	8900 7750 9100 7750
+Wire Wire Line
+	7300 4650 7300 4600
+Wire Wire Line
+	5800 5300 7500 5300
+Connection ~ 5850 5750
+Wire Wire Line
+	5850 4950 5850 4350
+Wire Wire Line
+	5850 5250 5850 5750
+Wire Wire Line
+	5800 5750 7500 5750
+Connection ~ 10550 7100
+Wire Wire Line
+	8900 7250 9900 7250
+Connection ~ 10550 7850
+Wire Wire Line
+	10550 7850 10550 7700
+Connection ~ 9900 7850
+Wire Wire Line
+	9900 7850 9900 7700
+Wire Wire Line
+	10700 7850 10700 7700
+Wire Wire Line
+	10550 7100 10550 7400
+Wire Wire Line
+	9900 7250 9900 7400
+Connection ~ 9750 7250
+Wire Wire Line
+	9750 7400 9750 7250
+Wire Wire Line
+	10700 7100 10700 7400
+Connection ~ 7450 5150
+Connection ~ 7450 6350
+Connection ~ 7450 6650
+Wire Wire Line
+	7500 6650 7450 6650
+Wire Wire Line
+	7400 6900 7500 6900
+Wire Wire Line
+	7400 6800 7500 6800
+Wire Wire Line
+	7500 6200 7400 6200
+Wire Wire Line
+	7400 6100 7500 6100
+Wire Wire Line
+	7400 6000 7500 6000
+Wire Wire Line
+	7300 5050 7300 4950
+Connection ~ 6550 4350
+Connection ~ 6900 5050
+Wire Wire Line
+	6550 4950 6550 5050
+Wire Wire Line
+	6550 4300 6550 4650
+Connection ~ 6900 4600
+Wire Wire Line
+	7500 4450 6900 4450
+Wire Wire Line
+	6900 4600 6950 4600
+Wire Wire Line
+	6900 4450 6900 4650
+Wire Wire Line
+	6900 4950 6900 5050
+Connection ~ 7300 4600
+Connection ~ 7300 5050
+Wire Wire Line
+	7500 4950 7450 4950
+Wire Wire Line
+	7250 4600 7500 4600
+Wire Wire Line
+	7450 4200 7450 3750
+Wire Wire Line
+	7300 3750 10450 3750
+Wire Wire Line
+	8900 4500 8950 4500
+Wire Wire Line
+	8900 4200 9400 4200
+Wire Wire Line
+	9400 4300 8900 4300
+Wire Wire Line
+	9400 4500 9250 4500
+Wire Wire Line
+	9400 3750 9400 4500
+Wire Wire Line
+	7300 4100 7300 4150
+Connection ~ 9400 4300
+Connection ~ 9400 4200
+Wire Wire Line
+	10450 3750 10450 3800
+Connection ~ 9400 3750
+Wire Wire Line
+	9850 3750 9850 3800
+Connection ~ 9850 3750
+Wire Wire Line
+	9550 3750 9550 3800
+Connection ~ 9550 3750
+Wire Wire Line
+	9550 4100 9550 4150
+Wire Wire Line
+	9550 4150 10450 4150
+Wire Wire Line
+	10450 4150 10450 4100
+Connection ~ 9850 4150
+Wire Wire Line
+	7500 4200 7450 4200
+Wire Wire Line
+	7300 3750 7300 3800
+Connection ~ 7450 3750
+Wire Wire Line
+	8350 3750 8350 3700
+Connection ~ 8350 3750
+Wire Wire Line
+	8950 5150 8950 5200
+Wire Wire Line
+	8950 5200 8900 5200
+Wire Wire Line
+	8950 4850 8950 4800
+Wire Wire Line
+	8950 4800 8900 4800
+Wire Wire Line
+	8900 6450 9200 6450
+Wire Wire Line
+	8900 7100 10700 7100
+Wire Wire Line
+	7450 6350 7500 6350
+Wire Wire Line
+	7500 4750 7450 4750
+Wire Wire Line
+	7450 4750 7450 6950
+Connection ~ 7450 4950
+Wire Wire Line
+	7500 4850 7450 4850
+Connection ~ 7450 4850
+Wire Wire Line
+	7450 5150 7500 5150
+Wire Wire Line
+	6550 5050 7500 5050
+Connection ~ 7450 5050
 $EndSCHEMATC
