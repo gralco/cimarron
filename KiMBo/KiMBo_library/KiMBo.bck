@@ -105,6 +105,11 @@ D Voltage dependent resistor
 K vdr resistance
 $ENDCMP
 #
+$CMP SW_DPST_Passive
+D Double Pole Single Throw (DPST) Switch, small symbol
+K switch dual double-pole single-throw OFF-ON
+$ENDCMP
+#
 $CMP SYS_5V
 K POWER, PWR
 $ENDCMP
@@ -131,6 +136,11 @@ $ENDCMP
 $CMP TVH431
 D Low-Voltage Adjustable Precision Shunt Regulators
 K Regulator
+$ENDCMP
+#
+$CMP Test_Point
+D point
+K point tp
 $ENDCMP
 #
 $CMP USB_B_2Shield
