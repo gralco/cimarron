@@ -77,7 +77,7 @@ U 1 1 589F55F0
 P 5650 2100
 F 0 "U18" H 5950 2800 50  0000 C CNN
 F 1 "74HC595" H 5850 2700 50  0000 C CNN
-F 2 "" H 5650 2100 50  0000 C CNN
+F 2 "" H 5650 2100 50  0001 C CNN
 F 3 "" H 5650 2100 50  0000 C CNN
 	1    5650 2100
 	1    0    0    -1  
@@ -86,21 +86,21 @@ Text HLabel 3700 1250 0    60   Input ~ 0
 SPI1_SCLK
 Text HLabel 4850 2150 0    60   Input ~ 0
 SPI1_SS
-Text Label 6650 3950 2    60   ~ 0
+Text Label 6650 4450 2    60   ~ 0
 ~E_SS
-Text Label 6650 6350 2    60   ~ 0
-~X0_SS
-Text Label 6650 6750 2    60   ~ 0
-~Y_SS
-Text Label 6650 4350 2    60   ~ 0
-~Z0_SS
-Text Label 6650 4550 2    60   ~ 0
-~Z1_SS
-Text Label 6650 6150 2    60   ~ 0
-~Z2_SS
 Text Label 6650 3850 2    60   ~ 0
+~X0_SS
+Text Label 6650 4050 2    60   ~ 0
+~Y_SS
+Text Label 6650 4150 2    60   ~ 0
+~Z0_SS
+Text Label 6650 4250 2    60   ~ 0
+~Z1_SS
+Text Label 6650 4350 2    60   ~ 0
+~Z2_SS
+Text Label 6650 6650 2    60   ~ 0
 ~E_EN
-Text Label 6650 6250 2    60   ~ 0
+Text Label 6650 6050 2    60   ~ 0
 ~X0_EN
 $Comp
 L GND #PWR0188
@@ -161,7 +161,7 @@ U 1 1 58B860B6
 P 5650 4300
 F 0 "U19" H 5650 5066 50  0000 C CNN
 F 1 "74HC595" H 5650 4975 50  0000 C CNN
-F 2 "" H 5650 4300 50  0000 C CNN
+F 2 "" H 5650 4300 50  0001 C CNN
 F 3 "" H 5650 4300 50  0000 C CNN
 	1    5650 4300
 	1    0    0    -1  
@@ -187,11 +187,11 @@ Text HLabel 4850 4450 0    60   Input ~ 0
 ~SR_EN
 Text Label 4400 4050 0    60   ~ 0
 SPI1_SCLK
-Text Label 6650 4250 2    60   ~ 0
+Text Label 6650 6350 2    60   ~ 0
 ~Z0_EN
-Text Label 6650 4450 2    60   ~ 0
+Text Label 6650 6450 2    60   ~ 0
 ~Z1_EN
-Text Label 6650 6050 2    60   ~ 0
+Text Label 6650 6550 2    60   ~ 0
 ~Z2_EN
 Text Notes 600  950  0    60   ~ 0
 When ~EN_SR~ transitions from LOW to HIGH each D-FF of the shift-register\ncome out of their reset states and the output is set to high-Z, ready for writing\nWhen ~EN_SR~ transitions from HIGH to LOW each D-FF of the shift-register\ngoes into their reset states and the output is enabled, SS/EN selected
@@ -437,15 +437,15 @@ Text HLabel 5750 9450 2    60   Output ~ 0
 H_B1
 Text HLabel 5750 9550 2    60   Output ~ 0
 H_B2
-Text Label 6650 4150 2    60   ~ 0
+Text Label 6650 4550 2    60   ~ 0
 ~H_SS
 Text HLabel 6400 1650 2    60   Output ~ 0
 ~SS_TOOLHEAD0_T
-Text HLabel 6400 1850 2    60   Output ~ 0
+Text HLabel 6400 2050 2    60   Output ~ 0
 ~SS_DOCK0_T
-Text HLabel 6400 1950 2    60   Output ~ 0
+Text HLabel 6400 2250 2    60   Output ~ 0
 ~SS_DOCK1_T
-Text HLabel 6400 1750 2    60   Output ~ 0
+Text HLabel 6400 1850 2    60   Output ~ 0
 ~SS_TOOLHEAD1_T
 $Comp
 L 74HC595 U20
@@ -453,7 +453,7 @@ U 1 1 5A0D6E8A
 P 5650 6500
 F 0 "U20" H 6000 7200 50  0000 C CNN
 F 1 "74HC595" H 5900 7100 50  0000 C CNN
-F 2 "" H 5650 6500 50  0000 C CNN
+F 2 "" H 5650 6500 50  0001 C CNN
 F 3 "" H 5650 6500 50  0000 C CNN
 	1    5650 6500
 	1    0    0    -1  
@@ -513,9 +513,9 @@ F 3 "" H 5350 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6350 6950
-Text HLabel 6400 2050 2    60   Output ~ 0
+Text HLabel 6400 1750 2    60   Output ~ 0
 ~SS_TOOLHEAD0_NVM
-Text HLabel 6400 2250 2    60   Output ~ 0
+Text HLabel 6400 2150 2    60   Output ~ 0
 ~SS_DOCK0_NVM
 Text HLabel 6400 2350 2    60   Output ~ 0
 ~SS_DOCK1_NVM
@@ -525,7 +525,7 @@ U 1 1 5A1F6625
 P 5250 1150
 F 0 "C79" H 5364 1196 50  0000 L CNN
 F 1 "100nF" H 5364 1105 50  0000 L CNN
-F 2 "" H 5288 1000 50  0000 C CNN
+F 2 "" H 5288 1000 50  0001 C CNN
 F 3 "" H 5250 1150 50  0000 C CNN
 	1    5250 1150
 	-1   0    0    -1  
@@ -547,7 +547,7 @@ U 1 1 5A1FC86F
 P 5450 1150
 F 0 "C82" H 5335 1104 50  0000 R CNN
 F 1 "100nF" H 5335 1195 50  0000 R CNN
-F 2 "" H 5488 1000 50  0000 C CNN
+F 2 "" H 5488 1000 50  0001 C CNN
 F 3 "" H 5450 1150 50  0000 C CNN
 	1    5450 1150
 	-1   0    0    1   
@@ -569,7 +569,7 @@ U 1 1 5A217B79
 P 5250 5550
 F 0 "C81" H 5364 5596 50  0000 L CNN
 F 1 "100nF" H 5364 5505 50  0000 L CNN
-F 2 "" H 5288 5400 50  0000 C CNN
+F 2 "" H 5288 5400 50  0001 C CNN
 F 3 "" H 5250 5550 50  0000 C CNN
 	1    5250 5550
 	-1   0    0    -1  
@@ -591,7 +591,7 @@ U 1 1 5A21E4ED
 P 5450 5550
 F 0 "C84" H 5565 5596 50  0000 L CNN
 F 1 "100nF" H 5565 5505 50  0000 L CNN
-F 2 "" H 5488 5400 50  0000 C CNN
+F 2 "" H 5488 5400 50  0001 C CNN
 F 3 "" H 5450 5550 50  0000 C CNN
 	1    5450 5550
 	1    0    0    -1  
@@ -613,7 +613,7 @@ U 1 1 5A24BAB4
 P 5250 3350
 F 0 "C80" H 5364 3396 50  0000 L CNN
 F 1 "100nF" H 5364 3305 50  0000 L CNN
-F 2 "" H 5288 3200 50  0000 C CNN
+F 2 "" H 5288 3200 50  0001 C CNN
 F 3 "" H 5250 3350 50  0000 C CNN
 	1    5250 3350
 	-1   0    0    -1  
@@ -635,7 +635,7 @@ U 1 1 5A25EB9E
 P 5450 3350
 F 0 "C83" H 5565 3396 50  0000 L CNN
 F 1 "100nF" H 5565 3305 50  0000 L CNN
-F 2 "" H 5488 3200 50  0000 C CNN
+F 2 "" H 5488 3200 50  0001 C CNN
 F 3 "" H 5450 3350 50  0000 C CNN
 	1    5450 3350
 	1    0    0    -1  
@@ -698,9 +698,9 @@ Text HLabel 9700 8000 2    60   Output ~ 0
 Y_B1
 Text HLabel 9700 8100 2    60   Output ~ 0
 Y_B2
-Text Label 6650 6450 2    60   ~ 0
+Text Label 6650 6150 2    60   ~ 0
 ~X1_EN
-Text Label 6650 6650 2    60   ~ 0
+Text Label 6650 6250 2    60   ~ 0
 ~Y_EN
 Text HLabel 7700 9500 2    60   Output ~ 0
 X1_B2
@@ -757,7 +757,7 @@ Text Label 12250 7550 0    60   ~ 0
 Z_STEP
 Text Label 12250 7650 0    60   ~ 0
 Z_DIR
-Text Label 6650 6550 2    60   ~ 0
+Text Label 6650 3950 2    60   ~ 0
 ~X1_SS
 Text Label 10400 8550 0    60   ~ 0
 Z0_FAULT
@@ -1280,7 +1280,7 @@ U 1 1 5AA899B8
 P 2700 7050
 F 0 "U17" H 2700 7000 50  0000 C CNN
 F 1 "74LS20" H 2700 7100 50  0000 C CNN
-F 2 "" H 2700 7050 50  0000 C CNN
+F 2 "" H 2700 7050 50  0001 C CNN
 F 3 "" H 2700 7050 50  0000 C CNN
 	1    2700 7050
 	-1   0    0    -1  
@@ -1291,7 +1291,7 @@ U 2 1 5AA89F68
 P 2700 8050
 F 0 "U17" H 2700 8000 50  0000 C CNN
 F 1 "74LS20" H 2700 8100 50  0000 C CNN
-F 2 "" H 2700 8050 50  0000 C CNN
+F 2 "" H 2700 8050 50  0001 C CNN
 F 3 "" H 2700 8050 50  0000 C CNN
 	2    2700 8050
 	-1   0    0    -1  
@@ -1302,7 +1302,7 @@ U 1 1 5AA94646
 P 2700 5050
 F 0 "U16" H 2700 5000 50  0000 C CNN
 F 1 "74x2G00" H 2700 5100 50  0000 C CNN
-F 2 "" H 2700 5050 50  0000 C CNN
+F 2 "" H 2700 5050 50  0001 C CNN
 F 3 "" H 2700 5050 50  0000 C CNN
 	1    2700 5050
 	-1   0    0    -1  
@@ -1313,7 +1313,7 @@ U 2 1 5AA94BEE
 P 2700 6000
 F 0 "U16" H 2700 5950 50  0000 C CNN
 F 1 "74x2G00" H 2700 6050 50  0000 C CNN
-F 2 "" H 2700 6000 50  0000 C CNN
+F 2 "" H 2700 6000 50  0001 C CNN
 F 3 "" H 2700 6000 50  0000 C CNN
 	2    2700 6000
 	-1   0    0    -1  
@@ -1322,11 +1322,11 @@ Text HLabel 8800 8400 0    60   Output ~ 0
 Y_SG
 Text HLabel 8800 8550 0    60   Output ~ 0
 Y_FAULT
-Text HLabel 6400 2150 2    60   Output ~ 0
+Text HLabel 6400 1950 2    60   Output ~ 0
 ~SS_TOOLHEAD1_NVM
 Wire Wire Line
 	6350 4050 6650 4050
-Text Label 6650 4050 2    60   ~ 0
+Text Label 6650 6750 2    60   ~ 0
 ~H_EN
 $Comp
 L VDD_3V3B #PWR0204
