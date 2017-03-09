@@ -1234,4 +1234,6 @@ $EndComp
 Wire Wire Line
 	6850 2400 6850 2450
 Connection ~ 6850 2450
+Text Notes 6550 1250 0    60   ~ 0
+VDD_3V3B is the source
 $EndSCHEMATC

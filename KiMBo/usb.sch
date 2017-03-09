@@ -244,7 +244,7 @@ L CP1 C27
 U 1 1 58524285
 P 6250 4600
 F 0 "C27" H 6365 4646 50  0000 L CNN
-F 1 "CP1" H 6365 4555 50  0000 L CNN
+F 1 "100nF" H 6365 4555 50  0000 L CNN
 F 2 "" H 6250 4600 50  0001 C CNN
 F 3 "" H 6250 4600 50  0000 C CNN
 	1    6250 4600
@@ -302,7 +302,7 @@ L CP1 C26
 U 1 1 5852A62D
 P 2500 4400
 F 0 "C26" H 2615 4446 50  0000 L CNN
-F 1 "CP1" H 2615 4355 50  0000 L CNN
+F 1 "220μF" H 2615 4355 50  0000 L CNN
 F 2 "" H 2500 4400 50  0001 C CNN
 F 3 "" H 2500 4400 50  0000 C CNN
 	1    2500 4400
@@ -711,8 +711,8 @@ F 3 "" H 3550 1200 50  0000 C CNN
 	1    3550 1200
 	1    0    0    -1  
 $EndComp
-Text Notes 1050 4300 0    60   ~ 0
-Used a tantalum cap instead\nof the large aluminium cap ?
+Text Notes 1100 4200 0    60   ~ 0
+Used a tantalum cap instead\nof the large aluminium cap\nTAJD227M010RNJ\ninstead of\nAVE107M06D16T-F (100μF)
 Text Notes 6150 2875 0    60   ~ 0
 potential GPIO
 $Comp
