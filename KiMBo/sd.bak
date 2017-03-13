@@ -46,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CP1 C42
+L C C42
 U 1 1 589C8DA1
 P 6900 2750
 F 0 "C42" H 7015 2796 50  0000 L CNN
@@ -57,7 +57,7 @@ F 3 "" H 6900 2750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CP1 C43
+L C C43
 U 1 1 589C8DE9
 P 7100 2750
 F 0 "C43" H 7215 2796 50  0000 L CNN
