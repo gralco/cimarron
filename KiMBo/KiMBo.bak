@@ -733,7 +733,7 @@ $EndComp
 $Sheet
 S 2250 5450 1400 450 
 U 57930FAD
-F0 "Thermistors / Thermocouples" 60
+F0 "Thermistors" 60
 F1 "therm.sch" 60
 F2 "BED_THERM" O R 3650 5550 60 
 F3 "BED_THERM_IN" I L 2250 5550 60 
@@ -2815,4 +2815,6 @@ Wire Wire Line
 Wire Wire Line
 	10050 3700 10050 3850
 Connection ~ 10050 3800
+Text Notes 12100 2150 0    60   ~ 0
+maybe use a buffer stage instead
 $EndSCHEMATC

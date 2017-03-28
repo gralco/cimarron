@@ -1451,4 +1451,6 @@ Wire Wire Line
 	3000 4250 2900 4250
 Wire Wire Line
 	3000 6800 2900 6800
+Text Notes 3400 1600 0    60   ~ 0
+check fanout!!!
 $EndSCHEMATC

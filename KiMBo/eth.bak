@@ -1049,7 +1049,7 @@ Connection ~ 6150 3100
 Wire Wire Line
 	7250 2750 7250 2700
 Wire Wire Line
-	7150 2700 7250 2700
+	7250 2700 7150 2700
 Wire Wire Line
 	7150 1500 7150 2750
 Wire Wire Line

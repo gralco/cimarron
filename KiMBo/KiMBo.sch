@@ -2815,4 +2815,6 @@ Wire Wire Line
 Wire Wire Line
 	10050 3700 10050 3850
 Connection ~ 10050 3800
+Text Notes 12100 2150 0    60   ~ 0
+maybe use a buffer stage instead
 $EndSCHEMATC
