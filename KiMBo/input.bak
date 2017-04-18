@@ -123,10 +123,10 @@ F 3 "" H 9350 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ZENER D13
+L ZENER D14
 U 1 1 578CA60C
 P 9050 4650
-F 0 "D13" V 9050 4450 50  0000 C CNN
+F 0 "D14" V 9050 4450 50  0000 C CNN
 F 1 "SMAJ26A" V 9150 4450 50  0000 C CNN
 F 2 "" H 9050 4650 50  0001 C CNN
 F 3 "" H 9050 4650 50  0000 C CNN
@@ -172,7 +172,7 @@ U 1 1 5B625E79
 P 8650 4350
 F 0 "FB22" V 8835 4350 50  0000 C CNN
 F 1 "BLM31SN500SN1L" V 8744 4350 50  0000 C CNN
-F 2 "" H 8650 4350 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 8650 4350 50  0001 C CNN
 F 3 "" H 8650 4350 50  0000 C CNN
 	1    8650 4350
 	0    -1   -1   0   
@@ -183,7 +183,7 @@ U 1 1 5B625E80
 P 8650 4450
 F 0 "FB23" V 8835 4450 50  0000 C CNN
 F 1 "BLM31SN500SN1L" V 8744 4450 50  0000 C CNN
-F 2 "" H 8650 4450 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 8650 4450 50  0001 C CNN
 F 3 "" H 8650 4450 50  0000 C CNN
 	1    8650 4450
 	0    -1   1    0   
@@ -200,10 +200,10 @@ F 3 "http://aosmd.com/res/data_sheets/AOD417.pdf" H 8141 4409 50  0001 L CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L ZENER D12
+L ZENER D13
 U 1 1 5B62F4CA
 P 8250 4650
-F 0 "D12" V 8250 4550 50  0000 R CNN
+F 0 "D13" V 8250 4550 50  0000 R CNN
 F 1 "SMAZ10" V 8350 4600 50  0000 R CNN
 F 2 "" H 8250 4650 50  0001 C CNN
 F 3 "" H 8250 4650 50  0000 C CNN
@@ -216,12 +216,12 @@ U 1 1 5B62F66A
 P 7950 5100
 F 0 "R25" H 8020 5146 50  0000 L CNN
 F 1 "100kΩ" H 8020 5055 50  0000 L CNN
-F 2 "" V 7880 5100 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 7880 5100 50  0001 C CNN
 F 3 "" H 7950 5100 50  0000 C CNN
 	1    7950 5100
 	1    0    0    -1  
 $EndComp
-Text Notes 8150 4050 0    60   ~ 0
+Text Notes 8150 3850 0    60   ~ 0
 Inductors in parallel\nin order to handle the current\n*half the impedance*
 Text Notes 6700 4200 0    60   ~ 0
 20A Fuse\n0.75~~120s if drawing 27A\n~~5.1s if drawing 31.25A\nPSU rating at LEAST 25A
@@ -300,4 +300,6 @@ Connection ~ 7400 5300
 Wire Wire Line
 	7650 5350 7650 5300
 Connection ~ 7650 5300
+Text Notes 8250 4050 0    60   ~ 0
+    refer to\nlanding pattern!
 $EndSCHEMATC
