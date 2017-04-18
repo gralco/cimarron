@@ -94,6 +94,10 @@ D LED generic
 K led diode
 $ENDCMP
 #
+$CMP LM2592HVSX-5.0
+D Fixed 150-kHz 5V 2A BJT Buck Converter
+$ENDCMP
+#
 $CMP Micro_SD_Card_Shield
 D Micro SD Card Socket
 K connector SD microsd
