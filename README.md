@@ -33,6 +33,7 @@ Works that Cimarron is based off of includes:
 
  - Thing Printer Replicape Rev B3
  - BeagleBone Black Wireless (minus the WL1835 chip)
+ - PocketBone
  - BeagleBone Black
  - Tinkerforge Silent Stepper Brick
  - Trinamic TMC-260 Shield
