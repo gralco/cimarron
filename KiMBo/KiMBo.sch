@@ -3115,4 +3115,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 7150 1100 7000
 Connection ~ 1450 6650
+Text Notes 3750 6800 0    60   ~ 0
+Potential 02X08 Connector:\nhttps://www.digikey.com/\nproduct-detail/en/molex-llc/\n90130-3116/WM8266-ND/760978
 $EndSCHEMATC
