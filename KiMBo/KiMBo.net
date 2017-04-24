@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/aleph/cimarron/KiMBo/KiMBo.sch)
-    (date "Mon 24 Apr 2017 09:27:29 AM MDT")
+    (date "Mon 24 Apr 2017 09:34:17 AM MDT")
     (tool "Eeschema (2016-12-15 revision b13c7e4)-master")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -864,6 +864,7 @@
       (tstamp 5852C962))
     (comp (ref Q3)
       (value DNP-MMBT2907)
+      (footprint TO_SOT_Packages_SMD:SOT-23)
       (libsource (lib device) (part Q_PNP_BCE))
       (sheetpath (names /Power/) (tstamps /5780D8B1/))
       (tstamp 5852C96B))
@@ -5446,14 +5447,14 @@
   (libraries
     (library (logical device)
       (uri /home/aleph/.config/kicad/library/library/device.lib))
+    (library (logical KiMBo)
+      (uri /home/aleph/cimarron/KiMBo/KiMBo_library/KiMBo.lib))
+    (library (logical 74xx)
+      (uri /home/aleph/.config/kicad/library/library/74xx.lib))
     (library (logical memory)
       (uri /home/aleph/.config/kicad/library/library/memory.lib))
     (library (logical conn)
-      (uri /home/aleph/.config/kicad/library/library/conn.lib))
-    (library (logical 74xx)
-      (uri /home/aleph/.config/kicad/library/library/74xx.lib))
-    (library (logical KiMBo)
-      (uri /home/aleph/cimarron/KiMBo/KiMBo_library/KiMBo.lib)))
+      (uri /home/aleph/.config/kicad/library/library/conn.lib)))
   (nets
     (net (code 1) (name /USR0)
       (node (ref R4) (pin 2))

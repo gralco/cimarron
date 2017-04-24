@@ -357,17 +357,6 @@ F 3 "" H 15000 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_B_2Shield P13
-U 1 1 58E3EAE7
-P 8800 2050
-F 0 "P13" H 8700 2300 50  0000 L CNN
-F 1 "USB_Type_A" V 9050 1825 50  0000 L CNN
-F 2 "Connectors:USB_A" V 8800 1950 50  0001 C CNN
-F 3 "" V 8800 1950 50  0000 C CNN
-	1    8800 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Micro_SD_Card_Shield P15
 U 1 1 58EB044A
 P 9450 5400
@@ -3030,4 +3019,15 @@ $EndComp
 Wire Wire Line
 	9150 1150 9100 1150
 Connection ~ 9150 1250
+$Comp
+L USB_B_2Shield P13
+U 1 1 59027DE3
+P 8800 2050
+F 0 "P13" H 8700 2300 50  0000 L CNN
+F 1 "USB_Type_A" V 9050 1825 50  0000 L CNN
+F 2 "Connect:USB_A" H 8700 2050 50  0001 C CNN
+F 3 "" H 8700 2050 50  0000 C CNN
+	1    8800 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
