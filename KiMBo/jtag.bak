@@ -143,7 +143,7 @@ L CRYSTAL Y2
 U 1 1 589C1D33
 P 4500 3300
 F 0 "Y2" V 4600 3450 50  0000 C CNN
-F 1 "TXC CORPORATION" V 4950 3550 50  0000 C CNN
+F 1 "NZ2520SB-32.768KHZ-NSA3534C" V 4950 3300 50  0000 C CNN
 F 2 "KiMBo:Crystal_SMD_32.768kHz_2Pads" H 4500 3300 50  0001 C CNN
 F 3 "" H 4500 3300 50  0000 C CNN
 	1    4500 3300
@@ -265,8 +265,4 @@ Text Notes 3910 3350 0    60   ~ 0
 32.768kHz
 Text Notes 4075 4050 0    60   ~ 0
 24MHz
-Text Notes 2100 2350 0    60   ~ 0
-https://www.digikey.com/products/en/crystals-oscillators-resonators/\ncrystals/171?k=&pkeyword=&pv46=14783&FV=8c0011%\n2C22c0060%2C8640003%2C1f140000%2Cffe000ab%\n2C402f3e&mnonly=0&newproducts=0&ColumnSort=0&page=1&quan\ntity=0&ptm=0&fid=0&pageSize=25
-Text Notes 3900 2800 0    60   ~ 0
-6K30032768K0702070401
 $EndSCHEMATC
