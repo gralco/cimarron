@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 14 25
+Sheet 12 25
 Title ""
 Date ""
 Rev ""
@@ -52,7 +52,7 @@ L C C48
 U 1 1 58129032
 P 6150 5500
 F 0 "C48" H 6264 5546 50  0000 L CNN
-F 1 "0.1μF" H 6264 5455 50  0000 L CNN
+F 1 "39nF" H 6264 5455 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6188 5350 50  0001 C CNN
 F 3 "" H 6150 5500 50  0000 C CNN
 	1    6150 5500
@@ -90,7 +90,7 @@ F 3 "" H 5950 5300 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 Text Notes 6200 4650 0    60   ~ 0
-Could Use TMC2130\nBack-EMF Detection\nDRV_STATUS Register\nFor X&Y Endstops
+Use TMC2130\nBack-EMF Detection\nDRV_STATUS Register\nFor X&Y MAX Endstops
 Text HLabel 7750 5300 2    60   Output ~ 0
 Y1
 $Comp
@@ -98,7 +98,7 @@ L C C49
 U 1 1 589415E7
 P 7700 5500
 F 0 "C49" H 7814 5546 50  0000 L CNN
-F 1 "0.1μF" H 7814 5455 50  0000 L CNN
+F 1 "39nF" H 7814 5455 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7738 5350 50  0001 C CNN
 F 3 "" H 7700 5500 50  0000 C CNN
 	1    7700 5500
@@ -142,7 +142,7 @@ L C C50
 U 1 1 58941879
 P 9300 5500
 F 0 "C50" H 9414 5546 50  0000 L CNN
-F 1 "0.1μF" H 9414 5455 50  0000 L CNN
+F 1 "100nF" H 9414 5455 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9338 5350 50  0001 C CNN
 F 3 "" H 9300 5500 50  0000 C CNN
 	1    9300 5500
@@ -186,7 +186,7 @@ L C C51
 U 1 1 5894C248
 P 11100 5000
 F 0 "C51" H 11214 5046 50  0000 L CNN
-F 1 "0.1μF" H 11214 4955 50  0000 L CNN
+F 1 "100nF" H 11214 4955 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 11138 4850 50  0001 C CNN
 F 3 "" H 11100 5000 50  0000 C CNN
 	1    11100 5000
@@ -211,7 +211,7 @@ L C C52
 U 1 1 5894C2A4
 P 11100 6200
 F 0 "C52" H 11214 6246 50  0000 L CNN
-F 1 "0.1μF" H 11214 6155 50  0000 L CNN
+F 1 "100nF" H 11214 6155 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 11138 6050 50  0001 C CNN
 F 3 "" H 11100 6200 50  0000 C CNN
 	1    11100 6200
@@ -317,8 +317,8 @@ F 3 "" H 6150 5700 50  0000 C CNN
 	1    6150 5700
 	1    0    0    -1  
 $EndComp
-Text Notes 7950 4600 0    60   ~ 0
-RC_rise=470μs
+Text Notes 5050 4100 0    60   ~ 0
+RC_rise=183.3μs
 Wire Wire Line
 	8400 5300 8500 5300
 Wire Wire Line
@@ -443,6 +443,22 @@ F 3 "" H 8600 5300 50  0000 C CNN
 	1    8600 5300
 	0    -1   -1   0   
 $EndComp
-Text Notes 7950 4700 0    60   ~ 0
-RC_rise=10μs
+Text Notes 8300 4100 0    60   ~ 0
+RC_fall=10μs
+Text Notes 5050 3950 0    60   ~ 0
+V_IH = 0.65*VDDS_DDR
+Text Notes 5900 4100 0    60   ~ 0
+T_rise(20% to 80%) ≅ 1.4τ ≅ 256.62μs
+Text Notes 5050 3800 0    60   ~ 0
+TAZ 6 X&Y homing feedrate:\n100μsteps/mm * 30mm/sec = 3000μsteps/sec\n1/(3kHz) = 333.33μs
+Text Notes 8300 3950 0    60   ~ 0
+V_IL=0.35*VDDS_DDR
+Text Notes 5050 4250 0    60   ~ 0
+256.62μs < 333.33μs
+Text Notes 8300 3800 0    60   ~ 0
+TAZ 6 Z homing feedrate:\n1600μsteps/mm * 12mm/sec = 19200μsteps/sec\n1/(19.2kHz) = 52.0833μs
+Text Notes 9000 4100 0    60   ~ 0
+T_rise(80% to 20%) ≅ 1.4τ ≅ 14μs
+Text Notes 8300 4250 0    60   ~ 0
+14μs < 52.0833μs
 $EndSCHEMATC

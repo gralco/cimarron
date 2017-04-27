@@ -35,7 +35,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 25
+Sheet 13 25
 Title ""
 Date ""
 Rev ""
@@ -399,13 +399,13 @@ Text HLabel 5500 9500 2    60   Output ~ 0
 H_B2
 Text Label 6350 4550 2    60   ~ 0
 ~H_SS
-Text HLabel 7900 1650 2    60   Output ~ 0
+Text HLabel 8350 1650 2    60   Output ~ 0
 ~SS_TOOLHEAD0_T
-Text HLabel 7900 2050 2    60   Output ~ 0
+Text HLabel 8350 2050 2    60   Output ~ 0
 ~SS_DOCK0_T
-Text HLabel 7900 2250 2    60   Output ~ 0
+Text HLabel 8350 2250 2    60   Output ~ 0
 ~SS_DOCK1_T
-Text HLabel 7900 1850 2    60   Output ~ 0
+Text HLabel 8350 1850 2    60   Output ~ 0
 ~SS_TOOLHEAD1_T
 $Comp
 L 74HC595 U13
@@ -471,11 +471,11 @@ F 3 "" H 5050 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6050 6950
-Text HLabel 7900 1750 2    60   Output ~ 0
+Text HLabel 8350 1750 2    60   Output ~ 0
 ~SS_TOOLHEAD0_NVM
-Text HLabel 7900 2150 2    60   Output ~ 0
+Text HLabel 8350 2150 2    60   Output ~ 0
 ~SS_DOCK0_NVM
-Text HLabel 7900 2350 2    60   Output ~ 0
+Text HLabel 8350 2350 2    60   Output ~ 0
 ~SS_DOCK1_NVM
 $Comp
 L C C53
@@ -701,7 +701,7 @@ Text HLabel 8250 8400 0    60   Output ~ 0
 Y_SG
 Text HLabel 8250 8550 0    60   Output ~ 0
 Y_FAULT
-Text HLabel 7900 1950 2    60   Output ~ 0
+Text HLabel 8350 1950 2    60   Output ~ 0
 ~SS_TOOLHEAD1_NVM
 Text Label 6350 6750 2    60   ~ 0
 ~H_EN
@@ -1172,21 +1172,21 @@ Wire Wire Line
 Wire Wire Line
 	6050 6550 6350 6550
 Wire Wire Line
-	6050 1650 7900 1650
+	6050 1650 8000 1650
 Wire Wire Line
-	6050 1750 7900 1750
+	6050 1750 8350 1750
 Wire Wire Line
-	6050 1850 7900 1850
+	6050 1850 8000 1850
 Wire Wire Line
-	6050 1950 7900 1950
+	6050 1950 8350 1950
 Wire Wire Line
-	6050 2050 7900 2050
+	6050 2050 8350 2050
 Wire Wire Line
-	6050 2150 7900 2150
+	6050 2150 8350 2150
 Wire Wire Line
-	6050 2250 7900 2250
+	6050 2250 8350 2250
 Wire Wire Line
-	6050 2350 7900 2350
+	6050 2350 8350 2350
 Wire Wire Line
 	12000 8400 11950 8400
 Wire Wire Line
@@ -1219,13 +1219,13 @@ Wire Wire Line
 Wire Wire Line
 	11500 8100 12000 8100
 Wire Wire Line
-	6100 1350 6100 1650
+	6100 1650 6100 1350
 Connection ~ 6100 1650
 Wire Wire Line
 	6350 1350 6350 1750
 Connection ~ 6350 1750
 Wire Wire Line
-	6600 1350 6600 1850
+	6600 1850 6600 1350
 Connection ~ 6600 1850
 Wire Wire Line
 	6850 1350 6850 1950
@@ -1350,4 +1350,32 @@ Wire Wire Line
 	3450 2250 3650 2250
 Wire Wire Line
 	3650 2250 3650 2200
+$Comp
+L R R113
+U 1 1 590ACAF0
+P 8150 1650
+F 0 "R113" V 7950 1550 50  0000 L CNN
+F 1 "4.7kΩ" V 8050 1550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 8080 1650 50  0001 C CNN
+F 3 "" H 8150 1650 50  0000 C CNN
+	1    8150 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R114
+U 1 1 590AEA13
+P 8150 1850
+F 0 "R114" V 8100 1550 50  0000 L CNN
+F 1 "4.7kΩ" V 8200 1550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 8080 1850 50  0001 C CNN
+F 3 "" H 8150 1850 50  0000 C CNN
+	1    8150 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 1650 8300 1650
+Wire Wire Line
+	8350 1850 8300 1850
+Text Notes 9250 1650 0    60   ~ 0
+Series resistor for reading temp\nwhilst docking/undocking
 $EndSCHEMATC
