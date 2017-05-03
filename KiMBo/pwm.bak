@@ -145,17 +145,17 @@ Wire Wire Line
 Wire Wire Line
 	6150 3800 6200 3800
 Text HLabel 6200 3200 2    60   Output ~ 0
-E_HEAT
+E_HEAT_IN
 Text HLabel 6200 3300 2    60   Output ~ 0
-BED_HEAT
+BED_HEAT_IN
 Text HLabel 6200 3400 2    60   Output ~ 0
-H_HEAT
+H_HEAT_IN
 Text HLabel 6200 3600 2    60   Output ~ 0
-E_FAN
+E_FAN_IN
 Text HLabel 6200 3700 2    60   Output ~ 0
-H_FAN
+H_FAN_IN
 Text HLabel 6200 3800 2    60   Output ~ 0
-CASE_FAN
+CASE_FAN_IN
 Text HLabel 4700 3100 0    60   BiDi ~ 0
 I2C2_SCL
 Text HLabel 4700 3200 0    60   BiDi ~ 0
@@ -183,9 +183,9 @@ Wire Wire Line
 Wire Wire Line
 	6150 3100 6200 3100
 Text HLabel 6200 3000 2    60   Output ~ 0
-DOCK0_HEAT
+DOCK0_HEAT_IN
 Text HLabel 6200 3100 2    60   Output ~ 0
-DOCK1_HEAT
+DOCK1_HEAT_IN
 $Comp
 L VDD_3V3B #PWR0235
 U 1 1 5A115F67

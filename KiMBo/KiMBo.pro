@@ -1,4 +1,4 @@
-update=Mon 24 Apr 2017 10:13:29 AM MDT
+update=Wed 03 May 2017 01:20:15 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=/home/aleph/.config/kicad/library/library;KiMBo_library
@@ -58,5 +60,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=KiMBo_library/KiMBo
-[general]
-version=1
