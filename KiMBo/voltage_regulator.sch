@@ -119,8 +119,8 @@ Text Notes 8250 4700 0    60   ~ 0
 IHLP4040DZER470M11
 Text Notes 5850 5500 0    60   ~ 0
 EEE-FK1H471AM\nor\nEEV-TG1V681M\nor\nAFK687M35H32T-F
-Text Notes 9450 4700 0    60   ~ 0
-Max ~~500mA to the OSD3358 and peripherals
+Text Notes 10900 5000 0    60   ~ 0
+Max ~~500mA to the OSD3358 and peripherals\nAverage OSD3358 and peripherals draw is ~~340mA\n~~60mA×3=~~120mA for heatsink fans\n~~1A for ~~1.2s for EPM\nAbsolute max 1.62A for 1.2s\nAverage ~~500mA
 Text Notes 4750 6400 0    60   ~ 0
 2.3=I_Load×(24+5)/24+((24×5×10^6)/(2×47×0.8×150×10^6×(5+24)))×1.2\nI_Load=1.90308
 $Bitmap
@@ -534,11 +534,23 @@ $EndComp
 Wire Wire Line
 	7550 5300 7550 5500
 Wire Wire Line
-	6950 5500 9200 5500
+	6950 5500 7550 5500
+Wire Wire Line
+	7550 5500 7700 5500
+Wire Wire Line
+	7700 5500 7850 5500
+Wire Wire Line
+	7850 5500 8450 5500
+Wire Wire Line
+	8450 5500 8750 5500
+Wire Wire Line
+	8750 5500 9200 5500
 Wire Wire Line
 	7850 5500 7850 5300
 Wire Wire Line
-	7700 5300 7700 5550
+	7700 5300 7700 5500
+Wire Wire Line
+	7700 5500 7700 5550
 Connection ~ 7700 5500
 Wire Wire Line
 	8450 5500 8450 5400
@@ -546,26 +558,38 @@ Connection ~ 7850 5500
 Wire Wire Line
 	8450 5100 8450 5000
 Wire Wire Line
-	8400 5000 8500 5000
+	8400 5000 8450 5000
+Wire Wire Line
+	8450 5000 8500 5000
 Connection ~ 8450 5000
 Text Notes 7050 4250 0    60   ~ 0
 150kHz Fixed Switching Frequency
 Wire Wire Line
-	8750 4800 8750 5100
+	8750 4800 8750 5000
 Wire Wire Line
-	8700 5000 9550 5000
+	8750 5000 8750 5100
+Wire Wire Line
+	8700 5000 8750 5000
+Wire Wire Line
+	8750 5000 9200 5000
+Wire Wire Line
+	9200 5000 9250 5000
 Wire Wire Line
 	8750 5500 8750 5400
 Connection ~ 8450 5500
 Wire Wire Line
-	6950 4850 6950 5100
+	6950 4850 6950 4900
+Wire Wire Line
+	6950 4900 6950 5100
 Wire Wire Line
 	6950 4900 7000 4900
 Wire Wire Line
 	6950 5400 6950 5500
 Connection ~ 7550 5500
 Wire Wire Line
-	9200 4950 9200 5050
+	9200 4950 9200 5000
+Wire Wire Line
+	9200 5000 9200 5050
 Connection ~ 8750 5000
 Wire Wire Line
 	9200 5500 9200 5450
@@ -619,4 +643,19 @@ F 3 "" H 8750 5250 50  0000 C CNN
 	1    8750 5250
 	1    0    0    -1  
 $EndComp
+$Comp
+L FUSE_Small F1
+U 1 1 591C13CD
+P 9350 5000
+F 0 "F1" H 9350 5185 50  0000 C CNN
+F 1 "PTC" H 9350 5094 50  0000 C CNN
+F 2 "" H 9350 5000 50  0000 C CNN
+F 3 "" H 9350 5000 50  0000 C CNN
+	1    9350 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5000 9550 5000
+Text Notes 9600 5200 0    60   ~ 0
+0805L110SL\n1.8A trip current\n1.1A hold current for ~~15min\ntakes 0.3s at 8A
 $EndSCHEMATC

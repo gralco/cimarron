@@ -400,13 +400,13 @@ H_B2
 Text Label 6350 4550 2    60   ~ 0
 ~H_SS
 Text HLabel 8350 1650 2    60   Output ~ 0
-~SS_TOOLHEAD0_T
+~SS_E_T
 Text HLabel 8350 2050 2    60   Output ~ 0
 ~SS_DOCK0_T
 Text HLabel 8350 2250 2    60   Output ~ 0
 ~SS_DOCK1_T
 Text HLabel 8350 1850 2    60   Output ~ 0
-~SS_TOOLHEAD1_T
+~SS_H_T
 $Comp
 L 74HC595 U13
 U 1 1 5A0D6E8A
@@ -472,7 +472,7 @@ F 3 "" H 5050 5300 50  0000 C CNN
 $EndComp
 NoConn ~ 6050 6950
 Text HLabel 8350 1750 2    60   Output ~ 0
-~SS_TOOLHEAD0_NVM
+~SS_E_NVM
 Text HLabel 8350 2150 2    60   Output ~ 0
 ~SS_DOCK0_NVM
 Text HLabel 8350 2350 2    60   Output ~ 0
@@ -702,7 +702,7 @@ Y_SG
 Text HLabel 8250 8550 0    60   Output ~ 0
 Y_FAULT
 Text HLabel 8350 1950 2    60   Output ~ 0
-~SS_TOOLHEAD1_NVM
+~SS_H_NVM
 Text Label 6350 6750 2    60   ~ 0
 ~H_EN
 Text HLabel 3450 1300 0    60   Input ~ 0

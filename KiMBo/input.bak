@@ -46,10 +46,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FUSE F1
+L FUSE F2
 U 1 1 57844139
 P 7450 4400
-F 0 "F1" H 7450 4550 50  0000 C CNN
+F 0 "F2" H 7450 4550 50  0000 C CNN
 F 1 "0891020.NXS" H 7450 4275 50  0000 C CNN
 F 2 "KiMBo:3557-2-Fuseholder" H 7450 4400 50  0001 C CNN
 F 3 "" H 7450 4400 50  0000 C CNN
@@ -101,10 +101,10 @@ F 3 "" H 9650 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P36
+L CONN_01X04 P35
 U 1 1 57844205
 P 6900 4550
-F 0 "P36" H 7000 4500 50  0000 L CNN
+F 0 "P35" H 7000 4500 50  0000 L CNN
 F 1 "PWR_Input" H 7000 4600 50  0000 L CNN
 F 2 "KiMBo:euro_header_4_angled" H 6900 4550 50  0001 C CNN
 F 3 "" H 6900 4550 50  0000 C CNN
@@ -181,8 +181,6 @@ $Comp
 L DMP3098L-7 Q4
 U 1 1 5B62E149
 P 7950 4500
-AR Path="/5B62E149" Ref="Q4"  Part="1" 
-AR Path="/5780D8B1/57843AEF/5B62E149" Ref="Q4"  Part="1" 
 F 0 "Q4" V 8275 4450 50  0000 L CNN
 F 1 "IPD90P03P4-04" V 8175 4200 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:TO-252-2Lead" H 8200 4575 50  0001 L CNN
@@ -215,7 +213,7 @@ $EndComp
 Text Notes 8150 3850 0    60   ~ 0
 Inductors in parallel\nin order to handle the current\n*half the impedance*
 Text Notes 6700 4200 0    60   ~ 0
-20A Fuse\n0.75~~120s if drawing 27A\n~~5.1s if drawing 31.25A\nPSU rating at LEAST 25A
+20A Fuse\n4.16667 Days if drawing 22A\n0.75~~120s if drawing 27A\n~~5.1s if drawing 31.25A\nPSU rating at LEAST 25A
 Wire Wire Line
 	7150 4500 7100 4500
 Wire Wire Line
