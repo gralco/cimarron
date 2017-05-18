@@ -195,7 +195,7 @@ F 1 "E_FAN" H 15078 8400 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 15000 8450 50  0001 C CNN
 F 3 "" H 15000 8450 50  0000 C CNN
 	1    15000 8450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 P32
@@ -206,7 +206,7 @@ F 1 "H_FAN" H 15078 8650 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 15000 8700 50  0001 C CNN
 F 3 "" H 15000 8700 50  0000 C CNN
 	1    15000 8700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 P33
@@ -217,7 +217,7 @@ F 1 "CASE_FAN" H 15078 8900 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 15000 8950 50  0001 C CNN
 F 3 "" H 15000 8950 50  0000 C CNN
 	1    15000 8950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 P26

@@ -6420,5 +6420,5 @@ B6 EE 04 00 00 00 78 5C FC 3F 52 21 55 72 3B 5F 21 C9 00 00 00 00 49 45 4E 44 AE
 EndData
 $EndBitmap
 Text Notes 4900 4700 0    60   ~ 0
-HRP-600-24 PSU\n16AWG Wire\n2-36160-1 Ring Terminals
+HRP-600-24 PSU\n16AWG Stranded Wire\n2-36160-1 Ring Terminals
 $EndSCHEMATC
