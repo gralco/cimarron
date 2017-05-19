@@ -1010,4 +1010,6 @@ Text HLabel 5750 8200 2    60   Input ~ 0
 ~DISP_INT
 Text HLabel 5750 7300 2    60   Input ~ 0
 Y2_ENDSTOP
+Text Notes 7950 2550 0    60   ~ 0
+Alternative: GLS85VM1008A-M-I-LFWE-ND202
 $EndSCHEMATC

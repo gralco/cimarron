@@ -256,12 +256,12 @@ $Comp
 L CONN_01X02 P1
 U 1 1 58A48FA2
 P 2050 5500
-F 0 "P1" H 2128 5541 50  0000 L CNN
-F 1 "BED_THERM" H 1850 5650 50  0000 L CNN
+F 0 "P1" H 2150 5500 50  0000 L CNN
+F 1 "BED_THERM" H 1850 5350 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2050 5500 50  0001 C CNN
 F 3 "" H 2050 5500 50  0000 C CNN
 	1    2050 5500
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR01
@@ -605,7 +605,7 @@ F 1 "X1" H 2128 10000 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2050 10050 50  0001 C CNN
 F 3 "" H 2050 10050 50  0000 C CNN
 	1    2050 10050
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 P8
@@ -616,7 +616,7 @@ F 1 "Y1" H 2128 10250 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2050 10300 50  0001 C CNN
 F 3 "" H 2050 10300 50  0000 C CNN
 	1    2050 10300
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X02 P9
@@ -627,7 +627,7 @@ F 1 "Z1" H 2128 10500 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2050 10550 50  0001 C CNN
 F 3 "" H 2050 10550 50  0000 C CNN
 	1    2050 10550
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 1850 1050 2    60   ~ 0
 ~SYS_RESET
@@ -1379,7 +1379,7 @@ F 1 "ADC" H 2128 5700 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2050 5750 50  0001 C CNN
 F 3 "" H 2050 5750 50  0000 C CNN
 	1    2050 5750
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Label 1850 1300 2    60   ~ 0
 I2C0_SCL
