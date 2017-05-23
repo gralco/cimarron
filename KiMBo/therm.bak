@@ -172,7 +172,7 @@ F 1 "MMZ1608A252BTA00" V 6294 5250 50  0000 C CNN
 F 2 "KiMBo:Ferrite_Bead_0603" H 6200 5250 50  0001 C CNN
 F 3 "" H 6200 5250 50  0000 C CNN
 	1    6200 5250
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text Notes 8250 5200 0    60   ~ 0
 0-1.8V
@@ -217,6 +217,6 @@ F 1 "MMZ1608A252BTA00" V 9244 5250 50  0000 C CNN
 F 2 "KiMBo:Ferrite_Bead_0603" H 9150 5250 50  0001 C CNN
 F 3 "" H 9150 5250 50  0000 C CNN
 	1    9150 5250
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC

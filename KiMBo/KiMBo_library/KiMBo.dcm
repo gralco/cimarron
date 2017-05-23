@@ -71,7 +71,7 @@ D Common Mode Choke
 $ENDCMP
 #
 $CMP EMMC**G-S100
-D Kingston Embedded MMC 153-Pin 
+D Kingston Embedded MMC 153-Pin
 K eMMC
 $ENDCMP
 #

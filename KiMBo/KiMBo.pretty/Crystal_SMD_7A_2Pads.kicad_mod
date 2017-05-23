@@ -1,4 +1,4 @@
-(module Crystal_SMD_7A_2Pads (layer F.Cu) (tedit 58FE1A59)
+(module Crystal_SMD_7A_2Pads (layer F.Cu) (tedit 5924ADEC)
   (descr "Ceramic SMD crystal, 5.0x3.2mm, 2 Pads")
   (tags "crystal oscillator quartz SMD SMT 5032")
   (attr smd)
@@ -15,7 +15,7 @@
   (fp_line (start -3.6 2.2) (end 3.6 2.2) (layer F.CrtYd) (width 0.05))
   (fp_line (start 3.6 2.2) (end 3.6 -2.2) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -1.85 0) (size 1.7 2.4) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.85 0) (size 1.7 4.2) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 1.85 0) (size 1.7 2.4) (layers F.Cu F.Paste F.Mask))
   (model Crystals.3dshapes/Crystal_SMD_5032_2Pads.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
