@@ -1038,7 +1038,7 @@ Connection ~ 1150 10250
 Wire Wire Line
 	2600 6350 2650 6350
 Wire Wire Line
-	2650 6350 2650 10500
+	2650 10500 2650 6350
 Wire Wire Line
 	2650 10350 2600 10350
 Wire Wire Line
@@ -1159,7 +1159,7 @@ Connection ~ 2650 10050
 Connection ~ 2650 10150
 Connection ~ 2650 10250
 Wire Wire Line
-	2650 10500 1150 10500
+	1150 10500 2650 10500
 Connection ~ 2650 10350
 Connection ~ 1150 10350
 Wire Wire Line

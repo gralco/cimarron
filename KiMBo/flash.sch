@@ -125,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 3550 8300 3550
 Wire Wire Line
-	8300 3650 8350 3650
+	6800 3650 8350 3650
 Wire Wire Line
 	8900 2700 8900 2650
 Connection ~ 8900 2650
@@ -144,8 +144,6 @@ Wire Wire Line
 	8300 3800 8300 4850
 Wire Wire Line
 	6800 4800 10350 4800
-Wire Wire Line
-	6800 3800 8350 3800
 Wire Wire Line
 	8350 3900 8300 3900
 Wire Wire Line
@@ -406,20 +404,19 @@ F 3 "" H 6800 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 3800 6800 4100
-Connection ~ 8300 3800
+	6800 3650 6800 4100
 Wire Wire Line
-	7100 3850 7100 3800
-Connection ~ 7100 3800
+	7100 3850 7100 3650
+Connection ~ 7100 3650
 Wire Wire Line
-	7400 4100 7400 3800
-Connection ~ 7400 3800
+	7400 4100 7400 3650
+Connection ~ 7400 3650
 Wire Wire Line
-	7700 3850 7700 3800
-Connection ~ 7700 3800
+	7700 3850 7700 3650
+Connection ~ 7700 3650
 Wire Wire Line
-	8000 4050 8000 3800
-Connection ~ 8000 3800
+	8000 4050 8000 3650
+Connection ~ 8000 3650
 Wire Wire Line
 	6800 4400 6800 4800
 Wire Wire Line
@@ -935,4 +932,7 @@ Text Notes 10450 4000 0    60   ~ 0
 NoConn ~ 5100 6500
 Text Notes 5250 10100 0    60   ~ 0
 Removed OSC1, description for BBB (not applicable to Cimarron):\n\nGPIO3_21 has a 24.576 MHZ clock on it.\n\no This is required by the HDMI Framer for Audio purposes.\nWe needed to run a clock into the processor to generate the\ncorrect clock frequency. The pin on the processor was already\nrouted to the expansion header. In order not to remove this\nfeature on the expansion header, it was left connected. In order\nto use the pin as a GPIO pin, you need to disable the clock. While\nthis disables audio to the HDMI, the fact that you want to use\nthis pin for something else, does the same thing.
+Connection ~ 8300 3650
+Wire Wire Line
+	8350 3800 8300 3800
 $EndSCHEMATC
