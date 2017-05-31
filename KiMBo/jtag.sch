@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:KiMBo
 LIBS:KiMBo-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -269,4 +269,6 @@ Text Notes 2100 2350 0    60   ~ 0
 https://www.digikey.com/products/en/crystals-oscillators-resonators/\ncrystals/171?k=&pkeyword=&pv46=14783&FV=8c0011%\n2C22c0060%2C8640003%2C1f140000%2Cffe000ab%\n2C402f3e&mnonly=0&newproducts=0&ColumnSort=0&page=1&quan\ntity=0&ptm=0&fid=0&pageSize=25
 Text Notes 3900 2800 0    60   ~ 0
 6K30032768K0702070401
+Text Notes 1900 4050 0    60   ~ 0
+8.1.6.6 Spread Spectrum Clocking (SSC)
 $EndSCHEMATC
