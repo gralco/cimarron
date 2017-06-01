@@ -438,8 +438,6 @@ Wire Wire Line
 Wire Wire Line
 	5450 2850 6150 2850
 Wire Wire Line
-	5450 2750 6150 2750
-Wire Wire Line
 	5450 2650 6150 2650
 Wire Wire Line
 	5450 1750 6150 1750
@@ -596,7 +594,7 @@ Text HLabel 7850 2450 2    60   Output ~ 0
 UART0_TXD
 Text HLabel 6150 2950 2    60   Input ~ 0
 Z_FAULT
-Text HLabel 6150 2750 2    60   BiDi ~ 0
+Text HLabel 6750 2750 2    60   BiDi ~ 0
 I2C2_SCL
 Text HLabel 6150 2650 2    60   BiDi ~ 0
 I2C2_SDA
@@ -765,4 +763,6 @@ Wire Wire Line
 	6100 4600 6150 4600
 Text HLabel 6150 2850 2    60   Output ~ 0
 ~SR_EN
+Wire Wire Line
+	6750 2750 5450 2750
 $EndSCHEMATC
