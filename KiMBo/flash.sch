@@ -931,7 +931,7 @@ Text Notes 10500 4000 0    60   ~ 0
 CLKADPI==48MHz
 NoConn ~ 5100 6500
 Text Notes 5250 10100 0    60   ~ 0
-Removed OSC1, description for BBB (not applicable to Cimarron):\n\nGPIO3_21 has a 24.576 MHZ clock on it.\n\no This is required by the HDMI Framer for Audio purposes.\nWe needed to run a clock into the processor to generate the\ncorrect clock frequency. The pin on the processor was already\nrouted to the expansion header. In order not to remove this\nfeature on the expansion header, it was left connected. In order\nto use the pin as a GPIO pin, you need to disable the clock. While\nthis disables audio to the HDMI, the fact that you want to use\nthis pin for something else, does the same thing.
+Removed OSC1, description for BBB (it is not applicable to Cimarron):\n\nGPIO3_21 has a 24.576 MHZ clock on it.\n\no This is required by the HDMI Framer for Audio purposes.\nWe needed to run a clock into the processor to generate the\ncorrect clock frequency. The pin on the processor was already\nrouted to the expansion header. In order not to remove this\nfeature on the expansion header, it was left connected. In order\nto use the pin as a GPIO pin, you need to disable the clock. While\nthis disables audio to the HDMI, the fact that you want to use\nthis pin for something else, does the same thing.
 Connection ~ 8300 3650
 Wire Wire Line
 	8350 3800 8300 3800

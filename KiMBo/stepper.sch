@@ -1193,4 +1193,6 @@ F 3 "" H 5600 3900 50  0000 C CNN
 	1    5600 3900
 	1    0    0    -1  
 $EndComp
+Text Notes 7050 4650 0    60   ~ 0
+May not be needed, check section 6.6!!!
 $EndSCHEMATC

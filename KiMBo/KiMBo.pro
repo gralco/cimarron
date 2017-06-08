@@ -1,4 +1,4 @@
-update=Fri 26 May 2017 03:29:59 PM MDT
+update=Thu 08 Jun 2017 03:57:35 PM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName30=valves
 LibName31=KiMBo_library/KiMBo
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
