@@ -126,9 +126,9 @@ E_FAULT
 Text Notes 1150 1750 0    60   ~ 0
 When ~SR_EN~ transitions from LOW to HIGH each D-FF of the shift-register\ncome out of their reset states and the output is set to high-Z, ready for writing\nWhen ~SR_EN~ transitions from HIGH to LOW each D-FF of the shift-register\ngoes into their reset states and the output is enabled, SS/EN selected
 Text Notes 1150 2000 0    60   ~ 0
-SPI1_CS1 captures the data in the shift register and is ready to be driven\nby the second stage of D-FFs
+SPI0_CS1 captures the data in the shift register and is ready to be driven\nby the second stage of D-FFs
 Text Notes 8800 2100 0    60   ~ 0
-Writing and outputting data:\n1. Bring ~SR_EN~ HIGH\n - output high-Z (pull-ups)\n2. Write data\n3. Toggle SPI1_CS1 _|‾|_\n4. Bring ~SR_EN~ LOW\n - output enabled, disable specific motors/ready to configure
+Writing and outputting data:\n1. Bring ~SR_EN~ HIGH\n - output high-Z (pull-ups)\n2. Write data\n3. Toggle SPI0_CS1 _|‾|_\n4. Bring ~SR_EN~ LOW\n - output enabled, disable specific motors/ready to configure
 Text HLabel 6950 6150 0    60   Input ~ 0
 X_STEP
 Text HLabel 6950 6250 0    60   Input ~ 0
@@ -307,13 +307,13 @@ Text HLabel 13350 6600 2    60   Output ~ 0
 H_B1
 Text HLabel 13350 6700 2    60   Output ~ 0
 H_B2
-Text HLabel 8900 2450 2    60   Output ~ 0
-~SS_E_T
-Text HLabel 8900 2850 2    60   Output ~ 0
-~SS_DOCK0_T
 Text HLabel 8900 3050 2    60   Output ~ 0
-~SS_DOCK1_T
+~SS_E_T
 Text HLabel 8900 2650 2    60   Output ~ 0
+~SS_DOCK0_T
+Text HLabel 8900 2450 2    60   Output ~ 0
+~SS_DOCK1_T
+Text HLabel 8900 2850 2    60   Output ~ 0
 ~SS_H_T
 $Comp
 L VDD_3V3B #PWR0155
@@ -326,11 +326,11 @@ F 3 "" H 5600 1700 50  0000 C CNN
 	1    5600 1700
 	1    0    0    -1  
 $EndComp
-Text HLabel 8900 2550 2    60   Output ~ 0
-~SS_E_NVM
-Text HLabel 8900 2950 2    60   Output ~ 0
-~SS_DOCK0_NVM
 Text HLabel 8900 3150 2    60   Output ~ 0
+~SS_E_NVM
+Text HLabel 8900 2750 2    60   Output ~ 0
+~SS_DOCK0_NVM
+Text HLabel 8900 2550 2    60   Output ~ 0
 ~SS_DOCK1_NVM
 $Comp
 L C C52
@@ -448,7 +448,7 @@ Text HLabel 5150 7000 0    60   Output ~ 0
 Y_SG
 Text HLabel 5150 7150 0    60   Output ~ 0
 Y_FAULT
-Text HLabel 8900 2750 2    60   Output ~ 0
+Text HLabel 8900 2950 2    60   Output ~ 0
 ~SS_H_NVM
 Text HLabel 4000 2100 0    60   Input ~ 0
 SPI1_MOSI
@@ -628,25 +628,25 @@ F 3 "" H 4200 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R112
+L R R113
 U 1 1 590ACAF0
-P 8700 2450
-F 0 "R112" V 8500 2350 50  0000 L CNN
-F 1 "4.7kΩ" V 8600 2350 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 8630 2450 50  0001 C CNN
-F 3 "" H 8700 2450 50  0000 C CNN
-	1    8700 2450
+P 8700 3050
+F 0 "R113" V 8650 2750 50  0000 L CNN
+F 1 "4.7kΩ" V 8750 2750 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 8630 3050 50  0001 C CNN
+F 3 "" H 8700 3050 50  0000 C CNN
+	1    8700 3050
 	0    1    1    0   
 $EndComp
 $Comp
-L R R113
+L R R112
 U 1 1 590AEA13
-P 8700 2650
-F 0 "R113" V 8650 2350 50  0000 L CNN
-F 1 "4.7kΩ" V 8750 2350 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 8630 2650 50  0001 C CNN
-F 3 "" H 8700 2650 50  0000 C CNN
-	1    8700 2650
+P 8700 2850
+F 0 "R112" V 8650 2550 50  0000 L CNN
+F 1 "4.7kΩ" V 8700 2750 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 8630 2850 50  0001 C CNN
+F 3 "" H 8700 2850 50  0000 C CNN
+	1    8700 2850
 	0    1    1    0   
 $EndComp
 Text Notes 9800 2450 0    60   ~ 0
@@ -936,21 +936,13 @@ Wire Wire Line
 Wire Wire Line
 	7000 8400 6950 8400
 Wire Wire Line
-	6600 2450 8550 2450
+	6600 2450 8900 2450
 Wire Wire Line
 	6600 2550 8900 2550
 Wire Wire Line
-	6600 2650 8550 2650
+	6600 2650 8900 2650
 Wire Wire Line
 	6600 2750 8900 2750
-Wire Wire Line
-	6600 2850 8900 2850
-Wire Wire Line
-	6600 2950 8900 2950
-Wire Wire Line
-	6600 3050 8900 3050
-Wire Wire Line
-	6600 3150 8900 3150
 Wire Wire Line
 	8850 9800 8800 9800
 Wire Wire Line
@@ -1013,10 +1005,6 @@ Wire Wire Line
 	4000 3050 4200 3050
 Wire Wire Line
 	4200 3050 4200 3000
-Wire Wire Line
-	8900 2450 8850 2450
-Wire Wire Line
-	8900 2650 8850 2650
 Wire Bus Line
 	8250 10150 10100 10150
 Wire Bus Line
@@ -1193,4 +1181,20 @@ F 3 "" H 5600 3900 50  0000 C CNN
 	1    5600 3900
 	1    0    0    -1  
 $EndComp
+Text Notes 7050 4650 0    60   ~ 0
+May not be needed, check section 6.6!!!
+Text Notes 1150 2600 0    60   ~ 0
+~SR_EN~ (D16) reset state:\nState of the terminal after the active low PWRONRSTn\nterminal transitions from low to high...\nHigh-impedance with an active pullup resistor
+Wire Wire Line
+	6600 3150 8900 3150
+Wire Wire Line
+	6600 2850 8550 2850
+Wire Wire Line
+	8900 2850 8850 2850
+Wire Wire Line
+	8900 3050 8850 3050
+Wire Wire Line
+	6600 3050 8550 3050
+Wire Wire Line
+	6600 2950 8900 2950
 $EndSCHEMATC
