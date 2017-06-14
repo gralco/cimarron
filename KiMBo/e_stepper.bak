@@ -61,7 +61,7 @@ Text HLabel 7400 6800 0    60   Input ~ 0
 E_STEP
 Text HLabel 7400 6900 0    60   Input ~ 0
 E_DIR
-Text HLabel 6150 5900 0    60   Input ~ 0
+Text HLabel 7400 5900 0    60   Input ~ 0
 ~E_SS
 Text HLabel 7400 6000 0    60   Input ~ 0
 SCLK
@@ -169,10 +169,10 @@ F 3 "" H 8950 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R120
+L R R119
 U 1 1 589C1BED
 P 10550 7550
-F 0 "R120" H 10500 7500 50  0000 R CNN
+F 0 "R119" H 10500 7500 50  0000 R CNN
 F 1 "220mΩ" H 10500 7600 50  0000 R CNN
 F 2 "Resistors_SMD:R_0805" V 10480 7550 50  0001 C CNN
 F 3 "" H 10550 7550 50  0000 C CNN
@@ -180,10 +180,10 @@ F 3 "" H 10550 7550 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R119
+L R R118
 U 1 1 589C1CA7
 P 9750 7550
-F 0 "R119" H 9700 7500 50  0000 R CNN
+F 0 "R118" H 9700 7500 50  0000 R CNN
 F 1 "220mΩ" H 9700 7600 50  0000 R CNN
 F 2 "Resistors_SMD:R_0805" V 9680 7550 50  0001 C CNN
 F 3 "" H 9750 7550 50  0000 C CNN
@@ -203,10 +203,10 @@ F 3 "" H 9450 7900 50  0000 C CNN
 $EndComp
 NoConn ~ 7500 6450
 $Comp
-L R R116
+L R R115
 U 1 1 5BA7E12B
 P 7100 4600
-F 0 "R116" V 7000 4600 50  0000 C CNN
+F 0 "R115" V 7000 4600 50  0000 C CNN
 F 1 "2.2Ω" V 7100 4600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7030 4600 50  0001 C CNN
 F 3 "" H 7100 4600 50  0000 C CNN
@@ -247,20 +247,20 @@ F 3 "" H 9900 7550 50  0000 C CNN
 	1    9900 7550
 	1    0    0    -1  
 $EndComp
-Text HLabel 5800 5750 0    60   Output ~ 0
+Text HLabel 6150 5750 0    60   Output ~ 0
 E_FAULT
 $Comp
 L R R114
 U 1 1 589D21BC
-P 5850 5100
-F 0 "R114" H 5919 5146 50  0000 L CNN
-F 1 "4.7kΩ" H 5919 5055 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 5780 5100 50  0001 C CNN
-F 3 "" H 5850 5100 50  0000 C CNN
-	1    5850 5100
+P 6200 5100
+F 0 "R114" H 6269 5146 50  0000 L CNN
+F 1 "4.7kΩ" H 6269 5055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 6130 5100 50  0001 C CNN
+F 3 "" H 6200 5100 50  0000 C CNN
+	1    6200 5100
 	-1   0    0    -1  
 $EndComp
-Text HLabel 5800 5300 0    60   Input ~ 0
+Text HLabel 7400 5300 0    60   Input ~ 0
 ~E_EN
 NoConn ~ 7500 5400
 Text Notes 7050 5500 0    60   ~ 0
@@ -279,10 +279,10 @@ $EndComp
 Text Label 7250 4600 0    60   ~ 0
 5VOUT
 $Comp
-L R R117
+L R R116
 U 1 1 589E13FD
 P 9050 7550
-F 0 "R117" H 9119 7596 50  0000 L CNN
+F 0 "R116" H 9119 7596 50  0000 L CNN
 F 1 "5.23kΩ" H 9119 7505 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 8980 7550 50  0001 C CNN
 F 3 "" H 9050 7550 50  0000 C CNN
@@ -292,10 +292,10 @@ $EndComp
 Text Label 9300 7350 2    60   ~ 0
 5VOUT
 $Comp
-L R R118
+L R R117
 U 1 1 589E24D4
 P 9250 7750
-F 0 "R118" V 9050 7750 50  0000 C CNN
+F 0 "R117" V 9050 7750 50  0000 C CNN
 F 1 "4.75kΩ" V 9150 7750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9180 7750 50  0001 C CNN
 F 3 "" H 9250 7750 50  0000 C CNN
@@ -304,17 +304,6 @@ F 3 "" H 9250 7750 50  0000 C CNN
 $EndComp
 Text Notes 9200 8250 0    60   ~ 0
 AIN_IREF=1-2.4V
-$Comp
-L R R115
-U 1 1 5BA7E132
-P 6200 5100
-F 0 "R115" H 6269 5146 50  0000 L CNN
-F 1 "4.7kΩ" H 6269 5055 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 6130 5100 50  0001 C CNN
-F 3 "" H 6200 5100 50  0000 C CNN
-	1    6200 5100
-	-1   0    0    -1  
-$EndComp
 $Comp
 L C C71
 U 1 1 5BA7E133
@@ -3262,7 +3251,7 @@ Text Notes 7600 2500 0    60   ~ 0
 See Chapter 29 of the datasheet for layout
 Text Notes 2550 9450 0    60   ~ 0
 Vain = 2.0V\n\nRsense = 100mOhm:\nVsense = 1 : 26.516504mA res : 397.747564mA range : 0.450780573A to 0.848528137A\nVsense = 0 : 47.877022mA res : 718.155325mA range : 0.813909368A to 1.532064693A\n\nRsense = 120mOhm:\nVsense = 1 : 22.728432mA res : 340.926484mA range : 0.386383348A to 0.727309832A\nVsense = 0 : 41.037447mA res : 615.561707mA range : 0.697636601A to 1.313198308A\n\nRsense = 150mOhm:\nVsense = 1 : 18.717532mA res : 280.762986mA range : 0.318198052A to 0.598961038A\nVsense = 0 : 33.795545mA res : 506.933170mA range : 0.574524260A to 1.081457430A\n\nRsense = 220mOhm:\nVsense = 1 : 13.258252mA res : 198.873782mA range : 0.225390287A to 0.424264069A\nVsense = 0 : 23.938511mA res : 359.077662mA range : 0.406954684A to 0.766032346A\n\n\nVain = 2.4V\n\nRsense = 220mOhm:\nVsense = 1 : 15.909903mA res : 238.648538mA range : 0.270468344A to 0.509116882A\nVsense = 0 : 28.726213mA res : 430.893195mA range : 0.488345621A to 0.919238816A\n\n\nVain = 2.379759519V\n\nRsense = 220mOhm:\nVsense = 1 : 15.775726mA res : 236.635888mA range : 0.26818734A to 0.504823228A\nVsense = 0 : 28.483949mA res : 427.259243mA range : 0.484227141A to 0.911486384A
-Text Notes 2800 4400 0    60   ~ 0
+Text Notes 3000 4400 0    60   ~ 0
 5VOUT output voltage ceramic filtering capacitor (4.7μF recommended)\nshould be placed as close as  possible  to  the  5VOUT  pin,  with  its\nGND  return  going  directly  to  the  GNDA  pin
 Text Notes 4500 6000 0    60   ~ 0
 Can extract which\nfault is occurring via SPI\nby reading DRV_STATUS reg
@@ -3292,9 +3281,9 @@ Text Notes 9100 5375 0    60   ~ 0
 can use LC filters to\nde-couple the driver outputs\nfrom the motor connector
 Connection ~ 7450 5650
 Wire Wire Line
-	7500 5650 7450 5650
+	7450 5650 7500 5650
 Wire Wire Line
-	5850 4350 7500 4350
+	6200 4350 7500 4350
 Wire Wire Line
 	8900 5450 9200 5450
 Wire Wire Line
@@ -3320,7 +3309,7 @@ Wire Wire Line
 	10150 4100 10150 4200
 Connection ~ 10150 3750
 Wire Wire Line
-	10150 3800 10150 3750
+	10150 3750 10150 3800
 Wire Wire Line
 	8950 6850 8950 6800
 Wire Wire Line
@@ -3343,14 +3332,8 @@ Wire Wire Line
 	8950 5600 8950 5650
 Wire Wire Line
 	8950 6000 9150 6000
-Connection ~ 6200 4350
 Wire Wire Line
-	6200 4350 6200 4950
-Connection ~ 6200 5900
-Wire Wire Line
-	6200 5900 6200 5250
-Wire Wire Line
-	6150 5900 7500 5900
+	7400 5900 7500 5900
 Wire Wire Line
 	9450 7750 9400 7750
 Connection ~ 9450 7850
@@ -3369,14 +3352,14 @@ Wire Wire Line
 Wire Wire Line
 	7300 4650 7300 4600
 Wire Wire Line
-	5800 5300 7500 5300
-Connection ~ 5850 5750
+	7400 5300 7500 5300
+Connection ~ 6200 5750
 Wire Wire Line
-	5850 4950 5850 4350
+	6200 4950 6200 4350
 Wire Wire Line
-	5850 5250 5850 5750
+	6200 5250 6200 5750
 Wire Wire Line
-	5800 5750 7500 5750
+	6150 5750 7500 5750
 Connection ~ 10550 7100
 Wire Wire Line
 	8900 7250 9900 7250
@@ -3401,7 +3384,7 @@ Connection ~ 7450 5150
 Connection ~ 7450 6350
 Connection ~ 7450 6650
 Wire Wire Line
-	7500 6650 7450 6650
+	7450 6650 7500 6650
 Wire Wire Line
 	7400 6900 7500 6900
 Wire Wire Line
@@ -3432,7 +3415,7 @@ Wire Wire Line
 Connection ~ 7300 4600
 Connection ~ 7300 5050
 Wire Wire Line
-	7500 4950 7450 4950
+	7450 4950 7500 4950
 Wire Wire Line
 	7250 4600 7500 4600
 Wire Wire Line
