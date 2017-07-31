@@ -22,10 +22,10 @@ DAS U-Boot
 
 Potential software to run on Cimarron:
 
- - [[https://bitbucket.org/intelligentagent/redeem | Redeem]]
- - [[https://github.com/machinekit/machinekit | MachineKit]]
- - [[https://github.com/fastbot3d/firmware | Unicorn]]
- - [[https://github.com/spark3dp/ember-firmware | Ember-Firmware]]
+ - [Redeem](https://bitbucket.org/intelligentagent/redeem)
+ - [MachineKit](https://github.com/machinekit/machinekit)
+ - [Unicorn](https://github.com/fastbot3d/firmware)
+ - [Ember-Firmware](https://github.com/spark3dp/ember-firmware)
 
 ## Credits
 
@@ -40,4 +40,4 @@ Works that Cimarron is based off of includes:
 
 ## License
 
-Cimarron is published under [[/source/cimarron/browse/master/COPYING.md | CC-BY-SA 4.0]].
+Cimarron is published under [CC-BY-SA 4.0](COPYING.md).
